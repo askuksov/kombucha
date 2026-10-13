@@ -1,0 +1,9 @@
+{
+  "images" : [
+    { "filename" : "menubar.blocked.png", "idiom" : "universal", "scale" : "1x" },
+    { "filename" : "menubar.blocked@2x.png", "idiom" : "universal", "scale" : "2x" },
+    { "filename" : "menubar.blocked@3x.png", "idiom" : "universal", "scale" : "3x" }
+  ],
+  "info" : { "author" : "xcode", "version" : 1 },
+  "properties" : { "template-rendering-intent" : "template" }
+}

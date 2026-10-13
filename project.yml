@@ -1,0 +1,103 @@
+name: Kombucha
+options:
+  bundleIdPrefix: dev.kuksov
+  deploymentTarget:
+    macOS: "15.0"
+  createIntermediateGroups: true
+configFiles:
+  Debug: Config/Shared.xcconfig
+  Release: Config/Shared.xcconfig
+packages:
+  KombuchaKit:
+    path: Packages/KombuchaKit
+settingGroups:
+  kombucha:
+    DEVELOPMENT_TEAM: $(KOMBUCHA_TEAM)
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: $(KOMBUCHA_SIGN_IDENTITY)
+    ENABLE_HARDENED_RUNTIME: YES
+    SWIFT_VERSION: "6.0"
+    ARCHS: arm64
+    MACOSX_DEPLOYMENT_TARGET: "15.0"
+    MARKETING_VERSION: $(KOMBUCHA_MARKETING_VERSION)
+    CURRENT_PROJECT_VERSION: $(KOMBUCHA_BUILD)
+targets:
+  Kombucha:
+    type: application
+    platform: macOS
+    sources:
+      - path: Kombucha
+      - path: KombuchaHelper/dev.kuksov.kombucha.helper.plist
+        buildPhase:
+          copyFiles:
+            destination: wrapper
+            subpath: Contents/Library/LaunchDaemons
+    settings:
+      groups:
+        - kombucha
+      base:
+        PRODUCT_NAME: Kombucha
+        PRODUCT_BUNDLE_IDENTIFIER: $(KOMBUCHA_APP_BUNDLE_ID)
+        INFOPLIST_FILE: Kombucha/Resources/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Kombucha/Resources/Kombucha.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_EMIT_LOC_STRINGS: YES
+        LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    dependencies:
+      - package: KombuchaKit
+        product: KombuchaCore
+      - package: KombuchaKit
+        product: SMCKit
+      - package: KombuchaKit
+        product: HelperProtocol
+      - target: kombucha-helper
+        embed: true
+        copy:
+          destination: executables
+    scheme:
+      testTargets:
+        - KombuchaTests
+  KombuchaTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: KombuchaTests
+    settings:
+      groups:
+        - kombucha
+      base:
+        PRODUCT_NAME: KombuchaTests
+        PRODUCT_BUNDLE_IDENTIFIER: $(KOMBUCHA_APP_BUNDLE_ID).tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Kombucha.app/Contents/MacOS/Kombucha
+        BUNDLE_LOADER: $(TEST_HOST)
+    dependencies:
+      - target: Kombucha
+      - package: KombuchaKit
+        product: HelperCore
+  kombucha-helper:
+    type: tool
+    platform: macOS
+    sources:
+      - path: KombuchaHelper
+        excludes:
+          - "*.plist"
+    settings:
+      groups:
+        - kombucha
+      base:
+        PRODUCT_NAME: kombucha-helper
+        PRODUCT_BUNDLE_IDENTIFIER: $(KOMBUCHA_HELPER_BUNDLE_ID)
+        INFOPLIST_FILE: KombuchaHelper/Info.plist
+        CREATE_INFOPLIST_SECTION_IN_BINARY: YES
+        SKIP_INSTALL: YES
+        CODE_SIGN_ENTITLEMENTS: KombuchaHelper/kombucha-helper.entitlements
+    dependencies:
+      - package: KombuchaKit
+        product: HelperCore
+      - package: KombuchaKit
+        product: SMCKit
+      - package: KombuchaKit
+        product: HelperProtocol
+    scheme: {}

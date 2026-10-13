@@ -1,0 +1,9 @@
+// Values shared by every target. Local.xcconfig, when present, overrides them.
+KOMBUCHA_APP_BUNDLE_ID = dev.kuksov.kombucha
+KOMBUCHA_HELPER_BUNDLE_ID = $(KOMBUCHA_APP_BUNDLE_ID).helper
+KOMBUCHA_TEAM = VVN7PP843W
+KOMBUCHA_SIGN_IDENTITY = Apple Development
+KOMBUCHA_MARKETING_VERSION = 0.1.0
+KOMBUCHA_BUILD = $(KOMBUCHA_MARKETING_VERSION)
+
+#include? "Local.xcconfig"

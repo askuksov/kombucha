@@ -1,0 +1,9 @@
+.DS_Store
+*.xcodeproj/
+xcuserdata/
+build/
+dist/
+.build/
+.swiftpm/
+Config/Local.xcconfig
+*.p12

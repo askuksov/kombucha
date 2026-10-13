@@ -1,0 +1,4 @@
+// Copy to Local.xcconfig to build under another team.
+// The team ID is the certificate's OU:
+//   security find-certificate -c "Apple Development" -p | openssl x509 -noout -subject
+KOMBUCHA_TEAM = YOURTEAMID

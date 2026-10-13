@@ -1,0 +1,1536 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ V" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ V"
+          }
+        }
+      }
+    },
+    "%@ W" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W"
+          }
+        }
+      }
+    },
+    "%@ is running" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ is running"
+          }
+        }
+      }
+    },
+    "%@ °C" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ °C"
+          }
+        }
+      }
+    },
+    "%lld percent" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld percent"
+          }
+        }
+      }
+    },
+    "%lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%"
+          }
+        }
+      }
+    },
+    "%lld–%lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld–%2$lld%%"
+          }
+        }
+      }
+    },
+    "30 days" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 days"
+          }
+        }
+      }
+    },
+    "7 days" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 days"
+          }
+        }
+      }
+    },
+    "About" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        }
+      }
+    },
+    "Adapter" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adapter"
+          }
+        }
+      }
+    },
+    "Allow Notifications" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Notifications"
+          }
+        }
+      }
+    },
+    "Apps you run. System processes are not shown." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apps you run. System processes are not shown."
+          }
+        }
+      }
+    },
+    "Battery" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery"
+          }
+        }
+      }
+    },
+    "Battery Health" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Health"
+          }
+        }
+      }
+    },
+    "Battery Protection" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Protection"
+          }
+        }
+      }
+    },
+    "Battery Rest" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Rest"
+          }
+        }
+      }
+    },
+    "Battery Status" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Status"
+          }
+        }
+      }
+    },
+    "Battery at %lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery at %1$lld%%"
+          }
+        }
+      }
+    },
+    "Battery at %lld%%. %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery at %1$lld%%. %2$@"
+          }
+        }
+      }
+    },
+    "Battery capacity dropped" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery capacity dropped"
+          }
+        }
+      }
+    },
+    "Battery charge limiting for macOS" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery charge limiting for macOS"
+          }
+        }
+      }
+    },
+    "Battery is hot" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery is hot"
+          }
+        }
+      }
+    },
+    "Battery protection resumed" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery protection resumed"
+          }
+        }
+      }
+    },
+    "Battery protection stopped" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery protection stopped"
+          }
+        }
+      }
+    },
+    "Between your Stop and Resume levels the battery rests: your Mac runs straight from the adapter and no current flows through the cell." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Between your Stop and Resume levels the battery rests: your Mac runs straight from the adapter and no current flows through the cell."
+          }
+        }
+      }
+    },
+    "Charge Helper" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge Helper"
+          }
+        }
+      }
+    },
+    "Charge Limit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge Limit"
+          }
+        }
+      }
+    },
+    "Charge level" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge level"
+          }
+        }
+      }
+    },
+    "Charge limit is not holding" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge limit is not holding"
+          }
+        }
+      }
+    },
+    "Charge to 100% Once" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge to 100% Once"
+          }
+        }
+      }
+    },
+    "Charging" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging"
+          }
+        }
+      }
+    },
+    "Charging all the way to 100%. The battery sits at full voltage while plugged in." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging all the way to 100%. The battery sits at full voltage while plugged in."
+          }
+        }
+      }
+    },
+    "Charging paused" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging paused"
+          }
+        }
+      }
+    },
+    "Charging paused: battery is hot" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging paused: battery is hot"
+          }
+        }
+      }
+    },
+    "Charging to 100%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging to 100%"
+          }
+        }
+      }
+    },
+    "Charging to 100%: reverts on unplug" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging to 100%: reverts on unplug"
+          }
+        }
+      }
+    },
+    "Charging: Topping up to %lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging: Topping up to %lld%%"
+          }
+        }
+      }
+    },
+    "Checking…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Checking…"
+          }
+        }
+      }
+    },
+    "Click its battery symbol at the top of the screen to see the charge level and set the limit." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Click its battery symbol at the top of the screen to see the charge level and set the limit."
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        }
+      }
+    },
+    "Condition" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condition"
+          }
+        }
+      }
+    },
+    "Cycle Count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cycle Count"
+          }
+        }
+      }
+    },
+    "Discharge to %lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discharge to %lld%%"
+          }
+        }
+      }
+    },
+    "Discharging" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discharging"
+          }
+        }
+      }
+    },
+    "Discharging: running on battery down to %lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discharging: running on battery down to %lld%%"
+          }
+        }
+      }
+    },
+    "Documentation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documentation"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        }
+      }
+    },
+    "Full Charge" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full Charge"
+          }
+        }
+      }
+    },
+    "Fully charged" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fully charged"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
+          }
+        }
+      }
+    },
+    "Get Battery Status" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Battery Status"
+          }
+        }
+      }
+    },
+    "Helper" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helper"
+          }
+        }
+      }
+    },
+    "History" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "History"
+          }
+        }
+      }
+    },
+    "Holding a charge limit needs a small helper running as root. Install it once — macOS will ask you to allow it, and nothing else changes." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Holding a charge limit needs a small helper running as root. Install it once — macOS will ask you to allow it, and nothing else changes."
+          }
+        }
+      }
+    },
+    "Holding the limit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Holding the limit"
+          }
+        }
+      }
+    },
+    "Install helper" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Install helper"
+          }
+        }
+      }
+    },
+    "Install the charge helper" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Install the charge helper"
+          }
+        }
+      }
+    },
+    "Kept on this Mac for 30 days. It never leaves it." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kept on this Mac for 30 days. It never leaves it."
+          }
+        }
+      }
+    },
+    "Kombucha did not hear back from the charger. Open the panel again to see where things stand." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha did not hear back from the charger. Open the panel again to see where things stand."
+          }
+        }
+      }
+    },
+    "Kombucha has no helper yet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha has no helper yet"
+          }
+        }
+      }
+    },
+    "Kombucha has not asked for permission to notify yet." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha has not asked for permission to notify yet."
+          }
+        }
+      }
+    },
+    "Kombucha is back to your %lld–%lld%% range." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha is back to your %1$lld–%2$lld%% range."
+          }
+        }
+      }
+    },
+    "Kombucha is holding your charge limit again." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha is holding your charge limit again."
+          }
+        }
+      }
+    },
+    "Kombucha is still starting. Try again in a moment." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha is still starting. Try again in a moment."
+          }
+        }
+      }
+    },
+    "Kombucha lives in the menu bar" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha lives in the menu bar"
+          }
+        }
+      }
+    },
+    "Kombucha protects the battery only while it is running." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha protects the battery only while it is running."
+          }
+        }
+      }
+    },
+    "Kombucha will not change charging on this Mac." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha will not change charging on this Mac."
+          }
+        }
+      }
+    },
+    "Kombucha, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %@"
+          }
+        }
+      }
+    },
+    "Kombucha, %lld%%, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %1$lld%%, %2$@"
+          }
+        }
+      }
+    },
+    "Launch at Login" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch at Login"
+          }
+        }
+      }
+    },
+    "Level" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Level"
+          }
+        }
+      }
+    },
+    "License: MIT License" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "License: MIT License"
+          }
+        }
+      }
+    },
+    "Maximum Capacity" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum Capacity"
+          }
+        }
+      }
+    },
+    "Maximum capacity is now %lld%%, down from %lld%%." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum capacity is now %1$lld%%, down from %2$lld%%."
+          }
+        }
+      }
+    },
+    "Measuring…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Measuring…"
+          }
+        }
+      }
+    },
+    "Mode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode"
+          }
+        }
+      }
+    },
+    "No history in this period." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No history in this period."
+          }
+        }
+      }
+    },
+    "No history yet. Kombucha records the battery while it runs." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No history yet. Kombucha records the battery while it runs."
+          }
+        }
+      }
+    },
+    "Normal" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        }
+      }
+    },
+    "Not enough days recorded yet." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not enough days recorded yet."
+          }
+        }
+      }
+    },
+    "Nothing is holding the charge limit, so this Mac is charging the way it did before Kombucha. Installing the helper again puts the limit back." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing is holding the charge limit, so this Mac is charging the way it did before Kombucha. Installing the helper again puts the limit back."
+          }
+        }
+      }
+    },
+    "Nothing is using noticeable power." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing is using noticeable power."
+          }
+        }
+      }
+    },
+    "Notifications" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        }
+      }
+    },
+    "Notifications for Kombucha are turned off in System Settings." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications for Kombucha are turned off in System Settings."
+          }
+        }
+      }
+    },
+    "On battery" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On battery"
+          }
+        }
+      }
+    },
+    "On battery: protection resumes on AC" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On battery: protection resumes on AC"
+          }
+        }
+      }
+    },
+    "One-time full charge. Kombucha goes back to your %lld–%lld%% range at 100%%, or as soon as you unplug." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One-time full charge. Kombucha goes back to your %1$lld–%2$lld%% range at 100%%, or as soon as you unplug."
+          }
+        }
+      }
+    },
+    "Open Login Items" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Login Items"
+          }
+        }
+      }
+    },
+    "Open Notification Settings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Notification Settings"
+          }
+        }
+      }
+    },
+    "Plug in the adapter to charge to 100%." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plug in the adapter to charge to 100%."
+          }
+        }
+      }
+    },
+    "Power" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power"
+          }
+        }
+      }
+    },
+    "Protected" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protected"
+          }
+        }
+      }
+    },
+    "Protected: Battery resting %lld%% – %lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protected: Battery resting %1$lld%% – %2$lld%%"
+          }
+        }
+      }
+    },
+    "Protection off" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protection off"
+          }
+        }
+      }
+    },
+    "Protection off: charging to 100%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protection off: charging to 100%"
+          }
+        }
+      }
+    },
+    "Quit Kombucha" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit Kombucha"
+          }
+        }
+      }
+    },
+    "Rather than guess which state this resembles, Kombucha will not claim your battery is protected. Login Items & Extensions shows what macOS has on record." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rather than guess which state this resembles, Kombucha will not claim your battery is protected. Login Items & Extensions shows what macOS has on record."
+          }
+        }
+      }
+    },
+    "Reading…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading…"
+          }
+        }
+      }
+    },
+    "Reinstall helper" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reinstall helper"
+          }
+        }
+      }
+    },
+    "Remove helper" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove helper"
+          }
+        }
+      }
+    },
+    "Removing the helper hands the charger back to macOS. The charge limit stops until it is installed again." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Removing the helper hands the charger back to macOS. The charge limit stops until it is installed again."
+          }
+        }
+      }
+    },
+    "Report an Issue" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Report an Issue"
+          }
+        }
+      }
+    },
+    "Resume charging at" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resume charging at"
+          }
+        }
+      }
+    },
+    "Running on the battery. Protection resumes when you plug the adapter back in." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Running on the battery. Protection resumes when you plug the adapter back in."
+          }
+        }
+      }
+    },
+    "Running — the charge limit is being held" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Running — the charge limit is being held"
+          }
+        }
+      }
+    },
+    "Service recommended" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Service recommended"
+          }
+        }
+      }
+    },
+    "Set Battery Protection" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set Battery Protection"
+          }
+        }
+      }
+    },
+    "Set Charge Limit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set Charge Limit"
+          }
+        }
+      }
+    },
+    "Settings…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings…"
+          }
+        }
+      }
+    },
+    "Show Welcome Window" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Welcome Window"
+          }
+        }
+      }
+    },
+    "Show percentage in menu bar" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show percentage in menu bar"
+          }
+        }
+      }
+    },
+    "Source Code" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source Code"
+          }
+        }
+      }
+    },
+    "Start Full Charge" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Full Charge"
+          }
+        }
+      }
+    },
+    "Start helper again" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start helper again"
+          }
+        }
+      }
+    },
+    "Stop Discharging" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop Discharging"
+          }
+        }
+      }
+    },
+    "Stop Full Charge" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop Full Charge"
+          }
+        }
+      }
+    },
+    "Stop charging at" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop charging at"
+          }
+        }
+      }
+    },
+    "Stop the full charge" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop the full charge"
+          }
+        }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
+          }
+        }
+      }
+    },
+    "Temperature" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperature"
+          }
+        }
+      }
+    },
+    "That did not reach the charger, so nothing was changed." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "That did not reach the charger, so nothing was changed."
+          }
+        }
+      }
+    },
+    "The SMC is here but would not answer, so charging cannot be held safely." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The SMC is here but would not answer, so charging cannot be held safely."
+          }
+        }
+      }
+    },
+    "The adapter stays connected but is switched off until the battery reaches %lld%%. Kombucha switches it back on then, before your Mac sleeps, or when you quit." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The adapter stays connected but is switched off until the battery reaches %lld%%. Kombucha switches it back on then, before your Mac sleeps, or when you quit."
+          }
+        }
+      }
+    },
+    "The battery has stayed at %@ or above for 5 minutes." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The battery has stayed at %@ or above for 5 minutes."
+          }
+        }
+      }
+    },
+    "The battery is at %lld °C or more, so Kombucha holds the charge. It continues at %lld °C or less." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The battery is at %1$lld °C or more, so Kombucha holds the charge. It continues at %2$lld °C or less."
+          }
+        }
+      }
+    },
+    "The battery is still charging above your %lld%% limit." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The battery is still charging above your %lld%% limit."
+          }
+        }
+      }
+    },
+    "The helper is installed and macOS will not start it until you allow it under Login Items & Extensions. Kombucha cannot grant that for you." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The helper is installed and macOS will not start it until you allow it under Login Items & Extensions. Kombucha cannot grant that for you."
+          }
+        }
+      }
+    },
+    "The helper stopped answering" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The helper stopped answering"
+          }
+        }
+      }
+    },
+    "The helper was removed" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The helper was removed"
+          }
+        }
+      }
+    },
+    "This Mac has no battery to protect." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac has no battery to protect."
+          }
+        }
+      }
+    },
+    "This Mac isn't supported" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac isn't supported"
+          }
+        }
+      }
+    },
+    "This Mac published no battery reading." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac published no battery reading."
+          }
+        }
+      }
+    },
+    "This Mac publishes no SMC service — a virtual machine has no battery to protect." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac publishes no SMC service — a virtual machine has no battery to protect."
+          }
+        }
+      }
+    },
+    "This Mac or this macOS version has no charge-inhibit key, so charging cannot be held at a threshold." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac or this macOS version has no charge-inhibit key, so charging cannot be held at a threshold."
+          }
+        }
+      }
+    },
+    "Time range" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time range"
+          }
+        }
+      }
+    },
+    "Topping the battery back up to %lld%%, then it will run straight off the adapter again." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topping the battery back up to %lld%%, then it will run straight off the adapter again."
+          }
+        }
+      }
+    },
+    "Two apps writing the same charge limit have no arbiter — whichever wrote last wins, and neither can tell you which. Kombucha has let go of the charger and will not touch it while %@ is running. Quit it and the controls come back, with no restart." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Two apps writing the same charge limit have no arbiter — whichever wrote last wins, and neither can tell you which. Kombucha has let go of the charger and will not touch it while %@ is running. Quit it and the controls come back, with no restart."
+          }
+        }
+      }
+    },
+    "Using the most energy" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using the most energy"
+          }
+        }
+      }
+    },
+    "Version %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@"
+          }
+        }
+      }
+    },
+    "Voltage" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voltage"
+          }
+        }
+      }
+    },
+    "Welcome to Kombucha" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Kombucha"
+          }
+        }
+      }
+    },
+    "When a full charge finishes" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When a full charge finishes"
+          }
+        }
+      }
+    },
+    "When protection stops or resumes" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When protection stops or resumes"
+          }
+        }
+      }
+    },
+    "When the battery needs attention" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When the battery needs attention"
+          }
+        }
+      }
+    },
+    "Your Mac is running straight from the adapter — nothing is wrong with the charger. The battery rests until it reaches %lld%%." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Mac is running straight from the adapter — nothing is wrong with the charger. The battery rests until it reaches %lld%%."
+          }
+        }
+      }
+    },
+    "macOS answered something this build does not know" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS answered something this build does not know"
+          }
+        }
+      }
+    },
+    "macOS did not install the helper, so nothing is holding the charge limit." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS did not install the helper, so nothing is holding the charge limit."
+          }
+        }
+      }
+    },
+    "macOS did not remove the helper, so it is still installed and running." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS did not remove the helper, so it is still installed and running."
+          }
+        }
+      }
+    },
+    "macOS is waiting for your approval" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS is waiting for your approval"
+          }
+        }
+      }
+    },
+    "macOS says the helper is installed and allowed, and nothing answers it — so the charge limit is not being held. Kombucha has already tried to start it again; this tries once more." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS says the helper is installed and allowed, and nothing answers it — so the charge limit is not being held. Kombucha has already tried to start it again; this tries once more."
+          }
+        }
+      }
+    },
+    "macOS will not confirm Kombucha as a login item while something for it is switched off under Login Items & Extensions. Turning it back on is something only you can do, there." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS will not confirm Kombucha as a login item while something for it is switched off under Login Items & Extensions. Turning it back on is something only you can do, there."
+          }
+        }
+      }
+    },
+    "—" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

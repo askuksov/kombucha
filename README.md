@@ -4,7 +4,7 @@
 
 # Kombucha
 
-Battery charge limiting for macOS, from the menu bar. A native Swift app.
+Limit MacBook charging from the menu bar to extend battery lifespan. A native Swift app.
 
 A MacBook that stays on its adapter spends its life at 100%, the level at which a lithium-ion cell
 ages fastest. Kombucha holds the battery inside a range you choose: it stops charging at the upper

@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in Kombucha does not work as described.
+labels: [bug]
+body:
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model
+      description: Apple menu → About This Mac.
+      placeholder: MacBook Pro 14-inch, M3 Pro, 2023
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: macOS 15.6.1
+    validations:
+      required: true
+  - type: input
+    id: kombucha
+    attributes:
+      label: Kombucha version
+      description: Settings → About.
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Set Stop charging at to 80%.
+        2. Plug in the adapter at 75%.
+        3. ...
+  - type: input
+    id: other-apps
+    attributes:
+      label: Other battery apps
+      description: Any other battery or charging app installed, running or not (AlDente, BatFi, a vendor tool).
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Optional. Run this in Terminal right after the problem and paste the output:
+        `/usr/bin/log show --last 30m --info --predicate 'subsystem BEGINSWITH "dev.kuksov.kombucha"'`
+      render: text

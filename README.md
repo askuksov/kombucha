@@ -56,9 +56,18 @@ More in [docs/screenshots.md](docs/screenshots.md).
 
 ## Install
 
+With [Homebrew](https://brew.sh):
+
+```sh
+brew install --cask askuksov/tap/kombucha
+```
+
+Or by hand:
+
 1. Download `Kombucha-<version>.zip` from the [latest release](https://github.com/askuksov/kombucha/releases/latest) and unzip it.
-2. Move `Kombucha.app` to `/Applications` and open it.
-3. Approve the helper once in System Settings → General → Login Items & Extensions.
+2. Move `Kombucha.app` to `/Applications`.
+
+Then open Kombucha and approve the helper once in System Settings → General → Login Items & Extensions.
 
 The app is signed with a Developer ID and notarized by Apple.
 

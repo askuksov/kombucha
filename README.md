@@ -54,6 +54,14 @@ More in [docs/screenshots.md](docs/screenshots.md).
 - macOS 15 to 26. macOS 27 and later are not supported yet.
 - One administrator approval in System Settings → General → Login Items & Extensions to enable the helper.
 
+## Install
+
+1. Download `Kombucha-<version>.zip` from the [latest release](https://github.com/askuksov/kombucha/releases/latest) and unzip it.
+2. Move `Kombucha.app` to `/Applications` and open it.
+3. Approve the helper once in System Settings → General → Login Items & Extensions.
+
+The app is signed with a Developer ID and notarized by Apple.
+
 ## Building
 
 `make help` lists shortcuts for the commands below (`make build`, `make install`, `make test`).

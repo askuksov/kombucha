@@ -29,15 +29,15 @@ func aBlockedWritePathOutranksTheMode(path: WritePath) {
 }
 
 @Test func aBlockedWritePathOutranksAnExternalBatteryManager() {
-    let both = snapshot(writePath: .notRegistered, manager: .kombuchaFloat)
+    let both = snapshot(writePath: .notRegistered, manager: .alDente)
     #expect(PanelState.make(snapshot: both, verdict: .supported) == .writePathBlocked(.notRegistered, level: 78))
 }
 
 @Test func anExternalBatteryManagerOutranksTheMode() {
-    // Stepped back for Kombucha Float at 78 % in a 75–80 range: the mode says protected, the panel must not.
-    let steppedBack = snapshot(manager: .kombuchaFloat)
+    // Stepped back for AlDente at 78 % in a 75–80 range: the mode says protected, the panel must not.
+    let steppedBack = snapshot(manager: .alDente)
     #expect(steppedBack.mode == .protected)
-    #expect(PanelState.make(snapshot: steppedBack, verdict: .supported) == .externalBatteryManager(.kombuchaFloat, level: 78))
+    #expect(PanelState.make(snapshot: steppedBack, verdict: .supported) == .externalBatteryManager(.alDente, level: 78))
 }
 
 @Test func aGateOutranksTheHeatPause() {
@@ -45,9 +45,9 @@ func aBlockedWritePathOutranksTheMode(path: WritePath) {
     let blocked = snapshot(writePath: .notRegistered, heatHold: true)
     #expect(blocked.mode == .heatPaused)
     #expect(PanelState.make(snapshot: blocked, verdict: .supported) == .writePathBlocked(.notRegistered, level: 78))
-    let managed = snapshot(manager: .kombuchaFloat, heatHold: true)
+    let managed = snapshot(manager: .alDente, heatHold: true)
     #expect(managed.mode == .heatPaused)
-    #expect(PanelState.make(snapshot: managed, verdict: .supported) == .externalBatteryManager(.kombuchaFloat, level: 78))
+    #expect(PanelState.make(snapshot: managed, verdict: .supported) == .externalBatteryManager(.alDente, level: 78))
 }
 
 @Test func aReadyPathWithNoManagerShowsTheControls() {

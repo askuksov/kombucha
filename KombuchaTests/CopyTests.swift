@@ -72,10 +72,10 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
 }
 
 @Test func anExternalBatteryManagerIsNamed() {
-    #expect(Copy.externalManagerHeading(.kombuchaFloat) == "Kombucha Float is running")
-    let reason = Copy.externalManagerReason(.kombuchaFloat)
+    #expect(Copy.externalManagerHeading(.alDente) == "AlDente is running")
+    let reason = Copy.externalManagerReason(.alDente)
     #expect(reason.hasPrefix("Two apps writing the same charge limit have no arbiter"))
-    #expect(reason.contains("will not touch it while Kombucha Float is running."))
+    #expect(reason.contains("will not touch it while AlDente is running."))
 }
 
 @Test func theHeaderFollowsThePanelState() {
@@ -151,8 +151,8 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
     let blocked = PanelState.writePathBlocked(.notRegistered, level: 78)
     #expect(Copy.notificationTitle(.protectionStopped(blocked)) == "Battery protection stopped")
     #expect(Copy.notificationBody(.protectionStopped(blocked)) == Copy.heading(.notRegistered))
-    let manager = PanelState.externalBatteryManager(.kombuchaFloat, level: 78)
-    #expect(Copy.notificationBody(.protectionStopped(manager)) == Copy.externalManagerHeading(.kombuchaFloat))
+    let manager = PanelState.externalBatteryManager(.alDente, level: 78)
+    #expect(Copy.notificationBody(.protectionStopped(manager)) == Copy.externalManagerHeading(.alDente))
     #expect(Copy.notificationTitle(.protectionResumed) == "Battery protection resumed")
     #expect(Copy.notificationBody(.protectionResumed) == "Kombucha is holding your charge limit again.")
 }

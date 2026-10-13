@@ -54,6 +54,21 @@ More in [docs/screenshots.md](docs/screenshots.md).
 - macOS 15 to 26. macOS 27 and later are not supported yet.
 - One administrator approval in System Settings → General → Login Items & Extensions to enable the helper.
 
+## Other battery managers
+
+Two apps writing the same charge limit would fight each other, so Kombucha checks for a running
+battery manager and leaves charging to it. It currently recognizes:
+
+[AlDente](https://apphousekitchen.com/), [BatFi](https://micropixels.software/batfi),
+[BattOpt](https://github.com/js4jiang5/BattOpt), [Juicy](https://getjuicy.app/),
+[Energiza](https://appgineers.de/energiza/),
+[Battery Toolkit](https://github.com/mhaeuser/Battery-Toolkit) and
+[batt](https://github.com/charlie0129/batt).
+
+Use one at a time. Quit the other app and Kombucha takes charging back on its next check.
+
+All product names are trademarks of their respective owners. Kombucha is not affiliated with them.
+
 ## Install
 
 With [Homebrew](https://brew.sh):

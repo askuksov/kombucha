@@ -1,5 +1,5 @@
 public enum ExternalBatteryManager: Equatable, CaseIterable, Sendable {
-    case battOpt, alDente, batFi, batt, kombuchaFloat
+    case battOpt, alDente, batFi, batt, juicy, energiza, batteryToolkit
 
     public var displayName: String {
         switch self {
@@ -7,7 +7,9 @@ public enum ExternalBatteryManager: Equatable, CaseIterable, Sendable {
         case .alDente: "AlDente"
         case .batFi: "BatFi"
         case .batt: "batt"
-        case .kombuchaFloat: "Kombucha Float"
+        case .juicy: "Juicy"
+        case .energiza: "Energiza"
+        case .batteryToolkit: "Battery Toolkit"
         }
     }
 }
@@ -48,9 +50,17 @@ public enum ExternalBatteryManagers {
         ExternalBatteryManagerRow(externalBatteryManager: .batt, identities: [
             .fileName("batt"),
         ]),
-        // The app only: its helper writes nothing on its own and outlives the app.
-        ExternalBatteryManagerRow(externalBatteryManager: .kombuchaFloat, identities: [
-            .fileName("kombucha-float"),
+        // Homebrew cask `juicy`.
+        ExternalBatteryManagerRow(externalBatteryManager: .juicy, identities: [
+            .bundle("/Applications/Juicy.app"),
+        ]),
+        // Homebrew cask `energiza`.
+        ExternalBatteryManagerRow(externalBatteryManager: .energiza, identities: [
+            .bundle("/Applications/Energiza.app"),
+        ]),
+        // Homebrew cask `battery-toolkit` (tap mhaeuser/mhaeuser), source repository mhaeuser/Battery-Toolkit.
+        ExternalBatteryManagerRow(externalBatteryManager: .batteryToolkit, identities: [
+            .bundle("/Applications/Battery Toolkit.app"),
         ]),
     ]
 

@@ -131,10 +131,10 @@ func theOtherEndingsAreSilent(ending: FullChargeEnding) {
 @Test func anExternalBatteryManagerIsTheBodyOfItsOwnInterruption() {
     var decider = NotificationDecider()
     _ = decide(&decider, snapshot())
-    _ = decide(&decider, snapshot(manager: .kombuchaFloat))
+    _ = decide(&decider, snapshot(manager: .alDente))
     let late = start.addingTimeInterval(NotificationDecider.interruptionGrace)
     #expect(decider.tick(gates: both, now: late).posts
-        == [.protectionStopped(.externalBatteryManager(.kombuchaFloat, level: 78))])
+        == [.protectionStopped(.externalBatteryManager(.alDente, level: 78))])
 }
 
 @Test func anOrdinaryThresholdCrossingIsSilent() {

@@ -48,11 +48,6 @@ private func verdict(_ paths: [String], ownBundlePath: String = ownBundle) -> Ex
     #expect(verdict(["/Applications/BatFi.app/Contents/MacOS/BatFi"]) == .batFi)
 }
 
-@Test func kombuchaFloatIsFoundByItsAppAlone() {
-    #expect(verdict(["/Applications/Float.app/Contents/MacOS/kombucha-float"]) == .kombuchaFloat)
-    #expect(verdict(["/Applications/Kombucha Float.app/Contents/MacOS/kombucha-float-helper"]) == nil)
-}
-
 @Test func theFirstRowInTableOrderIsReported() {
     let paths = [
         "/opt/homebrew/bin/batt",
@@ -64,10 +59,10 @@ private func verdict(_ paths: [String], ownBundlePath: String = ownBundle) -> Ex
 }
 
 @Test func processesInsideOurOwnBundleNeverMatch() {
-    #expect(verdict(["/Applications/Kombucha.app/Contents/MacOS/kombucha-float"]) == nil)
+    #expect(verdict(["/Applications/Kombucha.app/Contents/MacOS/batt"]) == nil)
     #expect(verdict(["/Applications/Kombucha.app/Contents/MacOS/kombucha-helper"]) == nil)
-    #expect(verdict(["/Applications/Kombucha.app/Contents/MacOS/kombucha-float"],
-                    ownBundlePath: "/Users/someone/Applications/Kombucha.app") == .kombuchaFloat)
+    #expect(verdict(["/Applications/Kombucha.app/Contents/MacOS/batt"],
+                    ownBundlePath: "/Users/someone/Applications/Kombucha.app") == .batt)
 }
 
 @Test func theBundleIdentityNeedsTheContentsDirectory() {
@@ -77,5 +72,12 @@ private func verdict(_ paths: [String], ownBundlePath: String = ownBundle) -> Ex
 
 @Test func everyExternalBatteryManagerHasARowAndADisplayName() {
     #expect(ExternalBatteryManagers.table.map(\.externalBatteryManager) == ExternalBatteryManager.allCases)
-    #expect(ExternalBatteryManager.allCases.map(\.displayName) == ["BattOpt", "AlDente", "BatFi", "batt", "Kombucha Float"])
+    #expect(ExternalBatteryManager.allCases.map(\.displayName) == ["BattOpt", "AlDente", "BatFi", "batt", "Juicy", "Energiza", "Battery Toolkit"])
+}
+
+@Test func juicyEnergizaAndBatteryToolkitAreFoundByTheirBundles() {
+    #expect(verdict(["/Applications/Juicy.app/Contents/MacOS/Juicy"]) == .juicy)
+    #expect(verdict(["/Applications/Energiza.app/Contents/MacOS/Energiza"]) == .energiza)
+    #expect(verdict(["/Applications/Battery Toolkit.app/Contents/MacOS/Battery Toolkit"]) == .batteryToolkit)
+    #expect(verdict(["/Users/someone/Downloads/Juicy.app/Contents/MacOS/Juicy"]) == nil)
 }

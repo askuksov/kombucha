@@ -26,6 +26,9 @@ final class AppModel {
     struct HistoryContent: Equatable {
         var week: [HistoryBucket]
         var month: [HistoryBucket]
+        /// What the chart draws for each range, built with the limit that held when the tab loaded.
+        var weekChart: HistoryChart
+        var monthChart: HistoryChart
         var health: [HealthPoint]
         /// The moment the buckets were built for; the chart's x axis ends here.
         var generatedAt: Date
@@ -36,6 +39,12 @@ final class AppModel {
     }
 
     private(set) var snapshot: ChargeSnapshot?
+    /// The limit the History chart draws: the current Resume and Stop, nil while Battery Protection is off or
+    /// before the first snapshot.
+    var historyLimit: Thresholds? {
+        guard let snapshot, snapshot.protection else { return nil }
+        return snapshot.thresholds
+    }
     private(set) var verdict: SupportVerdict?
     private(set) var health: HealthState = .reading
     private(set) var power: PowerState = .empty
@@ -260,12 +269,16 @@ final class AppModel {
     func loadHistory() async {
         let generation = historyGeneration
         let readHistory = readHistory, now = now
+        let limit = historyLimit
         let content = await Task.detached(priority: .utility) { () -> HistoryContent? in
             let log = readHistory()
             guard !log.points.isEmpty else { return nil }
             let moment = now()
-            return HistoryContent(week: log.buckets(.week, now: moment),
-                                  month: log.buckets(.month, now: moment),
+            let week = log.buckets(.week, now: moment)
+            let month = log.buckets(.month, now: moment)
+            return HistoryContent(week: week, month: month,
+                                  weekChart: HistoryChart(buckets: week, range: .week, now: moment, limit: limit),
+                                  monthChart: HistoryChart(buckets: month, range: .month, now: moment, limit: limit),
                                   health: log.healthPoints,
                                   generatedAt: moment)
         }.value

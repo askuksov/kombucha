@@ -241,3 +241,14 @@ private func snapshot(level: Double = 80, onAC: Bool = true, charging: Bool = fa
     #expect(!point.resting)
     #expect(point.onAC)
 }
+
+@Test func aBucketIsOnTheAdapterOnlyWhenEveryPointWas() {
+    let log = HistoryLog(records: [
+        .point(point(0, onAC: true)),
+        .point(point(5, onAC: false)),
+        .point(point(20, onAC: true)),
+        .point(point(25, onAC: true)),
+    ])
+    let buckets = log.buckets(.week, now: start.addingTimeInterval(30 * minute))
+    #expect(buckets.map(\.onAC) == [false, true])
+}

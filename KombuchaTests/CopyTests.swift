@@ -216,7 +216,6 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
     #expect(Copy.legendResting == "Battery Rest")
     #expect(Copy.capacityTooFew == "Not enough days recorded yet.")
     #expect(Copy.historyEmpty == "No history yet. Kombucha records the battery while it runs.")
-    #expect(Copy.historyPeriodEmpty == "No history in this period.")
     #expect(Copy.historyFooter == "Kept on this Mac for 30 days. It never leaves it.")
     #expect(Copy.notifyBatteryAttention == "When the battery needs attention")
 }
@@ -248,13 +247,16 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
     let strings = try #require(catalog?["strings"] as? [String: Any])
     for key in ["History", "Time range", "7 days", "30 days", "Charge level", "Charging", "Battery Rest",
                 "Not enough days recorded yet.",
-                "No history in this period.",
                 "No history yet. Kombucha records the battery while it runs.",
                 "Kept on this Mac for 30 days. It never leaves it.",
                 "When the battery needs attention",
                 "Battery capacity dropped", "Maximum capacity is now %lld%%, down from %lld%%.",
                 "Battery is hot", "The battery has stayed at %@ or above for 5 minutes.",
-                "Charge limit is not holding", "The battery is still charging above your %lld%% limit."] {
+                "Charge limit is not holding", "The battery is still charging above your %lld%% limit.",
+                "On battery", "No data", "Current limit: %lld–%lld%%", "Hover or drag for details.",
+                "Battery Rest: your Mac runs straight from the adapter and no current flows through the cell.",
+                "Nothing recorded in the last %lld days", "Kombucha records while your Mac is awake.",
+                "Battery Rest %@ of %@ recorded", "Peak %@", "%lld d", "%lld h", "%lld min"] {
         #expect(strings[key] != nil, "missing from the catalog: \(key)")
     }
 }
@@ -311,4 +313,50 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
                 "Discharging"] {
         #expect(strings[key] != nil, "missing from the catalog: \(key)")
     }
+}
+
+@Test func theHistoryChartSpeaksInTheDesignsWords() {
+    #expect(Copy.legendOnBattery == "On battery")
+    #expect(Copy.legendNoData == "No data")
+    #expect(Copy.historyHint == "Hover or drag for details.")
+    #expect(Copy.historyRestLine == "Battery Rest: your Mac runs straight from the adapter and no current flows through the cell.")
+    #expect(Copy.currentLimit(Thresholds.normalized(lower: 70, upper: 80)) == "Current limit: 70–80%")
+    #expect(Copy.historyNothingRecorded(days: 7) == "Nothing recorded in the last 7 days")
+    #expect(Copy.historyAwakeNote == "Kombucha records while your Mac is awake.")
+}
+
+@Test func aDurationShowsAtMostTwoUnits() {
+    #expect(Copy.duration(6 * 86_400 + 16 * 3_600) == "6 d 16 h")
+    #expect(Copy.duration(86_400) == "1 d")
+    #expect(Copy.duration(2 * 86_400 + 5 * 60) == "2 d")
+    #expect(Copy.duration(3 * 3_600 + 30 * 60) == "3 h 30 min")
+    #expect(Copy.duration(3 * 3_600) == "3 h")
+    #expect(Copy.duration(900) == "15 min")
+    #expect(Copy.duration(0) == "0 min")
+}
+
+@Test func theSummaryNamesTheShareAndTheRecordedTime() {
+    #expect(Copy.historySummary(restedPercent: 73, recorded: 6 * 86_400 + 16 * 3_600) == "Battery Rest 73% of 6 d 16 h recorded")
+    #expect(Copy.historySummary(restedPercent: 100, recorded: 900) == "Battery Rest 100% of 15 min recorded")
+}
+
+@Test func theDetailRowFollowsTheDesign() {
+    let utc = TimeZone(identifier: "UTC")!
+    let posix = Locale(identifier: "en_US_POSIX")
+    let moment = Date(timeIntervalSince1970: 1_800_000_000)
+    let full = HistoryDetail(start: moment, level: 83, lanes: [.charging, .onBattery], peakTemperatureCelsius: 31.5)
+    #expect(Copy.historyDetail(full, in: utc, locale: posix) == "2027-01-15 08:00 · 83% · Charging, On battery · Peak 31.5 °C")
+    let bare = HistoryDetail(start: moment, level: 70, lanes: [], peakTemperatureCelsius: nil)
+    #expect(Copy.historyDetail(bare, in: utc, locale: posix) == "2027-01-15 08:00 · 70%")
+    let gap = HistoryDetail(start: moment, level: nil, lanes: [], peakTemperatureCelsius: nil)
+    #expect(Copy.historyDetail(gap, in: utc, locale: posix) == "2027-01-15 08:00 · No data")
+}
+
+@Test func theAxisNamesTheDay() {
+    let utc = TimeZone(identifier: "UTC")!
+    let posix = Locale(identifier: "en_US_POSIX")
+    let moment = Date(timeIntervalSince1970: 1_800_000_000)
+    #expect(Copy.axisWeekdayAndDay(moment, in: utc, locale: posix) == "Fri 15")
+    #expect(Copy.axisMonthAndDay(moment, in: utc, locale: posix) == "Jan 15")
+    #expect(Copy.axisDay(moment, in: utc) == "01-15")
 }

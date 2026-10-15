@@ -235,8 +235,64 @@ enum Copy {
     static var historyEmpty: String {
         String(localized: "No history yet. Kombucha records the battery while it runs.")
     }
-    static var historyPeriodEmpty: String { String(localized: "No history in this period.") }
     static var historyFooter: String { String(localized: "Kept on this Mac for 30 days. It never leaves it.") }
+
+    static var legendOnBattery: String { String(localized: "On battery") }
+    static var legendNoData: String { String(localized: "No data") }
+    static var historyHint: String { String(localized: "Hover or drag for details.") }
+    static var historyRestLine: String {
+        String(localized: "Battery Rest: your Mac runs straight from the adapter and no current flows through the cell.")
+    }
+    static var historyAwakeNote: String { String(localized: "Kombucha records while your Mac is awake.") }
+
+    static func currentLimit(_ range: Thresholds) -> String {
+        String(localized: "Current limit: \(range.lower)–\(range.upper)%")
+    }
+
+    static func historyNothingRecorded(days: Int) -> String {
+        String(localized: "Nothing recorded in the last \(days) days")
+    }
+
+    static func historySummary(restedPercent: Int, recorded: TimeInterval) -> String {
+        String(localized: "Battery Rest \(percent(restedPercent)) of \(duration(recorded)) recorded")
+    }
+
+    /// At most two units, the larger first: "6 d 16 h", "3 h 30 min", "15 min".
+    static func duration(_ seconds: TimeInterval) -> String {
+        let minutes = max(Int(seconds / 60), 0)
+        let days = minutes / 1_440
+        let hours = minutes % 1_440 / 60
+        let rest = minutes % 60
+        func d(_ value: Int) -> String { String(localized: "\(value) d") }
+        func h(_ value: Int) -> String { String(localized: "\(value) h") }
+        func m(_ value: Int) -> String { String(localized: "\(value) min") }
+        if days > 0 { return hours > 0 ? "\(d(days)) \(h(hours))" : d(days) }
+        if hours > 0 { return rest > 0 ? "\(h(hours)) \(m(rest))" : h(hours) }
+        return m(rest)
+    }
+
+    static func laneName(_ lane: HistoryLane) -> String {
+        switch lane {
+        case .charging: legendCharging
+        case .resting: legendResting
+        case .onBattery: legendOnBattery
+        }
+    }
+
+    static func peakTemperature(_ celsius: Double, locale: Locale = .current) -> String {
+        String(localized: "Peak \(temperature(celsius, locale: locale))")
+    }
+
+    /// The pointer row: `time · level · states · Peak`, or `time · No data`.
+    static func historyDetail(_ detail: HistoryDetail, in zone: TimeZone = .current,
+                              locale: Locale = .current) -> String {
+        var parts = [timestamp(detail.start, in: zone)]
+        guard let level = detail.level else { return (parts + [legendNoData]).joined(separator: " · ") }
+        parts.append(percent(level))
+        if !detail.lanes.isEmpty { parts.append(detail.lanes.map(laneName).joined(separator: ", ")) }
+        if let peak = detail.peakTemperatureCelsius { parts.append(peakTemperature(peak, locale: locale)) }
+        return parts.joined(separator: " · ")
+    }
 
     /// Not localized text: the house format for a moment is `yyyy-MM-dd HH:mm`.
     static func timestamp(_ date: Date, in zone: TimeZone = .current) -> String {
@@ -245,6 +301,18 @@ enum Copy {
 
     static func axisDay(_ date: Date, in zone: TimeZone = .current) -> String {
         formatted(date, pattern: "MM-dd", in: zone)
+    }
+
+    /// Axis label for a week: "Fri 15". Not in the catalog: the system names the day.
+    static func axisWeekdayAndDay(_ date: Date, in zone: TimeZone = .current, locale: Locale = .current) -> String {
+        let style = Date.FormatStyle(locale: locale, timeZone: zone)
+        return "\(date.formatted(style.weekday(.abbreviated))) \(date.formatted(style.day()))"
+    }
+
+    /// Axis label for a month: "Jan 15".
+    static func axisMonthAndDay(_ date: Date, in zone: TimeZone = .current, locale: Locale = .current) -> String {
+        let style = Date.FormatStyle(locale: locale, timeZone: zone)
+        return "\(date.formatted(style.month(.abbreviated))) \(date.formatted(style.day()))"
     }
 
     private static func formatted(_ date: Date, pattern: String, in zone: TimeZone) -> String {

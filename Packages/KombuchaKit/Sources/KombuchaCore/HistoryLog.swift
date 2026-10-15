@@ -17,17 +17,20 @@ public struct HistoryBucket: Equatable, Sendable {
     public let level: Int
     public let charging: Bool
     public let resting: Bool
+    /// True only when every point of the slot was on the adapter; the chart's "On battery" lane is its opposite.
+    public let onAC: Bool
     public let peakTemperatureCelsius: Double?
     /// Grows across a missing slot, so the chart draws a gap instead of a line over time Kombucha was not running.
     public let segment: Int
 
-    public init(index: Int, start: Date, level: Int, charging: Bool, resting: Bool,
+    public init(index: Int, start: Date, level: Int, charging: Bool, resting: Bool, onAC: Bool,
                 peakTemperatureCelsius: Double?, segment: Int) {
         self.index = index
         self.start = start
         self.level = level
         self.charging = charging
         self.resting = resting
+        self.onAC = onAC
         self.peakTemperatureCelsius = peakTemperatureCelsius
         self.segment = segment
     }
@@ -88,6 +91,7 @@ public struct HistoryLog: Equatable, Sendable {
                                  level: last.level,
                                  charging: items.contains { $0.charging },
                                  resting: items.contains { $0.resting },
+                                 onAC: items.allSatisfy(\.onAC),
                                  peakTemperatureCelsius: items.compactMap(\.temperatureCelsius).max(),
                                  segment: segment)
         }

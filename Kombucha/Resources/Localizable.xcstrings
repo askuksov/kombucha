@@ -41,6 +41,36 @@
         }
       }
     },
+    "%lld d" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
+        }
+      }
+    },
+    "%lld h" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        }
+      }
+    },
+    "%lld min" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        }
+      }
+    },
     "%lld percent" : {
       "localizations" : {
         "en" : {
@@ -167,6 +197,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Battery Rest"
+          }
+        }
+      }
+    },
+    "Battery Rest %@ of %@ recorded" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Rest %1$@ of %2$@ recorded"
+          }
+        }
+      }
+    },
+    "Battery Rest: your Mac runs straight from the adapter and no current flows through the cell." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery Rest: your Mac runs straight from the adapter and no current flows through the cell."
           }
         }
       }
@@ -421,6 +471,16 @@
         }
       }
     },
+    "Current limit: %lld–%lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current limit: %1$lld–%2$lld%%"
+          }
+        }
+      }
+    },
     "Cycle Count" : {
       "localizations" : {
         "en" : {
@@ -561,6 +621,16 @@
         }
       }
     },
+    "Hover or drag for details." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hover or drag for details."
+          }
+        }
+      }
+    },
     "Install helper" : {
       "localizations" : {
         "en" : {
@@ -671,6 +741,16 @@
         }
       }
     },
+    "Kombucha records while your Mac is awake." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha records while your Mac is awake."
+          }
+        }
+      }
+    },
     "Kombucha will not change charging on this Mac." : {
       "localizations" : {
         "en" : {
@@ -771,12 +851,12 @@
         }
       }
     },
-    "No history in this period." : {
+    "No data" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No history in this period."
+            "value" : "No data"
           }
         }
       }
@@ -827,6 +907,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing is using noticeable power."
+          }
+        }
+      }
+    },
+    "Nothing recorded in the last %lld days" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing recorded in the last %lld days"
           }
         }
       }
@@ -897,6 +987,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Notification Settings"
+          }
+        }
+      }
+    },
+    "Peak %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peak %@"
           }
         }
       }

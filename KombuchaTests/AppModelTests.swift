@@ -716,6 +716,53 @@ private func historyPoint(_ minutes: Double, level: Int = 80) -> HistoryRecord {
 }
 
 @MainActor
+@Test func theHistoryChartsCarryTheCurrentLimit() async {
+    let model = AppModel(readHistory: { HistoryLog(records: [historyPoint(0)]) },
+                         now: { historyStart.addingTimeInterval(60) })
+    await publishSnapshot(chargeSnapshot(onAC: true, charging: false), to: model)
+    #expect(model.historyLimit == .standard)
+    await model.loadHistory()
+    guard case .ready(let content) = model.history else {
+        Issue.record("history is \(model.history)")
+        return
+    }
+    #expect(content.weekChart.limit == .standard)
+    #expect(content.monthChart.limit == .standard)
+    #expect(content.weekChart.buckets == content.week)
+    #expect(content.monthChart.buckets == content.month)
+    #expect(content.weekChart.periodEnd == historyStart.addingTimeInterval(60))
+}
+
+@MainActor
+@Test func theHistoryChartHasNoLimitWhileProtectionIsOff() async {
+    let model = AppModel(readHistory: { HistoryLog(records: [historyPoint(0)]) },
+                         now: { historyStart.addingTimeInterval(60) })
+    let off = ChargeSnapshot(level: 78, onAC: true, charging: false, thresholds: .standard, protection: false,
+                             fullChargeActive: false)
+    await publishSnapshot(off, to: model)
+    #expect(model.historyLimit == nil)
+    await model.loadHistory()
+    guard case .ready(let content) = model.history else {
+        Issue.record("history is \(model.history)")
+        return
+    }
+    #expect(content.weekChart.limit == nil)
+}
+
+@MainActor
+@Test func theHistoryChartHasNoLimitBeforeTheFirstSnapshot() async {
+    let model = AppModel(readHistory: { HistoryLog(records: [historyPoint(0)]) },
+                         now: { historyStart.addingTimeInterval(60) })
+    #expect(model.historyLimit == nil)
+    await model.loadHistory()
+    guard case .ready(let content) = model.history else {
+        Issue.record("history is \(model.history)")
+        return
+    }
+    #expect(content.monthChart.limit == nil)
+}
+
+@MainActor
 @Test func aDischargePressReachesTheEngineAndShowsWhenItAnswers() async {
     let harness = EngineHarness(level: 94, adapterPresent: true, subscribe: false)
     let model = model(for: harness)

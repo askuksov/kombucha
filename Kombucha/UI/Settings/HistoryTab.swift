@@ -4,7 +4,7 @@ import SwiftUI
 
 /// Internal value labels for Swift Charts. Typed `String` constants, not literals: a literal resolves to the
 /// `LocalizedStringKey` overload and the compiler would extract it into the string catalog.
-private enum ChartLabel {
+enum ChartLabel {
     static let start: String = "Start"
     static let end: String = "End"
     static let min: String = "Min"
@@ -21,7 +21,7 @@ private enum ChartLabel {
 struct HistoryTab: View {
     let model: AppModel
     @State private var range: HistoryRange = .week
-    @State private var selection: Date?
+    @State private var selected: HistoryDetail?
     @Environment(\.appearsActive) private var appearsActive
 
     var body: some View {
@@ -47,6 +47,7 @@ struct HistoryTab: View {
             await model.loadHistory()
         }
         .onDisappear { model.unloadHistory() }
+        .onChange(of: range) { selected = nil }
     }
 
     private var footer: some View {
@@ -55,14 +56,8 @@ struct HistoryTab: View {
             .frame(maxWidth: .infinity, alignment: .leading)
     }
 
-    private func buckets(_ content: AppModel.HistoryContent) -> [HistoryBucket] {
-        range == .week ? content.week : content.month
-    }
-
     private func levelSection(_ content: AppModel.HistoryContent) -> some View {
-        let buckets = buckets(content)
-        // A segment with one bucket draws no line, so its bucket gets a point instead.
-        let segmentSizes = Dictionary(grouping: buckets, by: \.segment).mapValues(\.count)
+        let chart = range == .week ? content.weekChart : content.monthChart
         return Section {
             Picker(Copy.rangeLabel, selection: $range) {
                 Text(Copy.rangeWeek).tag(HistoryRange.week)
@@ -70,67 +65,35 @@ struct HistoryTab: View {
             }
             .pickerStyle(.segmented)
             .labelsHidden()
-            if buckets.isEmpty {
-                Text(Copy.historyPeriodEmpty)
-            } else {
-                Chart {
-                    ForEach(buckets, id: \.index) { bucket in
-                        if let band = band(for: bucket) {
-                            RectangleMark(xStart: .value(ChartLabel.start, bucket.start),
-                                          xEnd: .value(ChartLabel.end, bucket.start.addingTimeInterval(range.bucket)),
-                                          yStart: .value(ChartLabel.min, 0),
-                                          yEnd: .value(ChartLabel.max, 100))
-                                .foregroundStyle(by: .value(ChartLabel.state, band))
-                                .opacity(0.25)
-                        }
-                    }
-                    ForEach(buckets, id: \.index) { bucket in
-                        LineMark(x: .value(ChartLabel.time, bucket.start),
-                                 y: .value(ChartLabel.level, bucket.level),
-                                 series: .value(ChartLabel.run, bucket.segment))
-                            .foregroundStyle(Color.primary)
-                    }
-                    ForEach(buckets.filter { segmentSizes[$0.segment] == 1 }, id: \.index) { bucket in
-                        PointMark(x: .value(ChartLabel.time, bucket.start),
-                                  y: .value(ChartLabel.level, bucket.level))
-                            .foregroundStyle(Color.primary)
-                    }
-                    if let picked = picked(in: buckets) {
-                        RuleMark(x: .value(ChartLabel.selected, picked.start))
-                            .foregroundStyle(.secondary)
-                    }
+            VStack(alignment: .leading, spacing: 8) {
+                if let summary = chart.summary {
+                    Text(Copy.historySummary(restedPercent: summary.restedPercent, recorded: summary.recorded))
+                        .font(.subheadline.weight(.medium))
                 }
-                .chartForegroundStyleScale(domain: [Copy.legendCharging, Copy.legendResting],
-                                           range: [Color.green, Color.accentColor])
-                .chartXScale(domain: content.generatedAt.addingTimeInterval(-range.span)...content.generatedAt)
-                .chartYScale(domain: 0...100)
-                .chartXSelection(value: $selection)
-                .chartXAxis {
-                    AxisMarks(values: .stride(by: .day, count: range == .week ? 1 : 5)) { value in
-                        AxisGridLine()
-                        AxisValueLabel {
-                            if let date = value.as(Date.self) { Text(Copy.axisDay(date)) }
-                        }
-                    }
-                }
-                .frame(height: 220)
-                .accessibilityLabel(Copy.levelSection)
-                if let picked = picked(in: buckets) {
-                    HStack {
-                        Text(Copy.timestamp(picked.start))
-                        Spacer()
-                        Text(Copy.percent(picked.level))
-                        if let temperature = picked.peakTemperatureCelsius {
-                            Text(Copy.temperature(temperature))
-                        }
-                    }
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
+                HistoryLevelChart(chart: chart, selected: $selected)
+                if !chart.buckets.isEmpty {
+                    HistoryLegend(chart: chart)
+                    detailSlot
                 }
             }
         } header: {
             Text(Copy.levelSection)
         }
+    }
+
+    /// A fixed-height slot, so nothing moves when the pointer comes and goes.
+    private var detailSlot: some View {
+        VStack(alignment: .leading, spacing: 2) {
+            if let selected {
+                Text(Copy.historyDetail(selected)).monospacedDigit()
+            } else {
+                Text(Copy.historyRestLine)
+                Text(Copy.historyHint).foregroundStyle(.tertiary)
+            }
+        }
+        .font(.caption)
+        .foregroundStyle(.secondary)
+        .frame(maxWidth: .infinity, minHeight: 44, alignment: .topLeading)
     }
 
     private func capacitySection(_ content: AppModel.HistoryContent) -> some View {
@@ -160,17 +123,5 @@ struct HistoryTab: View {
         } footer: {
             footer
         }
-    }
-
-    /// The legend names the state, so color is never the only carrier (NFR-7). Charging wins over resting.
-    private func band(for bucket: HistoryBucket) -> String? {
-        if bucket.charging { return Copy.legendCharging }
-        if bucket.resting { return Copy.legendResting }
-        return nil
-    }
-
-    private func picked(in buckets: [HistoryBucket]) -> HistoryBucket? {
-        guard let selection else { return nil }
-        return buckets.min { abs($0.start.timeIntervalSince(selection)) < abs($1.start.timeIntervalSince(selection)) }
     }
 }

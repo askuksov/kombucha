@@ -422,6 +422,28 @@ enum Copy {
         String(localized: "Version \(version)")
     }
 
+    // MARK: Updates
+
+    static var updatesSection: String { String(localized: "Updates") }
+    static var updateCheckDaily: String { String(localized: "Check for updates daily") }
+    static var updateCheckDailyNote: String {
+        String(localized: "Kombucha contacts GitHub once a day to look for a new release. Nothing else is sent.")
+    }
+    static var checkForUpdates: String { String(localized: "Check for Updates") }
+    static var updateUpToDate: String { String(localized: "Kombucha is up to date.") }
+    static func updateAvailable(_ version: AppVersion) -> String {
+        String(localized: "Kombucha \(version.description) is available.")
+    }
+    static var viewRelease: String { String(localized: "View Release") }
+    static var updateFailed: String { String(localized: "Couldn't check for updates.") }
+    static var updateHomebrewHint: String {
+        String(localized: "Installed with Homebrew? Run brew upgrade --cask kombucha.")
+    }
+    static func updateNotificationTitle(_ version: AppVersion) -> String {
+        String(localized: "Kombucha \(version.description) is available")
+    }
+    static var updateNotificationBody: String { String(localized: "Open the release page to download it.") }
+
     // MARK: Intents
 
     static var intentNotReady: String { String(localized: "Kombucha is still starting. Try again in a moment.") }

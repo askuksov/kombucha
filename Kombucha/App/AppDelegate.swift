@@ -86,7 +86,17 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         model.attach(engine: engine, settings: settings)
         gateway.attach(engine: engine, settings: settings)
         model.attach(loginItem: LoginItem(), notifications: notifications, ui: settings)
+        let updates = UpdateController(
+            fetcher: GitHubReleaseFetcher(),
+            running: AppVersion(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""),
+            store: settings,
+            announce: { [controller] in controller.postUpdate($0) },
+            askForNotifications: { [model] in await model.askForNotificationsIfNeeded() },
+            openURL: { NSWorkspace.shared.open($0) })
+        controller.openUpdate = { [updates] in updates.openReleasePage() }
+        model.attach(updates: updates)
         Task { await model.refreshNotificationAuthorization() }
+        Task { await updates.start() }
         Task { await model.consume(engine.snapshots) }
         Task {
             let verdict = await engine.start()

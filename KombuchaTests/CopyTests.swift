@@ -360,3 +360,35 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
     #expect(Copy.axisMonthAndDay(moment, in: utc, locale: posix) == "Jan 15")
     #expect(Copy.axisDay(moment, in: utc) == "01-15")
 }
+
+@Test func theUpdateStringsAreCopiedWhole() {
+    #expect(Copy.updatesSection == "Updates")
+    #expect(Copy.updateCheckDaily == "Check for updates daily")
+    #expect(Copy.updateCheckDailyNote == "Kombucha contacts GitHub once a day to look for a new release. Nothing else is sent.")
+    #expect(Copy.checkForUpdates == "Check for Updates")
+    #expect(Copy.checking == "Checking…")
+    #expect(Copy.updateUpToDate == "Kombucha is up to date.")
+    #expect(Copy.viewRelease == "View Release")
+    #expect(Copy.updateFailed == "Couldn't check for updates.")
+    #expect(Copy.updateHomebrewHint == "Installed with Homebrew? Run brew upgrade --cask kombucha.")
+    #expect(Copy.updateNotificationBody == "Open the release page to download it.")
+}
+
+@Test func theUpdateSentencesNameTheVersion() {
+    let version = AppVersion(0, 2, 0)
+    #expect(Copy.updateAvailable(version) == "Kombucha 0.2.0 is available.")
+    #expect(Copy.updateNotificationTitle(version) == "Kombucha 0.2.0 is available")
+}
+
+@Test func everyUpdateStringIsInTheCatalog() throws {
+    let url = URL(filePath: #filePath).deletingLastPathComponent().deletingLastPathComponent()
+        .appending(path: "Kombucha/Resources/Localizable.xcstrings")
+    let catalog = try JSONSerialization.jsonObject(with: Data(contentsOf: url)) as? [String: Any]
+    let strings = try #require(catalog?["strings"] as? [String: Any])
+    for key in ["Updates", "Check for updates daily", Copy.updateCheckDailyNote, "Check for Updates",
+                "Kombucha is up to date.", "Kombucha %@ is available.", "View Release",
+                "Couldn't check for updates.", Copy.updateHomebrewHint, "Kombucha %@ is available",
+                Copy.updateNotificationBody] {
+        #expect(strings[key] != nil, "missing from the catalog: \(key)")
+    }
+}

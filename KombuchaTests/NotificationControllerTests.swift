@@ -80,7 +80,8 @@ private func controller(centre: FakeNotificationCentre,
     clock.now = start.addingTimeInterval(NotificationDecider.interruptionGrace)
     await controller.tickNow()
     #expect(centre.posted.map(\.categoryIdentifier) == [NotificationController.writePathCategory])
-    #expect(centre.categories.map(\.identifier) == [NotificationController.writePathCategory])
+    #expect(Set(centre.categories.map(\.identifier)) == [NotificationController.writePathCategory,
+                                                         NotificationController.updateCategory])
     // A category that is not the write-path one — e.g. an external-battery-manager stop, which carries none —
     // must not open the Helper tab.
     controller.respond(toCategory: "")
@@ -112,4 +113,39 @@ private func controller(centre: FakeNotificationCentre,
     #expect(centre.posted.map(\.title) == [Copy.alertTitle(alert)])
     #expect(centre.posted.map(\.body) == [Copy.alertBody(alert)])
     #expect(centre.posted.map(\.categoryIdentifier) == [""])
+}
+
+@MainActor
+@Test func anUpdateNotificationCarriesItsCategoryAndTheVersion() {
+    let centre = FakeNotificationCentre(authorization: .authorized)
+    let controller = controller(centre: centre, clock: Clock())
+    controller.postUpdate(AppVersion(0, 2, 0))
+    #expect(centre.posted.map(\.title) == [Copy.updateNotificationTitle(AppVersion(0, 2, 0))])
+    #expect(centre.posted.map(\.body) == [Copy.updateNotificationBody])
+    #expect(centre.posted.map(\.categoryIdentifier) == [NotificationController.updateCategory])
+}
+
+@MainActor
+@Test func theThreeSwitchesDoNotGateAnUpdateNotification() {
+    let centre = FakeNotificationCentre(authorization: .authorized)
+    let ui = FakeUISettings(fullCharge: false, protectionChanges: false, batteryAttention: false)
+    let controller = controller(centre: centre, ui: ui, clock: Clock())
+    controller.postUpdate(AppVersion(0, 2, 0))
+    #expect(centre.posted.count == 1)
+}
+
+@MainActor
+@Test func clickingAnUpdateNotificationOpensTheReleaseAndNothingElse() {
+    let centre = FakeNotificationCentre(authorization: .authorized)
+    var helperTab = 0
+    var release = 0
+    let controller = controller(centre: centre, clock: Clock(), onHelperTab: { helperTab += 1 })
+    controller.openUpdate = { release += 1 }
+    controller.respond(toCategory: "")
+    controller.respond(toCategory: NotificationController.writePathCategory)
+    #expect(release == 0)
+    #expect(helperTab == 1)
+    controller.respond(toCategory: NotificationController.updateCategory)
+    #expect(release == 1)
+    #expect(helperTab == 1)
 }

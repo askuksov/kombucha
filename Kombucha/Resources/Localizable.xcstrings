@@ -431,6 +431,26 @@
         }
       }
     },
+    "Check for Updates" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check for Updates"
+          }
+        }
+      }
+    },
+    "Check for updates daily" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check for updates daily"
+          }
+        }
+      }
+    },
     "Checking…" : {
       "localizations" : {
         "en" : {
@@ -467,6 +487,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Condition"
+          }
+        }
+      }
+    },
+    "Couldn't check for updates." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't check for updates."
           }
         }
       }
@@ -651,12 +681,52 @@
         }
       }
     },
+    "Installed with Homebrew? Run brew upgrade --cask kombucha." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installed with Homebrew? Run brew upgrade --cask kombucha."
+          }
+        }
+      }
+    },
     "Kept on this Mac for 30 days. It never leaves it." : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kept on this Mac for 30 days. It never leaves it."
+          }
+        }
+      }
+    },
+    "Kombucha %@ is available" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ is available"
+          }
+        }
+      }
+    },
+    "Kombucha %@ is available." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ is available."
+          }
+        }
+      }
+    },
+    "Kombucha contacts GitHub once a day to look for a new release. Nothing else is sent." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha contacts GitHub once a day to look for a new release. Nothing else is sent."
           }
         }
       }
@@ -717,6 +787,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha is still starting. Try again in a moment."
+          }
+        }
+      }
+    },
+    "Kombucha is up to date." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha is up to date."
           }
         }
       }
@@ -987,6 +1067,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Notification Settings"
+          }
+        }
+      }
+    },
+    "Open the release page to download it." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open the release page to download it."
           }
         }
       }
@@ -1481,6 +1571,16 @@
         }
       }
     },
+    "Updates" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updates"
+          }
+        }
+      }
+    },
     "Using the most energy" : {
       "localizations" : {
         "en" : {
@@ -1497,6 +1597,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Version %@"
+          }
+        }
+      }
+    },
+    "View Release" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View Release"
           }
         }
       }

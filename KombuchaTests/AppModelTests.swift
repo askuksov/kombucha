@@ -801,3 +801,15 @@ private func historyPoint(_ minutes: Double, level: Int = 80) -> HistoryRecord {
     _ = await harness.engine.shutdown(waitingAtMost: .seconds(1))
     #expect(await eventually { ended.isRaised })
 }
+
+@MainActor
+@Test func theDailyUpdateCheckAsksForNotificationsOnlyWhenNothingWasAnswered() async {
+    let asking = FakeNotificationCentre(authorization: .notDetermined)
+    await uiModel(centre: asking).askForNotificationsIfNeeded()
+    #expect(asking.requests == 1)
+    let answered = FakeNotificationCentre(authorization: .denied)
+    let model = uiModel(centre: answered)
+    await model.refreshNotificationAuthorization()
+    await model.askForNotificationsIfNeeded()
+    #expect(answered.requests == 0)
+}

@@ -9,6 +9,7 @@ import UserNotifications
 @MainActor
 final class NotificationController: NSObject, ChargeObserving, BatteryAlertPosting, @preconcurrency UNUserNotificationCenterDelegate {
     static let writePathCategory = "dev.kuksov.kombucha.notification.writePath"
+    static let updateCategory = "dev.kuksov.kombucha.notification.update"
 
     private enum Event {
         case pass(ChargeSnapshot, FullChargeEnding?)
@@ -31,6 +32,9 @@ final class NotificationController: NSObject, ChargeObserving, BatteryAlertPosti
 
     var wakeIsScheduled: Bool { wake != nil }
 
+    /// Set by the app: opens the release page of the newest known version. The click carries no payload.
+    var openUpdate: @MainActor () -> Void = {}
+
     init(centre: any NotificationCentering,
          ui: any UISettingsStoring,
          now: @escaping @Sendable () -> Date = { Date() },
@@ -43,6 +47,10 @@ final class NotificationController: NSObject, ChargeObserving, BatteryAlertPosti
         events = continuation
         super.init()
         centre.register(categories: [UNNotificationCategory(identifier: Self.writePathCategory,
+                                                            actions: [],
+                                                            intentIdentifiers: [],
+                                                            options: []),
+                                     UNNotificationCategory(identifier: Self.updateCategory,
                                                             actions: [],
                                                             intentIdentifiers: [],
                                                             options: [])])
@@ -75,10 +83,12 @@ final class NotificationController: NSObject, ChargeObserving, BatteryAlertPosti
         await settled()
     }
 
-    /// The comparison FR-NOT-4 asks for. The delegate method is a two-line adapter over this.
+    /// The comparison FR-NOT-4 asks for, plus the update category. The delegate method is a two-line adapter over this.
     func respond(toCategory identifier: String) {
         if identifier == Self.writePathCategory {
             openHelperTab()
+        } else if identifier == Self.updateCategory {
+            openUpdate()
         }
     }
 
@@ -87,6 +97,16 @@ final class NotificationController: NSObject, ChargeObserving, BatteryAlertPosti
         let content = UNMutableNotificationContent()
         content.title = Copy.alertTitle(alert)
         content.body = Copy.alertBody(alert)
+        centre.post(content)
+    }
+
+    /// An update announcement: its gate is the daily-check switch, not the three notification switches. If macOS
+    /// has not allowed notifications it drops the post and About still shows the version.
+    func postUpdate(_ version: AppVersion) {
+        let content = UNMutableNotificationContent()
+        content.title = Copy.updateNotificationTitle(version)
+        content.body = Copy.updateNotificationBody
+        content.categoryIdentifier = Self.updateCategory
         centre.post(content)
     }
 

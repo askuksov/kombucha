@@ -59,6 +59,7 @@ final class AppModel {
     private(set) var loginItemStatus: SMAppService.Status = .notRegistered
     private(set) var notificationAuthorization: UNAuthorizationStatus = .notDetermined
     private(set) var welcomePending = false
+    private(set) var updates: UpdateController?
     /// The store's own defaults are all three on, so these starting values are right even before anything is
     /// attached. Tracked stored properties, not pass-throughs to `ui`, so a bound view is re-rendered: `ui`
     /// itself is `@ObservationIgnored` and neither `SettingsStore` nor `FakeUISettings` is `@Observable`.
@@ -127,6 +128,10 @@ final class AppModel {
         notifyBatteryAttention = ui.notifyBatteryAttention
     }
 
+    func attach(updates: UpdateController) {
+        self.updates = updates
+    }
+
     /// Set after the support verdict: a Mac whose welcome was never finished opens it (§5.6).
     func publish(_ verdict: SupportVerdict) {
         self.verdict = verdict
@@ -157,6 +162,11 @@ final class AppModel {
     func requestNotificationAuthorization() async {
         guard let notifications else { return }
         notificationAuthorization = await notifications.requestAuthorization()
+    }
+
+    /// The daily update check asks the first time it is switched on, like the switches of FR-NOT-3.
+    func askForNotificationsIfNeeded() async {
+        await askIfNeeded(true)
     }
 
     func setNotifyFullChargeFinished(_ on: Bool) async {

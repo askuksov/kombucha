@@ -137,3 +137,48 @@ private func withStore(_ body: (SettingsStore, UserDefaults, ChangeCounter) -> V
         #expect(changes.count == 0)
     }
 }
+
+@Test func theUpdateStateStartsEmptyAndTheDailyCheckIsOff() {
+    withStore { store, _, changes in
+        #expect(store.updateCheckDaily == false)
+        #expect(store.updateLastCheck == nil)
+        #expect(store.updateLatestVersion == nil)
+        #expect(store.updateAnnouncedVersion == nil)
+        #expect(changes.count == 0)
+    }
+}
+
+@Test func theUpdateStateIsKeptAndWakesNoEngine() {
+    withStore { store, _, changes in
+        let moment = Date(timeIntervalSince1970: 1_800_000_000)
+        store.setUpdateCheckDaily(true)
+        store.setUpdateLastCheck(moment)
+        store.setUpdateLatestVersion(AppVersion(0, 2, 0))
+        store.setUpdateAnnouncedVersion(AppVersion(0, 2, 0))
+        #expect(store.updateCheckDaily)
+        #expect(store.updateLastCheck == moment)
+        #expect(store.updateLatestVersion == AppVersion(0, 2, 0))
+        #expect(store.updateAnnouncedVersion == AppVersion(0, 2, 0))
+        #expect(changes.count == 0)
+    }
+}
+
+@Test func aNilClearsAStoredUpdateValue() {
+    withStore { store, _, _ in
+        store.setUpdateLatestVersion(AppVersion(0, 2, 0))
+        store.setUpdateLatestVersion(nil)
+        store.setUpdateLastCheck(Date())
+        store.setUpdateLastCheck(nil)
+        #expect(store.updateLatestVersion == nil)
+        #expect(store.updateLastCheck == nil)
+    }
+}
+
+@Test func aDamagedStoredVersionReadsAsNothing() {
+    withStore { store, defaults, _ in
+        defaults.set("not a version", forKey: SettingsStore.Key.updateLatestVersion)
+        defaults.set("v0.2.0-beta", forKey: SettingsStore.Key.updateAnnouncedVersion)
+        #expect(store.updateLatestVersion == nil)
+        #expect(store.updateAnnouncedVersion == nil)
+    }
+}

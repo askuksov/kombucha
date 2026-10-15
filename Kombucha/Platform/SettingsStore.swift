@@ -20,8 +20,20 @@ protocol UISettingsStoring: AnyObject, Sendable {
     func setWelcomeCompleted(_ done: Bool)
 }
 
+/// What the update check remembers. A stored version that no longer parses reads as nothing.
+protocol UpdateStateStoring: AnyObject, Sendable {
+    var updateCheckDaily: Bool { get }
+    var updateLastCheck: Date? { get }
+    var updateLatestVersion: AppVersion? { get }
+    var updateAnnouncedVersion: AppVersion? { get }
+    func setUpdateCheckDaily(_ on: Bool)
+    func setUpdateLastCheck(_ date: Date?)
+    func setUpdateLatestVersion(_ version: AppVersion?)
+    func setUpdateAnnouncedVersion(_ version: AppVersion?)
+}
+
 /// The app's user defaults. The engine reads its settings here and never from `UserDefaults`.
-final class SettingsStore: SettingsStoring, UISettingsStoring, @unchecked Sendable {
+final class SettingsStore: SettingsStoring, UISettingsStoring, UpdateStateStoring, @unchecked Sendable {
     enum Key {
         static let lowerThreshold = "lowerThreshold"
         static let upperThreshold = "upperThreshold"
@@ -31,6 +43,10 @@ final class SettingsStore: SettingsStoring, UISettingsStoring, @unchecked Sendab
         static let notifyProtectionChanges = "notifyProtectionChanges"
         static let notifyBatteryAttention = "notifyBatteryAttention"
         static let welcomeCompleted = "welcomeCompleted"
+        static let updateCheckDaily = "updateCheckDaily"
+        static let updateLastCheck = "updateLastCheck"
+        static let updateLatestVersion = "updateLatestVersion"
+        static let updateAnnouncedVersion = "updateAnnouncedVersion"
     }
 
     private let defaults: UserDefaults
@@ -74,6 +90,22 @@ final class SettingsStore: SettingsStoring, UISettingsStoring, @unchecked Sendab
         lock.withLock { defaults.bool(forKey: Key.welcomeCompleted) }
     }
 
+    var updateCheckDaily: Bool {
+        lock.withLock { defaults.bool(forKey: Key.updateCheckDaily) }
+    }
+
+    var updateLastCheck: Date? {
+        lock.withLock { defaults.object(forKey: Key.updateLastCheck) as? Date }
+    }
+
+    var updateLatestVersion: AppVersion? {
+        lock.withLock { defaults.string(forKey: Key.updateLatestVersion).flatMap { AppVersion($0) } }
+    }
+
+    var updateAnnouncedVersion: AppVersion? {
+        lock.withLock { defaults.string(forKey: Key.updateAnnouncedVersion).flatMap { AppVersion($0) } }
+    }
+
     var chargeSettings: ChargeSettings {
         lock.withLock {
             ChargeSettings(thresholds: storedThresholds(), protection: defaults.bool(forKey: Key.batteryProtection))
@@ -96,13 +128,17 @@ final class SettingsStore: SettingsStoring, UISettingsStoring, @unchecked Sendab
         }
     }
 
-    // None of the four is a charge setting, so none of them wakes the engine.
+    // None of these is a charge setting, so none of them wakes the engine.
     func setNotifyFullChargeFinished(_ on: Bool) { store(on, forKey: Key.notifyFullChargeFinished) }
     func setNotifyProtectionChanges(_ on: Bool) { store(on, forKey: Key.notifyProtectionChanges) }
     func setNotifyBatteryAttention(_ on: Bool) { store(on, forKey: Key.notifyBatteryAttention) }
     func setWelcomeCompleted(_ done: Bool) { store(done, forKey: Key.welcomeCompleted) }
+    func setUpdateCheckDaily(_ on: Bool) { store(on, forKey: Key.updateCheckDaily) }
+    func setUpdateLastCheck(_ date: Date?) { store(date, forKey: Key.updateLastCheck) }
+    func setUpdateLatestVersion(_ version: AppVersion?) { store(version?.description, forKey: Key.updateLatestVersion) }
+    func setUpdateAnnouncedVersion(_ version: AppVersion?) { store(version?.description, forKey: Key.updateAnnouncedVersion) }
 
-    private func store(_ value: Bool, forKey key: String) {
+    private func store(_ value: Any?, forKey key: String) {
         lock.withLock { defaults.set(value, forKey: key) }
     }
 

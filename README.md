@@ -25,7 +25,9 @@ threshold and resumes at the lower one, so the Mac runs from the adapter while t
   the stop level, then switches the adapter back on.
 - **Shortcuts.** App Intents for Shortcuts, Spotlight and Siri.
 - **Safe by design.** A small helper daemon writes two SMC keys — the charge inhibit and the adapter
-  switch — and nothing else. It refuses callers it cannot verify. No network access, accounts or telemetry.
+  switch — and nothing else. It refuses callers it cannot verify and has no network access. Kombucha has no
+  accounts and no telemetry; it contacts GitHub only to check for updates, when you press the button or, if you
+  turn it on, once a day.
 - **Stays out of the way.** Kombucha detects another running battery manager and leaves charging to it.
 
 <p align="center">

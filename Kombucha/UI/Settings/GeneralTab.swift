@@ -78,6 +78,19 @@ struct GeneralTab: View {
                 }
                 .accessibilityElement(children: .contain)
             }
+            if let updates = model.updates {
+                Section(Copy.updatesSection) {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Toggle(Copy.updateCheckDaily,
+                               isOn: Binding(get: { updates.dailyCheck },
+                                             set: { on in Task { await updates.setDailyCheck(on) } }))
+                        Text(Copy.updateCheckDailyNote)
+                            .font(.footnote)
+                            .foregroundStyle(.secondary)
+                    }
+                    .accessibilityElement(children: .contain)
+                }
+            }
         }
         .formStyle(.grouped)
         .onAppear { refresh() }

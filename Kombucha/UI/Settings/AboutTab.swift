@@ -43,7 +43,52 @@ struct AboutTab: View {
                 // Dev only: the Welcome toggles duplicate the General tab. Re-enable to test the window.
                 // Button(Copy.showWelcomeWindow) { openWindow(id: WelcomeView.windowID) }
             }
+            if let updates = model.updates {
+                UpdateSection(updates: updates)
+            }
         }
         .formStyle(.grouped)
+    }
+}
+
+private struct UpdateSection: View {
+    let updates: UpdateController
+
+    /// Nothing is said until a check ran or a newer version is stored.
+    private var line: String? {
+        switch updates.state {
+        case .idle: nil
+        case .checking: Copy.checking
+        case .upToDate: Copy.updateUpToDate
+        case .available(let version): Copy.updateAvailable(version)
+        case .failed: Copy.updateFailed
+        }
+    }
+
+    private var isAvailable: Bool { updates.newerVersion != nil }
+
+    var body: some View {
+        Section {
+            VStack(alignment: .leading, spacing: 6) {
+                if let line {
+                    Text(line)
+                }
+                if isAvailable {
+                    Text(Copy.updateHomebrewHint)
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                        .textSelection(.enabled)
+                }
+                HStack {
+                    Spacer()
+                    if isAvailable {
+                        Button(Copy.viewRelease) { updates.openReleasePage() }
+                    }
+                    Button(Copy.checkForUpdates) { Task { await updates.checkNow() } }
+                        .disabled(updates.state == .checking)
+                }
+            }
+            .accessibilityElement(children: .contain)
+        }
     }
 }

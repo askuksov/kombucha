@@ -1,3 +1,5 @@
+import Foundation
+import KombuchaCore
 import ServiceManagement
 import Synchronization
 import UserNotifications
@@ -80,4 +82,54 @@ final class FakeUISettings: UISettingsStoring, Sendable {
     func setNotifyProtectionChanges(_ on: Bool) { state.withLock { $0.notifyProtectionChanges = on } }
     func setNotifyBatteryAttention(_ on: Bool) { state.withLock { $0.notifyBatteryAttention = on } }
     func setWelcomeCompleted(_ done: Bool) { state.withLock { $0.welcomeCompleted = done } }
+}
+
+/// Stands in for `SettingsStore` where only the update keys matter.
+final class FakeUpdateState: UpdateStateStoring, Sendable {
+    private struct State {
+        var daily: Bool
+        var lastCheck: Date?
+        var latest: AppVersion?
+        var announced: AppVersion?
+    }
+
+    private let state: Mutex<State>
+
+    init(daily: Bool = false, lastCheck: Date? = nil, latest: AppVersion? = nil, announced: AppVersion? = nil) {
+        state = Mutex(State(daily: daily, lastCheck: lastCheck, latest: latest, announced: announced))
+    }
+
+    var updateCheckDaily: Bool { state.withLock { $0.daily } }
+    var updateLastCheck: Date? { state.withLock { $0.lastCheck } }
+    var updateLatestVersion: AppVersion? { state.withLock { $0.latest } }
+    var updateAnnouncedVersion: AppVersion? { state.withLock { $0.announced } }
+
+    func setUpdateCheckDaily(_ on: Bool) { state.withLock { $0.daily = on } }
+    func setUpdateLastCheck(_ date: Date?) { state.withLock { $0.lastCheck = date } }
+    func setUpdateLatestVersion(_ version: AppVersion?) { state.withLock { $0.latest = version } }
+    func setUpdateAnnouncedVersion(_ version: AppVersion?) { state.withLock { $0.announced = version } }
+}
+
+/// Answers one scripted result per call; the last result repeats.
+final class FakeReleaseFetcher: ReleaseFetching, Sendable {
+    private struct State {
+        var results: [Result<String, any Error>]
+        var calls = 0
+    }
+
+    private let state: Mutex<State>
+
+    init(_ results: [Result<String, any Error>]) {
+        state = Mutex(State(results: results))
+    }
+
+    var calls: Int { state.withLock { $0.calls } }
+
+    func latestTag() async throws -> String {
+        let result = state.withLock { state -> Result<String, any Error> in
+            state.calls += 1
+            return state.results.count > 1 ? state.results.removeFirst() : state.results[0]
+        }
+        return try result.get()
+    }
 }

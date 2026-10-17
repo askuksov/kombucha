@@ -63,6 +63,9 @@ final class AppModel {
     private(set) var notificationAuthorization: UNAuthorizationStatus = .notDetermined
     private(set) var welcomePending = false
     private(set) var updates: UpdateController?
+    private(set) var languages = AppLanguages.current
+    /// Set once a restart is under way, so a second click cannot start another one.
+    private(set) var restartPending = false
     /// The store's own defaults are all three on, so these starting values are right even before anything is
     /// attached. Tracked stored properties, not pass-throughs to `ui`, so a bound view is re-rendered: `ui`
     /// itself is `@ObservationIgnored` and neither `SettingsStore` nor `FakeUISettings` is `@Observable`.
@@ -88,6 +91,7 @@ final class AppModel {
     @ObservationIgnored private var loginItem: (any LoginItemControlling)?
     @ObservationIgnored private var notifications: (any NotificationCentering)?
     @ObservationIgnored private var ui: (any UISettingsStoring)?
+    @ObservationIgnored private var restarter: (any Restarting)?
     @ObservationIgnored private let readHealth: @Sendable () -> BatteryHealth?
     @ObservationIgnored private let readPower: @Sendable () -> PowerReadings
     @ObservationIgnored private let sampleEnergy: @Sendable () -> EnergyReading
@@ -133,6 +137,21 @@ final class AppModel {
 
     func attach(updates: UpdateController) {
         self.updates = updates
+    }
+
+    func attach(languages: AppLanguages, restarter: any Restarting) {
+        self.languages = languages
+        self.restarter = restarter
+    }
+
+    /// Writes the choice; the running UI keeps its language until the next launch.
+    func chooseLanguage(_ selection: AppLanguages.Selection) {
+        languages.select(selection)
+    }
+
+    func restart() {
+        guard !restartPending, let restarter else { return }
+        if restarter.restart() { restartPending = true }
     }
 
     /// Set after the support verdict: a Mac whose welcome was never finished opens it (§5.6).

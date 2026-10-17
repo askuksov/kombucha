@@ -133,3 +133,26 @@ final class FakeReleaseFetcher: ReleaseFetching, Sendable {
         return try result.get()
     }
 }
+
+final class FakeRestarter: Restarting, Sendable {
+    private let count = Mutex(0)
+
+    var restarts: Int { count.withLock { $0 } }
+
+    func restart() -> Bool {
+        count.withLock { $0 += 1 }
+        return true
+    }
+}
+
+/// A restarter whose spawn always fails.
+final class FailingRestarter: Restarting, Sendable {
+    private let count = Mutex(0)
+
+    var restarts: Int { count.withLock { $0 } }
+
+    func restart() -> Bool {
+        count.withLock { $0 += 1 }
+        return false
+    }
+}

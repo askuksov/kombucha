@@ -43,6 +43,28 @@ struct GeneralTab: View {
                 .accessibilityElement(children: .contain)
                 Toggle(Copy.showPercentage, isOn: $showPercentage)
             }
+            if model.languages.isSwitchable {
+                Section {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Picker(Copy.languageRow,
+                               selection: Binding(get: { model.languages.selection },
+                                                  set: { model.chooseLanguage($0) })) {
+                            Text(Copy.languageSystemDefault).tag(AppLanguages.Selection.system)
+                            ForEach(model.languages.languages) { language in
+                                Text(language.name).tag(AppLanguages.Selection.language(language.code))
+                            }
+                        }
+                        if model.languages.restartNeeded {
+                            Text(Copy.languageRestartNote)
+                                .font(.footnote)
+                                .foregroundStyle(.secondary)
+                            Button(Copy.restartKombucha) { model.restart() }
+                                .disabled(model.restartPending)
+                        }
+                    }
+                    .accessibilityElement(children: .contain)
+                }
+            }
             Section(Copy.notificationsSection) {
                 VStack(alignment: .leading, spacing: 6) {
                     Toggle(Copy.notifyFullCharge,

@@ -423,6 +423,13 @@ enum Copy {
         String(localized: "Version \(version)")
     }
 
+    // MARK: Settings — Language
+
+    static var languageRow: String { String(localized: "Language") }
+    static var languageSystemDefault: String { String(localized: "System default") }
+    static var languageRestartNote: String { String(localized: "Kombucha uses the new language after it restarts.") }
+    static var restartKombucha: String { String(localized: "Restart Kombucha") }
+
     // MARK: Updates
 
     static var updatesSection: String { String(localized: "Updates") }

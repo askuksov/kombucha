@@ -58,6 +58,8 @@ targets:
     scheme:
       testTargets:
         - KombuchaTests
+      commandLineArguments:
+        "-AppleLanguages (en)": true
   KombuchaTests:
     type: bundle.unit-test
     platform: macOS

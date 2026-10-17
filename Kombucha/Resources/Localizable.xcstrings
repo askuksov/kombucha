@@ -831,6 +831,16 @@
         }
       }
     },
+    "Kombucha uses the new language after it restarts." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha uses the new language after it restarts."
+          }
+        }
+      }
+    },
     "Kombucha will not change charging on this Mac." : {
       "localizations" : {
         "en" : {
@@ -857,6 +867,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha, %1$lld%%, %2$@"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
           }
         }
       }
@@ -1221,6 +1241,16 @@
         }
       }
     },
+    "Restart Kombucha" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restart Kombucha"
+          }
+        }
+      }
+    },
     "Resume charging at" : {
       "localizations" : {
         "en" : {
@@ -1387,6 +1417,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "System"
+          }
+        }
+      }
+    },
+    "System default" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System default"
           }
         }
       }

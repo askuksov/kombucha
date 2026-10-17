@@ -393,3 +393,10 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
         #expect(strings[key] != nil, "missing from the catalog: \(key)")
     }
 }
+
+@Test func theLanguageRowSpeaksPlainly() {
+    #expect(Copy.languageRow == "Language")
+    #expect(Copy.languageSystemDefault == "System default")
+    #expect(Copy.languageRestartNote == "Kombucha uses the new language after it restarts.")
+    #expect(Copy.restartKombucha == "Restart Kombucha")
+}

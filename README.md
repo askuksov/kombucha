@@ -130,6 +130,8 @@ signed. Nothing in it registers the helper, starts the wake monitor or writes to
 Launching the built app outside the tests starts a live engine: it registers the helper and, unless
 another charge manager is running, sends charge commands.
 
+Want Kombucha in your language? See [Add a translation](docs/translating.md).
+
 ## License
 
 [MIT License](LICENSE)

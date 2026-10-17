@@ -95,6 +95,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             openURL: { NSWorkspace.shared.open($0) })
         controller.openUpdate = { [updates] in updates.openReleasePage() }
         model.attach(updates: updates)
+        model.attach(languages: .current, restarter: AppRestarter())
         Task { await model.refreshNotificationAuthorization() }
         Task { await updates.start() }
         Task { await model.consume(engine.snapshots) }

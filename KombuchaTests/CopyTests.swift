@@ -188,6 +188,7 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
     #expect(Copy.measuring == "Measuring…")
     #expect(Copy.noApps == "Nothing is using noticeable power.")
     #expect(Copy.appsFooter == "Apps you run. System processes are not shown.")
+    #expect(Copy.adapterFallsShort == "The adapter can't keep up, so the battery covers the rest.")
 }
 
 @Test func batteryRestIsExplainedInTheGlossarysWords() {
@@ -201,7 +202,7 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
     let strings = try #require(catalog?["strings"] as? [String: Any])
     for key in ["Power", "System", "Adapter", "%@ W", "Using the most energy", "Measuring…",
                 "Nothing is using noticeable power.", "Apps you run. System processes are not shown.",
-                Copy.batteryRestLine] {
+                Copy.batteryRestLine, Copy.adapterFallsShort] {
         #expect(strings[key] != nil, "missing from the catalog: \(key)")
     }
 }

@@ -1421,6 +1421,16 @@
         }
       }
     },
+    "The adapter can't keep up, so the battery covers the rest." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The adapter can't keep up, so the battery covers the rest."
+          }
+        }
+      }
+    },
     "The adapter stays connected but is switched off until the battery reaches %lld%%. Kombucha switches it back on then, before your Mac sleeps, or when you quit." : {
       "localizations" : {
         "en" : {

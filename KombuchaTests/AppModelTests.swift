@@ -636,6 +636,48 @@ private func adapterShownAfterOneStep(_ snapshot: ChargeSnapshot?) async -> Bool
     #expect(!model.power.adapterShown)
 }
 
+// The Power footer: the adapter row is shown and the averaged adapter falls short of the system.
+
+@MainActor
+private func adapterFallsShortAfterOneStep(_ readings: PowerReadings, _ snapshot: ChargeSnapshot?) async -> Bool {
+    let feedP = PowerFeed(readings: readings, energy: [energyReading(10, [])])
+    let model = AppModel(readPower: feedP.readPower, sampleEnergy: feedP.sampleEnergy)
+    if let snapshot { await publishSnapshot(snapshot, to: model) }
+    await model.refreshPower()
+    return model.power.adapterFallsShort
+}
+
+@MainActor
+@Test func thePowerFooterShowsWhenTheAdapterFallsShort() async {
+    let weak = PowerReadings(systemWatts: 30, adapterWatts: 18.7)
+    #expect(await adapterFallsShortAfterOneStep(weak, chargeSnapshot(onAC: true, charging: true)))
+}
+
+@MainActor
+@Test func thePowerFooterIsHiddenWhenTheAdapterCoversTheSystem() async {
+    let strong = PowerReadings(systemWatts: 8.3, adapterWatts: 17.4)
+    #expect(await !adapterFallsShortAfterOneStep(strong, chargeSnapshot(onAC: true, charging: true)))
+}
+
+@MainActor
+@Test func thePowerFooterNeedsTheAdapterRow() async {
+    let weak = PowerReadings(systemWatts: 30, adapterWatts: 18.7)
+    #expect(await !adapterFallsShortAfterOneStep(weak, chargeSnapshot(onAC: true, charging: false)))
+    #expect(await !adapterFallsShortAfterOneStep(weak, nil))
+}
+
+@MainActor
+@Test func resettingClearsThePowerFooter() async {
+    let feedP = PowerFeed(readings: PowerReadings(systemWatts: 30, adapterWatts: 18.7),
+                          energy: [energyReading(10, [])])
+    let model = AppModel(readPower: feedP.readPower, sampleEnergy: feedP.sampleEnergy)
+    await publishSnapshot(chargeSnapshot(onAC: true, charging: true), to: model)
+    await model.refreshPower()
+    #expect(model.power.adapterFallsShort)
+    model.resetPower()
+    #expect(!model.power.adapterFallsShort)
+}
+
 @MainActor
 @Test func theBatteryAttentionSwitchIsStoredAndAsksOnFirstSwitchOn() async {
     let centre = FakeNotificationCentre(authorization: .notDetermined)

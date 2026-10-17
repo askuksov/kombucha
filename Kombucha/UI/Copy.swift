@@ -191,6 +191,7 @@ enum Copy {
     static var powerSection: String { String(localized: "Power") }
     static var systemRow: String { String(localized: "System") }
     static var adapterRow: String { String(localized: "Adapter") }
+    static var adapterFallsShort: String { String(localized: "The adapter can't keep up, so the battery covers the rest.") }
     static var appsSection: String { String(localized: "Using the most energy") }
     static var measuring: String { String(localized: "Measuring…") }
     static var noApps: String { String(localized: "Nothing is using noticeable power.") }

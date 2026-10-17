@@ -20,6 +20,9 @@ final class AppModel {
         var apps: [AppEnergy]?
         var adapterShown: Bool
         static let empty = PowerState(readings: nil, apps: nil, adapterShown: false)
+
+        /// The Power footer: only next to the Adapter row, and only while the averaged adapter falls short.
+        var adapterFallsShort: Bool { adapterShown && readings?.adapterFallsShort == true }
     }
 
     /// The chart data for both ranges, built when the History tab opens.

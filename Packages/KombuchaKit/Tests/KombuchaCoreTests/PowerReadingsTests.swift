@@ -52,3 +52,31 @@ func anUnrealValueBecomesNilNeverAZero(raw: Float?) {
 @Test func theAverageOfNothingIsAllNil() {
     #expect(PowerReadings.average([]) == PowerReadings(systemWatts: nil, adapterWatts: nil))
 }
+
+@Test func theAdapterFallsShortWhenSystemExceedsItByMoreThanTwoWatts() {
+    #expect(PowerReadings(systemWatts: 30, adapterWatts: 18.7).adapterFallsShort)
+    #expect(PowerReadings(systemWatts: 12.5, adapterWatts: 10).adapterFallsShort)
+}
+
+@Test func exactlyTwoWattsAboveIsNotAShortfall() {
+    #expect(!PowerReadings(systemWatts: 12, adapterWatts: 10).adapterFallsShort)
+}
+
+@Test func anAdapterAboveTheSystemDoesNotFallShort() {
+    #expect(!PowerReadings(systemWatts: 8.3, adapterWatts: 17.4).adapterFallsShort)
+    #expect(!PowerReadings(systemWatts: 10, adapterWatts: 10).adapterFallsShort)
+}
+
+@Test func aMissingValueIsNeverAShortfall() {
+    #expect(!PowerReadings(systemWatts: nil, adapterWatts: 10).adapterFallsShort)
+    #expect(!PowerReadings(systemWatts: 30, adapterWatts: nil).adapterFallsShort)
+    #expect(!PowerReadings(systemWatts: nil, adapterWatts: nil).adapterFallsShort)
+}
+
+@Test func theShortfallIsJudgedOnTheAverageOfTheReadings() {
+    // One lagging pair shows System above Adapter by 5 W; the other two are level, so the means differ by under 2 W.
+    let lag = PowerReadings.average([PowerReadings(systemWatts: 15, adapterWatts: 10),
+                                     PowerReadings(systemWatts: 10, adapterWatts: 10),
+                                     PowerReadings(systemWatts: 10, adapterWatts: 10)])
+    #expect(!lag.adapterFallsShort)
+}

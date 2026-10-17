@@ -31,10 +31,18 @@ struct BatteryTab: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
 
-            Section(Copy.powerSection) {
+            Section {
                 LabeledContent(Copy.systemRow, value: Copy.watts(model.power.readings?.systemWatts))
                 if model.power.adapterShown {
                     LabeledContent(Copy.adapterRow, value: Copy.watts(model.power.readings?.adapterWatts))
+                }
+            } header: {
+                Text(Copy.powerSection)
+            } footer: {
+                if model.power.adapterFallsShort {
+                    Text(Copy.adapterFallsShort)
+                        .multilineTextAlignment(.leading)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
 

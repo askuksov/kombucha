@@ -22,6 +22,17 @@ public struct PowerReadings: Equatable, Sendable {
         return raw == 0 ? 0 : Double(raw)
     }
 
+    /// How far System may sit above Adapter before it means something: the SMC reports system power about one
+    /// update after adapter power, and the average of the readings leaves a little of that lag.
+    public static let shortfallWatts: Double = 2
+
+    /// The adapter delivers less than the system takes, so the battery covers the rest. Judge it on the average
+    /// of the readings, never on a single one; without both values there is nothing to compare.
+    public var adapterFallsShort: Bool {
+        guard let systemWatts, let adapterWatts else { return false }
+        return systemWatts - adapterWatts > Self.shortfallWatts
+    }
+
     /// The mean of each value over the readings that have it; a value no reading has stays nil.
     public static func average(_ readings: [PowerReadings]) -> PowerReadings {
         PowerReadings(systemWatts: mean(readings.compactMap(\.systemWatts)),

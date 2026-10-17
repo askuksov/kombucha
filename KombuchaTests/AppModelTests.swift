@@ -157,7 +157,7 @@ private func model(for harness: EngineHarness, readHealth: @escaping @Sendable (
 
 @MainActor
 @Test func theSnapshotCarriesTheNewValueWhenTheAnswerArrives() async {
-    // The engine publishes before it answers, so clearing pending never shows the old value.
+    // The consumer task delivers the snapshot on its own turn, so it may land after setProtection returns.
     let harness = EngineHarness(level: 80, subscribe: false)
     let model = model(for: harness)
     Task { await model.consume(harness.engine.snapshots) }
@@ -166,7 +166,7 @@ private func model(for harness: EngineHarness, readHealth: @escaping @Sendable (
     #expect(await eventually { model.snapshot?.protection == true })
     await model.setProtection(false)
     #expect(model.pendingProtection == nil)
-    #expect(model.snapshot?.protection == false)
+    #expect(await eventually { model.snapshot?.protection == false })
     _ = await harness.engine.shutdown(waitingAtMost: .seconds(1))
     #expect(await eventually { ended.isRaised })
 }

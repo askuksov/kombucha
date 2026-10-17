@@ -8,12 +8,24 @@
             "state" : "translated",
             "value" : "%@ V"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ V"
+          }
         }
       }
     },
     "%@ W" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W"
+          }
+        },
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ W"
@@ -28,12 +40,24 @@
             "state" : "translated",
             "value" : "%@ is running"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ läuft"
+          }
         }
       }
     },
     "%@ °C" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ °C"
+          }
+        },
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ °C"
@@ -48,6 +72,12 @@
             "state" : "translated",
             "value" : "%lld d"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld T"
+          }
         }
       }
     },
@@ -57,6 +87,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld h"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Std."
           }
         }
       }
@@ -68,6 +104,12 @@
             "state" : "translated",
             "value" : "%lld min"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Min."
+          }
         }
       }
     },
@@ -77,6 +119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld percent"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Prozent"
           }
         }
       }
@@ -88,6 +136,12 @@
             "state" : "translated",
             "value" : "%lld%%"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld %%"
+          }
         }
       }
     },
@@ -97,6 +151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld–%2$lld%%"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld–%2$lld %%"
           }
         }
       }
@@ -108,6 +168,12 @@
             "state" : "translated",
             "value" : "30 days"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 Tage"
+          }
         }
       }
     },
@@ -117,6 +183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "7 days"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 Tage"
           }
         }
       }
@@ -128,6 +200,12 @@
             "state" : "translated",
             "value" : "About"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
         }
       }
     },
@@ -137,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adapter"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netzteil"
           }
         }
       }
@@ -148,6 +232,12 @@
             "state" : "translated",
             "value" : "Allow Notifications"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen erlauben"
+          }
         }
       }
     },
@@ -157,6 +247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apps you run. System processes are not shown."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apps, die du ausführst. Systemprozesse werden nicht angezeigt."
           }
         }
       }
@@ -168,6 +264,12 @@
             "state" : "translated",
             "value" : "Battery"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku"
+          }
         }
       }
     },
@@ -177,6 +279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Battery Health"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkuzustand"
           }
         }
       }
@@ -188,6 +296,12 @@
             "state" : "translated",
             "value" : "Battery Protection"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkuschutz"
+          }
         }
       }
     },
@@ -197,6 +311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Battery Rest"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku-Ruhe"
           }
         }
       }
@@ -208,6 +328,12 @@
             "state" : "translated",
             "value" : "Battery Rest %1$@ of %2$@ recorded"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku-Ruhe: %1$@ von %2$@ aufgezeichnet"
+          }
         }
       }
     },
@@ -217,6 +343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Battery Rest: your Mac runs straight from the adapter and no current flows through the cell."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku-Ruhe: Dein Mac läuft direkt über das Netzteil, und es fließt kein Strom durch die Zelle."
           }
         }
       }
@@ -228,6 +360,12 @@
             "state" : "translated",
             "value" : "Battery Status"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkustatus"
+          }
         }
       }
     },
@@ -237,6 +375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Battery at %1$lld%%"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku bei %1$lld %%"
           }
         }
       }
@@ -248,6 +392,12 @@
             "state" : "translated",
             "value" : "Battery at %1$lld%%. %2$@"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku bei %1$lld %%. %2$@"
+          }
         }
       }
     },
@@ -257,6 +407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Battery capacity dropped"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkukapazität gesunken"
           }
         }
       }
@@ -268,6 +424,12 @@
             "state" : "translated",
             "value" : "Battery charge limiting for macOS"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku-Ladelimit für macOS"
+          }
         }
       }
     },
@@ -277,6 +439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Battery is hot"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akku ist heiß"
           }
         }
       }
@@ -288,6 +456,12 @@
             "state" : "translated",
             "value" : "Battery protection resumed"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkuschutz fortgesetzt"
+          }
         }
       }
     },
@@ -297,6 +471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Battery protection stopped"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkuschutz gestoppt"
           }
         }
       }
@@ -308,6 +488,12 @@
             "state" : "translated",
             "value" : "Between your Stop and Resume levels the battery rests: your Mac runs straight from the adapter and no current flows through the cell."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwischen deinen beiden Grenzwerten ruht der Akku: Dein Mac läuft direkt über das Netzteil, und es fließt kein Strom durch die Zelle."
+          }
         }
       }
     },
@@ -317,6 +503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Charge Helper"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade-Hilfsprogramm"
           }
         }
       }
@@ -328,6 +520,12 @@
             "state" : "translated",
             "value" : "Charge Limit"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladelimit"
+          }
         }
       }
     },
@@ -337,6 +535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Charge level"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladestand"
           }
         }
       }
@@ -348,6 +552,12 @@
             "state" : "translated",
             "value" : "Charge limit is not holding"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladelimit wird nicht gehalten"
+          }
         }
       }
     },
@@ -357,6 +567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Charge to 100% Once"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einmal auf 100 % laden"
           }
         }
       }
@@ -368,6 +584,12 @@
             "state" : "translated",
             "value" : "Charging"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden"
+          }
         }
       }
     },
@@ -377,6 +599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Charging all the way to 100%. The battery sits at full voltage while plugged in."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es wird bis 100 % geladen. Am Netzteil bleibt der Akku auf voller Spannung."
           }
         }
       }
@@ -388,6 +616,12 @@
             "state" : "translated",
             "value" : "Charging paused"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden pausiert"
+          }
         }
       }
     },
@@ -397,6 +631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Charging paused: battery is hot"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden pausiert: Akku ist heiß"
           }
         }
       }
@@ -408,6 +648,12 @@
             "state" : "translated",
             "value" : "Charging to 100%"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden auf 100 %"
+          }
         }
       }
     },
@@ -417,6 +663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Charging to 100%: reverts on unplug"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden auf 100 %: endet beim Abziehen"
           }
         }
       }
@@ -428,6 +680,12 @@
             "state" : "translated",
             "value" : "Charging: Topping up to %lld%%"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden: Auffüllen auf %lld %%"
+          }
         }
       }
     },
@@ -437,6 +695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Check for Updates"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nach Updates suchen"
           }
         }
       }
@@ -448,6 +712,12 @@
             "state" : "translated",
             "value" : "Check for updates daily"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Täglich nach Updates suchen"
+          }
         }
       }
     },
@@ -457,6 +727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Checking…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird geprüft …"
           }
         }
       }
@@ -468,6 +744,12 @@
             "state" : "translated",
             "value" : "Click its battery symbol at the top of the screen to see the charge level and set the limit."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klicke oben auf dem Bildschirm auf das Akkusymbol von Kombucha, um den Ladestand zu sehen und das Limit festzulegen."
+          }
         }
       }
     },
@@ -477,6 +759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
           }
         }
       }
@@ -488,6 +776,12 @@
             "state" : "translated",
             "value" : "Condition"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zustand"
+          }
         }
       }
     },
@@ -497,6 +791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couldn't check for updates."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Suche nach Updates ist fehlgeschlagen."
           }
         }
       }
@@ -508,6 +808,12 @@
             "state" : "translated",
             "value" : "Current limit: %1$lld–%2$lld%%"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktuelles Limit: %1$lld–%2$lld %%"
+          }
         }
       }
     },
@@ -517,6 +823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cycle Count"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladezyklen"
           }
         }
       }
@@ -528,6 +840,12 @@
             "state" : "translated",
             "value" : "Discharge to %lld%%"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entladen auf %lld %%"
+          }
         }
       }
     },
@@ -537,6 +855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Discharging"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entladen"
           }
         }
       }
@@ -548,6 +872,12 @@
             "state" : "translated",
             "value" : "Discharging: running on battery down to %lld%%"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entladen: Akkubetrieb bis %lld %%"
+          }
         }
       }
     },
@@ -557,6 +887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Documentation"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokumentation"
           }
         }
       }
@@ -568,6 +904,12 @@
             "state" : "translated",
             "value" : "Done"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
         }
       }
     },
@@ -577,6 +919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Full Charge"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volle Ladung"
           }
         }
       }
@@ -588,6 +936,12 @@
             "state" : "translated",
             "value" : "Fully charged"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voll geladen"
+          }
         }
       }
     },
@@ -597,6 +951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "General"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allgemein"
           }
         }
       }
@@ -608,6 +968,12 @@
             "state" : "translated",
             "value" : "Get Battery Status"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkustatus abrufen"
+          }
         }
       }
     },
@@ -617,6 +983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helper"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfsprogramm"
           }
         }
       }
@@ -628,6 +1000,12 @@
             "state" : "translated",
             "value" : "History"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf"
+          }
         }
       }
     },
@@ -637,6 +1015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Holding a charge limit needs a small helper running as root. Install it once — macOS will ask you to allow it, and nothing else changes."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zum Halten eines Ladelimits braucht es ein kleines Hilfsprogramm, das als root läuft. Installiere es einmal – macOS bittet dich um Erlaubnis, sonst ändert sich nichts."
           }
         }
       }
@@ -648,6 +1032,12 @@
             "state" : "translated",
             "value" : "Holding the limit"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limit wird gehalten"
+          }
         }
       }
     },
@@ -657,6 +1047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hover or drag for details."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für Details darüberfahren oder ziehen."
           }
         }
       }
@@ -668,6 +1064,12 @@
             "state" : "translated",
             "value" : "Install helper"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfsprogramm installieren"
+          }
         }
       }
     },
@@ -677,6 +1079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Install the charge helper"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade-Hilfsprogramm installieren"
           }
         }
       }
@@ -688,6 +1096,12 @@
             "state" : "translated",
             "value" : "Installed with Homebrew? Run brew upgrade --cask kombucha."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit Homebrew installiert? Führe brew upgrade --cask kombucha aus."
+          }
         }
       }
     },
@@ -697,6 +1111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kept on this Mac for 30 days. It never leaves it."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird 30 Tage auf diesem Mac gespeichert und verlässt ihn nie."
           }
         }
       }
@@ -708,6 +1128,12 @@
             "state" : "translated",
             "value" : "Kombucha %@ is available"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ ist verfügbar"
+          }
         }
       }
     },
@@ -717,6 +1143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha %@ is available."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ ist verfügbar."
           }
         }
       }
@@ -728,6 +1160,12 @@
             "state" : "translated",
             "value" : "Kombucha contacts GitHub once a day to look for a new release. Nothing else is sent."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha fragt einmal täglich bei GitHub nach einer neuen Version. Sonst wird nichts gesendet."
+          }
         }
       }
     },
@@ -737,6 +1175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha did not hear back from the charger. Open the panel again to see where things stand."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Ladesteuerung hat nicht auf Kombucha geantwortet. Öffne Kombucha erneut in der Menüleiste, um den aktuellen Stand zu sehen."
           }
         }
       }
@@ -748,6 +1192,12 @@
             "state" : "translated",
             "value" : "Kombucha has no helper yet"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha hat noch kein Hilfsprogramm"
+          }
         }
       }
     },
@@ -757,6 +1207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha has not asked for permission to notify yet."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha hat noch nicht um Erlaubnis für Mitteilungen gebeten."
           }
         }
       }
@@ -768,6 +1224,12 @@
             "state" : "translated",
             "value" : "Kombucha is back to your %1$lld–%2$lld%% range."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha hält wieder deinen Bereich von %1$lld–%2$lld %%."
+          }
         }
       }
     },
@@ -777,6 +1239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha is holding your charge limit again."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha hält dein Ladelimit wieder."
           }
         }
       }
@@ -788,6 +1256,12 @@
             "state" : "translated",
             "value" : "Kombucha is still starting. Try again in a moment."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha startet noch. Versuche es gleich noch einmal."
+          }
         }
       }
     },
@@ -797,6 +1271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha is up to date."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha ist auf dem neuesten Stand."
           }
         }
       }
@@ -808,6 +1288,12 @@
             "state" : "translated",
             "value" : "Kombucha lives in the menu bar"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha lebt in der Menüleiste"
+          }
         }
       }
     },
@@ -817,6 +1303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha protects the battery only while it is running."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha schützt den Akku nur, solange es läuft."
           }
         }
       }
@@ -828,6 +1320,12 @@
             "state" : "translated",
             "value" : "Kombucha records while your Mac is awake."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha zeichnet auf, solange dein Mac aktiv ist."
+          }
         }
       }
     },
@@ -837,6 +1335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha uses the new language after it restarts."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha verwendet die neue Sprache nach dem Neustart."
           }
         }
       }
@@ -848,12 +1352,24 @@
             "state" : "translated",
             "value" : "Kombucha will not change charging on this Mac."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha ändert das Laden auf diesem Mac nicht."
+          }
         }
       }
     },
     "Kombucha, %@" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %@"
+          }
+        },
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha, %@"
@@ -868,6 +1384,12 @@
             "state" : "translated",
             "value" : "Kombucha, %1$lld%%, %2$@"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %1$lld %%, %2$@"
+          }
         }
       }
     },
@@ -877,6 +1399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Language"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprache"
           }
         }
       }
@@ -888,6 +1416,12 @@
             "state" : "translated",
             "value" : "Launch at Login"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Anmelden öffnen"
+          }
         }
       }
     },
@@ -897,6 +1431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Level"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladestand"
           }
         }
       }
@@ -908,6 +1448,12 @@
             "state" : "translated",
             "value" : "License: MIT License"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lizenz: MIT-Lizenz"
+          }
         }
       }
     },
@@ -917,6 +1463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maximum Capacity"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximale Kapazität"
           }
         }
       }
@@ -928,6 +1480,12 @@
             "state" : "translated",
             "value" : "Maximum capacity is now %1$lld%%, down from %2$lld%%."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die maximale Kapazität beträgt jetzt %1$lld %% (vorher %2$lld %%)."
+          }
         }
       }
     },
@@ -937,6 +1495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Measuring…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird gemessen …"
           }
         }
       }
@@ -948,6 +1512,12 @@
             "state" : "translated",
             "value" : "Mode"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modus"
+          }
         }
       }
     },
@@ -957,6 +1527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No data"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Daten"
           }
         }
       }
@@ -968,12 +1544,24 @@
             "state" : "translated",
             "value" : "No history yet. Kombucha records the battery while it runs."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch kein Verlauf. Kombucha zeichnet den Akku auf, solange es läuft."
+          }
         }
       }
     },
     "Normal" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Normal"
@@ -988,6 +1576,12 @@
             "state" : "translated",
             "value" : "Not enough days recorded yet."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch nicht genug Tage aufgezeichnet."
+          }
         }
       }
     },
@@ -997,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing is holding the charge limit, so this Mac is charging the way it did before Kombucha. Installing the helper again puts the limit back."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nichts hält das Ladelimit, daher lädt dieser Mac so wie vor Kombucha. Wird das Hilfsprogramm erneut installiert, gilt das Limit wieder."
           }
         }
       }
@@ -1008,6 +1608,12 @@
             "state" : "translated",
             "value" : "Nothing is using noticeable power."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nichts verbraucht spürbar Energie."
+          }
         }
       }
     },
@@ -1017,6 +1623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing recorded in the last %lld days"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In den letzten %lld Tagen wurde nichts aufgezeichnet"
           }
         }
       }
@@ -1028,6 +1640,12 @@
             "state" : "translated",
             "value" : "Notifications"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen"
+          }
         }
       }
     },
@@ -1037,6 +1655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notifications for Kombucha are turned off in System Settings."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungen für Kombucha sind in den Systemeinstellungen ausgeschaltet."
           }
         }
       }
@@ -1048,6 +1672,12 @@
             "state" : "translated",
             "value" : "On battery"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkubetrieb"
+          }
         }
       }
     },
@@ -1057,6 +1687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "On battery: protection resumes on AC"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkubetrieb: Schutz wird am Netzteil fortgesetzt"
           }
         }
       }
@@ -1068,6 +1704,12 @@
             "state" : "translated",
             "value" : "One-time full charge. Kombucha goes back to your %1$lld–%2$lld%% range at 100%%, or as soon as you unplug."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einmalige volle Ladung. Bei 100 %% oder sobald du das Netzteil abziehst, kehrt Kombucha zu deinem Bereich von %1$lld–%2$lld %% zurück."
+          }
         }
       }
     },
@@ -1077,6 +1719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open Login Items"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anmeldeobjekte öffnen"
           }
         }
       }
@@ -1088,6 +1736,12 @@
             "state" : "translated",
             "value" : "Open Notification Settings"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitteilungseinstellungen öffnen"
+          }
         }
       }
     },
@@ -1097,6 +1751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open the release page to download it."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffne die Release-Seite, um es herunterzuladen."
           }
         }
       }
@@ -1108,6 +1768,12 @@
             "state" : "translated",
             "value" : "Peak %@"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spitze %@"
+          }
         }
       }
     },
@@ -1117,6 +1783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plug in the adapter to charge to 100%."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließe das Netzteil an, um auf 100 % zu laden."
           }
         }
       }
@@ -1128,6 +1800,12 @@
             "state" : "translated",
             "value" : "Power"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leistung"
+          }
         }
       }
     },
@@ -1137,6 +1815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Protected"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geschützt"
           }
         }
       }
@@ -1148,6 +1832,12 @@
             "state" : "translated",
             "value" : "Protected: Battery resting %1$lld%% – %2$lld%%"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geschützt: Akku-Ruhe %1$lld %% – %2$lld %%"
+          }
         }
       }
     },
@@ -1157,6 +1847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Protection off"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schutz aus"
           }
         }
       }
@@ -1168,6 +1864,12 @@
             "state" : "translated",
             "value" : "Protection off: charging to 100%"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schutz aus: Laden auf 100 %"
+          }
         }
       }
     },
@@ -1177,6 +1879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quit Kombucha"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha beenden"
           }
         }
       }
@@ -1188,6 +1896,12 @@
             "state" : "translated",
             "value" : "Rather than guess which state this resembles, Kombucha will not claim your battery is protected. Login Items & Extensions shows what macOS has on record."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statt zu raten, welchem Zustand dies entspricht, behauptet Kombucha nicht, dein Akku sei geschützt. Unter „Anmeldeobjekte & Erweiterungen“ siehst du, was macOS gespeichert hat."
+          }
         }
       }
     },
@@ -1197,6 +1911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird gelesen …"
           }
         }
       }
@@ -1208,6 +1928,12 @@
             "state" : "translated",
             "value" : "Reinstall helper"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfsprogramm erneut installieren"
+          }
         }
       }
     },
@@ -1217,6 +1943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove helper"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfsprogramm entfernen"
           }
         }
       }
@@ -1228,6 +1960,12 @@
             "state" : "translated",
             "value" : "Removing the helper hands the charger back to macOS. The charge limit stops until it is installed again."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Entfernen des Hilfsprogramms gibt Kombucha die Ladesteuerung an macOS zurück. Das Ladelimit gilt dann nicht mehr, bis es erneut installiert wird."
+          }
         }
       }
     },
@@ -1237,6 +1975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Report an Issue"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Problem melden"
           }
         }
       }
@@ -1248,6 +1992,12 @@
             "state" : "translated",
             "value" : "Restart Kombucha"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha neu starten"
+          }
         }
       }
     },
@@ -1257,6 +2007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resume charging at"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden fortsetzen bei"
           }
         }
       }
@@ -1268,6 +2024,12 @@
             "state" : "translated",
             "value" : "Running on the battery. Protection resumes when you plug the adapter back in."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dein Mac läuft im Akkubetrieb. Der Schutz wird fortgesetzt, sobald du das Netzteil wieder anschließt."
+          }
         }
       }
     },
@@ -1277,6 +2039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Running — the charge limit is being held"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läuft – das Ladelimit wird gehalten"
           }
         }
       }
@@ -1288,6 +2056,12 @@
             "state" : "translated",
             "value" : "Service recommended"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wartung empfohlen"
+          }
         }
       }
     },
@@ -1297,6 +2071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Set Battery Protection"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akkuschutz festlegen"
           }
         }
       }
@@ -1308,6 +2088,12 @@
             "state" : "translated",
             "value" : "Set Charge Limit"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladelimit festlegen"
+          }
         }
       }
     },
@@ -1317,6 +2103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings…"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen…"
           }
         }
       }
@@ -1328,6 +2120,12 @@
             "state" : "translated",
             "value" : "Show Welcome Window"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Willkommensfenster anzeigen"
+          }
         }
       }
     },
@@ -1337,6 +2135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show percentage in menu bar"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prozentanzeige in der Menüleiste"
           }
         }
       }
@@ -1348,6 +2152,12 @@
             "state" : "translated",
             "value" : "Source Code"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quellcode"
+          }
         }
       }
     },
@@ -1357,6 +2167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start Full Charge"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volle Ladung starten"
           }
         }
       }
@@ -1368,6 +2184,12 @@
             "state" : "translated",
             "value" : "Start helper again"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfsprogramm erneut starten"
+          }
         }
       }
     },
@@ -1377,6 +2199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop Discharging"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entladen beenden"
           }
         }
       }
@@ -1388,6 +2216,12 @@
             "state" : "translated",
             "value" : "Stop Full Charge"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volle Ladung beenden"
+          }
         }
       }
     },
@@ -1397,6 +2231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop charging at"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden beenden bei"
           }
         }
       }
@@ -1408,12 +2248,24 @@
             "state" : "translated",
             "value" : "Stop the full charge"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volle Ladung beenden"
+          }
         }
       }
     },
     "System" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
+          }
+        },
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "System"
@@ -1428,6 +2280,12 @@
             "state" : "translated",
             "value" : "System default"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Systemstandard"
+          }
         }
       }
     },
@@ -1437,6 +2295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Temperature"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperatur"
           }
         }
       }
@@ -1448,6 +2312,12 @@
             "state" : "translated",
             "value" : "That did not reach the charger, so nothing was changed."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das hat die Ladesteuerung nicht erreicht, daher wurde nichts geändert."
+          }
         }
       }
     },
@@ -1457,6 +2327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The SMC is here but would not answer, so charging cannot be held safely."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der SMC ist vorhanden, antwortet aber nicht. Das Ladelimit kann daher nicht sicher gehalten werden."
           }
         }
       }
@@ -1468,6 +2344,12 @@
             "state" : "translated",
             "value" : "The adapter can't keep up, so the battery covers the rest."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Netzteil reicht nicht aus, daher deckt der Akku den Rest."
+          }
         }
       }
     },
@@ -1477,6 +2359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The adapter stays connected but is switched off until the battery reaches %lld%%. Kombucha switches it back on then, before your Mac sleeps, or when you quit."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Netzteil bleibt angeschlossen, wird aber ausgeschaltet, bis der Akku %lld %% erreicht. Dann schaltet Kombucha es wieder ein, ebenso bevor dein Mac in den Ruhezustand geht oder wenn du Kombucha beendest."
           }
         }
       }
@@ -1488,6 +2376,12 @@
             "state" : "translated",
             "value" : "The battery has stayed at %@ or above for 5 minutes."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Akku lag 5 Minuten lang bei %@ oder darüber."
+          }
         }
       }
     },
@@ -1497,6 +2391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The battery is at %1$lld °C or more, so Kombucha holds the charge. It continues at %2$lld °C or less."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Akku hat %1$lld °C oder mehr, daher pausiert Kombucha das Laden. Bei %2$lld °C oder weniger geht es weiter."
           }
         }
       }
@@ -1508,6 +2408,12 @@
             "state" : "translated",
             "value" : "The battery is still charging above your %lld%% limit."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Akku lädt weiter über dein Limit von %lld %% hinaus."
+          }
         }
       }
     },
@@ -1517,6 +2423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The helper is installed and macOS will not start it until you allow it under Login Items & Extensions. Kombucha cannot grant that for you."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Hilfsprogramm ist installiert, doch macOS startet es erst, wenn du es unter „Anmeldeobjekte & Erweiterungen“ erlaubst. Das kann Kombucha nicht für dich tun."
           }
         }
       }
@@ -1528,6 +2440,12 @@
             "state" : "translated",
             "value" : "The helper stopped answering"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Hilfsprogramm antwortet nicht mehr"
+          }
         }
       }
     },
@@ -1537,6 +2455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The helper was removed"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Hilfsprogramm wurde entfernt"
           }
         }
       }
@@ -1548,6 +2472,12 @@
             "state" : "translated",
             "value" : "This Mac has no battery to protect."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Mac hat keinen Akku, den man schützen könnte."
+          }
         }
       }
     },
@@ -1557,6 +2487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This Mac isn't supported"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Mac wird nicht unterstützt"
           }
         }
       }
@@ -1568,6 +2504,12 @@
             "state" : "translated",
             "value" : "This Mac published no battery reading."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Mac liefert keinen Akkuwert."
+          }
         }
       }
     },
@@ -1577,6 +2519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This Mac publishes no SMC service — a virtual machine has no battery to protect."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Mac stellt keinen SMC-Dienst bereit – eine virtuelle Maschine hat keinen Akku, den man schützen könnte."
           }
         }
       }
@@ -1588,6 +2536,12 @@
             "state" : "translated",
             "value" : "This Mac or this macOS version has no charge-inhibit key, so charging cannot be held at a threshold."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Mac oder diese macOS-Version hat keinen Schlüssel zum Sperren des Ladens, daher kann das Laden nicht bei einem Grenzwert gehalten werden."
+          }
         }
       }
     },
@@ -1597,6 +2551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time range"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeitraum"
           }
         }
       }
@@ -1608,6 +2568,12 @@
             "state" : "translated",
             "value" : "Topping the battery back up to %lld%%, then it will run straight off the adapter again."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Akku wird wieder auf %lld %% aufgefüllt, danach läuft der Mac wieder direkt über das Netzteil."
+          }
         }
       }
     },
@@ -1618,12 +2584,24 @@
             "state" : "translated",
             "value" : "Two apps writing the same charge limit have no arbiter — whichever wrote last wins, and neither can tell you which. Kombucha has let go of the charger and will not touch it while %@ is running. Quit it and the controls come back, with no restart."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwei Apps, die dasselbe Ladelimit schreiben, haben keine Instanz, die entscheidet – wer zuletzt schreibt, gewinnt, und keine der beiden kann dir sagen, welche das war. Kombucha hat die Ladesteuerung losgelassen und rührt sie nicht an, solange %@ läuft. Beende die App, dann sind die Bedienelemente ohne Neustart wieder da."
+          }
         }
       }
     },
     "Updates" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updates"
+          }
+        },
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Updates"
@@ -1638,12 +2616,24 @@
             "state" : "translated",
             "value" : "Using the most energy"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Höchster Energieverbrauch"
+          }
         }
       }
     },
     "Version %@" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@"
+          }
+        },
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Version %@"
@@ -1658,6 +2648,12 @@
             "state" : "translated",
             "value" : "View Release"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Release ansehen"
+          }
         }
       }
     },
@@ -1667,6 +2663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voltage"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spannung"
           }
         }
       }
@@ -1678,6 +2680,12 @@
             "state" : "translated",
             "value" : "Welcome to Kombucha"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Willkommen bei Kombucha"
+          }
         }
       }
     },
@@ -1687,6 +2695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When a full charge finishes"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn eine volle Ladung abgeschlossen ist"
           }
         }
       }
@@ -1698,6 +2712,12 @@
             "state" : "translated",
             "value" : "When protection stops or resumes"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn der Schutz stoppt oder fortgesetzt wird"
+          }
         }
       }
     },
@@ -1707,6 +2727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "When the battery needs attention"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn der Akku Aufmerksamkeit braucht"
           }
         }
       }
@@ -1718,6 +2744,12 @@
             "state" : "translated",
             "value" : "Your Mac is running straight from the adapter — nothing is wrong with the charger. The battery rests until it reaches %lld%%."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dein Mac läuft direkt über das Netzteil – an der Ladesteuerung ist nichts defekt. Der Akku ruht, bis er %lld %% erreicht."
+          }
         }
       }
     },
@@ -1727,6 +2759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS answered something this build does not know"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS hat etwas geantwortet, das diese Version nicht kennt"
           }
         }
       }
@@ -1738,6 +2776,12 @@
             "state" : "translated",
             "value" : "macOS did not install the helper, so nothing is holding the charge limit."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS hat das Hilfsprogramm nicht installiert, daher hält nichts das Ladelimit."
+          }
         }
       }
     },
@@ -1747,6 +2791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS did not remove the helper, so it is still installed and running."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS hat das Hilfsprogramm nicht entfernt, es ist weiterhin installiert und läuft."
           }
         }
       }
@@ -1758,6 +2808,12 @@
             "state" : "translated",
             "value" : "macOS is waiting for your approval"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS wartet auf deine Genehmigung"
+          }
         }
       }
     },
@@ -1767,6 +2823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS says the helper is installed and allowed, and nothing answers it — so the charge limit is not being held. Kombucha has already tried to start it again; this tries once more."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laut macOS ist das Hilfsprogramm installiert und erlaubt, aber nichts antwortet – das Ladelimit wird also nicht gehalten. Kombucha hat bereits versucht, es neu zu starten; dies versucht es noch einmal."
           }
         }
       }
@@ -1778,12 +2840,24 @@
             "state" : "translated",
             "value" : "macOS will not confirm Kombucha as a login item while something for it is switched off under Login Items & Extensions. Turning it back on is something only you can do, there."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS bestätigt Kombucha nicht als Anmeldeobjekt, solange unter „Anmeldeobjekte & Erweiterungen“ etwas dafür ausgeschaltet ist. Nur du kannst es dort wieder einschalten."
+          }
         }
       }
     },
     "—" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
+          }
+        },
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "—"

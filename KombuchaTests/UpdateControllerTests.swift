@@ -21,7 +21,7 @@ private final class Outside {
 }
 
 @MainActor
-private func controller(_ fetcher: FakeReleaseFetcher = FakeReleaseFetcher([.success("v0.1.0")]),
+private func controller(_ fetcher: any ReleaseFetching = FakeReleaseFetcher([.success("v0.1.0")]),
                         store: FakeUpdateState = FakeUpdateState(),
                         running: AppVersion? = current,
                         clock: Clock = Clock(),
@@ -118,6 +118,35 @@ private let offline: Result<String, any Error> = .failure(URLError(.notConnected
     await controller.checkNow()
     #expect(controller.state == .failed)
     #expect(fetcher.calls == 0)
+}
+
+@MainActor
+@Test func aRunningVersionThatCannotBeReadShowsFailedWhenTheDailySwitchGoesOn() async {
+    let fetcher = FakeReleaseFetcher([.success("v0.2.0")])
+    let controller = controller(fetcher, running: nil)
+    await controller.setDailyCheck(true)
+    #expect(controller.state == .failed)
+    #expect(fetcher.calls == 0)
+}
+
+@MainActor
+private final class Holder {
+    var controller: UpdateController?
+}
+
+@MainActor
+@Test func aSwitchTurnedOffWhileACheckRunsDoesNotAnnounce() async {
+    let holder = Holder()
+    let outside = Outside()
+    let store = FakeUpdateState(daily: true)
+    let fetcher = HookedReleaseFetcher(.success("v0.2.0")) { await holder.controller?.setDailyCheck(false) }
+    let controller = controller(fetcher, store: store, outside: outside)
+    holder.controller = controller
+    await controller.start()
+    #expect(controller.state == .available(AppVersion(0, 2, 0)))
+    #expect(outside.announced.isEmpty)
+    #expect(store.updateAnnouncedVersion == nil)
+    #expect(!controller.wakeIsScheduled)
 }
 
 @MainActor

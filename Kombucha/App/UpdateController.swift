@@ -104,7 +104,9 @@ final class UpdateController {
         defer { inFlight = false }
         store.setUpdateLastCheck(now())
         guard let checker, let running else {
-            if !automatic { state = .failed }
+            // An unreadable bundle version does not heal by itself, so even an automatic check shows the failure.
+            AppLog.update.error("the running version cannot be read, so no update check was made")
+            state = .failed
             return
         }
         let before = state
@@ -122,7 +124,9 @@ final class UpdateController {
             store.setUpdateLatestVersion(found)
             newerVersion = found
             state = .available(found)
-            if UpdateSchedule.shouldAnnounce(found: found, running: running, lastAnnounced: store.updateAnnouncedVersion) {
+            // A switch turned off while the request ran silences the notice and leaves the version unannounced.
+            let switchedOff = automatic && !dailyCheck
+            if !switchedOff, UpdateSchedule.shouldAnnounce(found: found, running: running, lastAnnounced: store.updateAnnouncedVersion) {
                 // A manual find counts as announced without a notification: the user is looking at it.
                 if automatic { announce(found) }
                 store.setUpdateAnnouncedVersion(found)

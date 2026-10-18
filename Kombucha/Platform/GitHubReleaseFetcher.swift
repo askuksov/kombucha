@@ -28,6 +28,7 @@ struct GitHubReleaseFetcher: ReleaseFetching {
         configuration.httpShouldSetCookies = false
         configuration.requestCachePolicy = .reloadIgnoringLocalCacheData
         configuration.timeoutIntervalForRequest = 10
+        configuration.timeoutIntervalForResource = 30
         return URLSession(configuration: configuration)
     }
 
@@ -61,8 +62,25 @@ struct GitHubReleaseFetcher: ReleaseFetching {
     }
 
     func latestTag() async throws -> String {
-        let (data, response) = try await session.data(for: Self.request())
+        do {
+            return try await readTag()
+        } catch {
+            AppLog.update.error("the update check failed: \(String(describing: error), privacy: .public)")
+            throw error
+        }
+    }
+
+    /// Reads the body as it arrives and stops at `maximumBody`, so a huge answer is never held whole.
+    private func readTag() async throws -> String {
+        let (bytes, response) = try await session.bytes(for: Self.request())
         guard let http = response as? HTTPURLResponse else { throw Failure.badBody }
-        return try Self.tag(status: http.statusCode, body: data)
+        guard http.statusCode == 200 else { throw Failure.status(http.statusCode) }
+        guard http.expectedContentLength <= Int64(Self.maximumBody) else { throw Failure.tooLarge }
+        var body = Data()
+        for try await byte in bytes {
+            body.append(byte)
+            if body.count > Self.maximumBody { throw Failure.tooLarge }
+        }
+        return try Self.tag(status: http.statusCode, body: body)
     }
 }

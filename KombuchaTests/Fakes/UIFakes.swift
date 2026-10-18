@@ -134,6 +134,22 @@ final class FakeReleaseFetcher: ReleaseFetching, Sendable {
     }
 }
 
+/// Answers one result, but runs a hook first, while the request is still in flight.
+final class HookedReleaseFetcher: ReleaseFetching, Sendable {
+    private let result: Result<String, any Error>
+    private let whileWaiting: @Sendable () async -> Void
+
+    init(_ result: Result<String, any Error>, whileWaiting: @escaping @Sendable () async -> Void) {
+        self.result = result
+        self.whileWaiting = whileWaiting
+    }
+
+    func latestTag() async throws -> String {
+        await whileWaiting()
+        return try result.get()
+    }
+}
+
 final class FakeRestarter: Restarting, Sendable {
     private let count = Mutex(0)
 

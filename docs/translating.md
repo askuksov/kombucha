@@ -24,7 +24,8 @@ order, number them: English `%@ of %@` can become `%2$@ von %1$@`. A literal per
 ## 3. Plurals
 
 A string with a count uses the catalog's "Vary by Plural". Give every plural category your language needs (German
-has `one` and `other`; Ukrainian also has `few` and `many`). The catalog test fails if one form is empty.
+has `one` and `other`; French and Spanish also have `many`; Ukrainian has `few` and `many`). The catalog test
+fails if one form is empty.
 
 ## 4. What not to translate
 

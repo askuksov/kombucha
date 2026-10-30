@@ -20,6 +20,18 @@
             "state" : "translated",
             "value" : "%@ В"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ V"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ V"
+          }
         }
       }
     },
@@ -41,6 +53,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ Вт"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W"
           }
         }
       }
@@ -64,6 +88,18 @@
             "state" : "translated",
             "value" : "%@ працює"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ est en cours d’exécution"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ está en ejecución"
+          }
         }
       }
     },
@@ -82,6 +118,18 @@
           }
         },
         "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ °C"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ °C"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ °C"
@@ -108,6 +156,18 @@
             "state" : "translated",
             "value" : "%lld дн."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld j"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
         }
       }
     },
@@ -130,6 +190,18 @@
             "state" : "translated",
             "value" : "%lld год"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld h"
+          }
         }
       }
     },
@@ -151,6 +223,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld хв"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
           }
         }
       }
@@ -198,6 +282,18 @@
               }
             }
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pour cent"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld por ciento"
+          }
         }
       }
     },
@@ -216,6 +312,18 @@
           }
         },
         "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld %%"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld %%"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld %%"
@@ -242,6 +350,18 @@
             "state" : "translated",
             "value" : "%1$lld–%2$lld %%"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld–%2$lld %%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld–%2$lld %%"
+          }
         }
       }
     },
@@ -263,6 +383,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 днів"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 jours"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 días"
           }
         }
       }
@@ -286,6 +418,18 @@
             "state" : "translated",
             "value" : "7 днів"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 jours"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 días"
+          }
         }
       }
     },
@@ -307,6 +451,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Про програму"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À propos"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acerca de"
           }
         }
       }
@@ -330,6 +486,18 @@
             "state" : "translated",
             "value" : "Адаптер живлення"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adaptateur"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adaptador"
+          }
         }
       }
     },
@@ -351,6 +519,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дозволити сповіщення"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autoriser les notifications"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permitir notificaciones"
           }
         }
       }
@@ -374,6 +554,18 @@
             "state" : "translated",
             "value" : "Програми, які ви запускаєте. Системні процеси не показано."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les apps que vous utilisez. Les processus système ne sont pas affichés."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las apps que usas. No se muestran los procesos del sistema."
+          }
         }
       }
     },
@@ -395,6 +587,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Акумулятор"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batterie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batería"
           }
         }
       }
@@ -418,6 +622,18 @@
             "state" : "translated",
             "value" : "Здоров’я акумулятора"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "État de la batterie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado de la batería"
+          }
         }
       }
     },
@@ -439,6 +655,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Захист акумулятора"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protection de la batterie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protección de la batería"
           }
         }
       }
@@ -462,6 +690,18 @@
             "state" : "translated",
             "value" : "Відпочинок акумулятора"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repos de la batterie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reposo de la batería"
+          }
         }
       }
     },
@@ -483,6 +723,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Відпочинок акумулятора: %1$@ з %2$@ записано"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repos de la batterie : %1$@ sur %2$@ enregistrés"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reposo de la batería: %1$@ de %2$@ registrado"
           }
         }
       }
@@ -506,6 +758,18 @@
             "state" : "translated",
             "value" : "Відпочинок акумулятора: ваш Mac працює безпосередньо від адаптера, і струм через елемент не тече."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repos de la batterie : votre Mac fonctionne directement sur l’adaptateur et aucun courant ne traverse la cellule."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reposo de la batería: tu Mac funciona directamente con el adaptador y no pasa corriente por la celda."
+          }
         }
       }
     },
@@ -527,6 +791,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Статус акумулятора"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "État de la batterie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado de la batería"
           }
         }
       }
@@ -550,6 +826,18 @@
             "state" : "translated",
             "value" : "Акумулятор: %1$lld %%"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batterie à %1$lld %%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batería al %1$lld %%"
+          }
         }
       }
     },
@@ -571,6 +859,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Акумулятор: %1$lld %%. %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batterie à %1$lld %%. %2$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batería al %1$lld %%. %2$@"
           }
         }
       }
@@ -594,6 +894,18 @@
             "state" : "translated",
             "value" : "Місткість акумулятора зменшилась"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La capacité de la batterie a diminué"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La capacidad de la batería ha bajado"
+          }
         }
       }
     },
@@ -615,6 +927,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обмеження заряду акумулятора для macOS"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limitation de la charge de la batterie pour macOS"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Límite de carga de la batería para macOS"
           }
         }
       }
@@ -638,6 +962,18 @@
             "state" : "translated",
             "value" : "Акумулятор нагрівся"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La batterie est chaude"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La batería está caliente"
+          }
         }
       }
     },
@@ -659,6 +995,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Захист акумулятора відновлено"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protection de la batterie rétablie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protección de la batería reanudada"
           }
         }
       }
@@ -682,6 +1030,18 @@
             "state" : "translated",
             "value" : "Захист акумулятора зупинено"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protection de la batterie arrêtée"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protección de la batería detenida"
+          }
         }
       }
     },
@@ -703,6 +1063,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Між вашими двома межами акумулятор відпочиває: ваш Mac працює безпосередньо від адаптера, і струм через елемент не тече."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entre vos deux seuils, la batterie se repose : votre Mac fonctionne directement sur l’adaptateur et aucun courant ne traverse la cellule."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entre tus dos límites la batería reposa: tu Mac funciona directamente con el adaptador y no pasa corriente por la celda."
           }
         }
       }
@@ -726,6 +1098,18 @@
             "state" : "translated",
             "value" : "Допоміжна програма заряджання"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Outil de charge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herramienta de carga"
+          }
         }
       }
     },
@@ -747,6 +1131,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ліміт заряду"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limite de charge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Límite de carga"
           }
         }
       }
@@ -770,6 +1166,18 @@
             "state" : "translated",
             "value" : "Рівень заряду"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niveau de charge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nivel de carga"
+          }
         }
       }
     },
@@ -791,6 +1199,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ліміт заряду не втримується"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La limite de charge n’est pas respectée"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El límite de carga no se mantiene"
           }
         }
       }
@@ -814,6 +1234,18 @@
             "state" : "translated",
             "value" : "Одноразово зарядити до 100 %"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charger une fois à 100 %"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargar al 100 % una vez"
+          }
         }
       }
     },
@@ -835,6 +1267,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заряджання"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En charge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando"
           }
         }
       }
@@ -858,6 +1302,18 @@
             "state" : "translated",
             "value" : "Заряджання до 100 %. Поки адаптер підключено, акумулятор лишається під повною напругою."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge jusqu’à 100 %. Branchée, la batterie reste à pleine tension."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se carga hasta el 100 %. Mientras está conectada, la batería permanece a plena tensión."
+          }
         }
       }
     },
@@ -879,6 +1335,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заряджання призупинено"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge en pause"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga en pausa"
           }
         }
       }
@@ -902,6 +1370,18 @@
             "state" : "translated",
             "value" : "Заряджання призупинено: акумулятор нагрівся"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge en pause : la batterie est chaude"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga en pausa: la batería está caliente"
+          }
         }
       }
     },
@@ -923,6 +1403,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заряджання до 100 %"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge à 100 %"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando al 100 %"
           }
         }
       }
@@ -946,6 +1438,18 @@
             "state" : "translated",
             "value" : "Заряджання до 100 %: скасується після відключення"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge à 100 % : prend fin au débranchement"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando al 100 %: termina al desconectar"
+          }
         }
       }
     },
@@ -967,6 +1471,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заряджання: дозарядка до %lld %%"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En charge : complément jusqu’à %lld %%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando: completando hasta el %lld %%"
           }
         }
       }
@@ -990,6 +1506,18 @@
             "state" : "translated",
             "value" : "Перевірити оновлення"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des mises à jour"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar actualizaciones"
+          }
         }
       }
     },
@@ -1011,6 +1539,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Щодня перевіряти оновлення"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rechercher des mises à jour chaque jour"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar actualizaciones a diario"
           }
         }
       }
@@ -1034,6 +1574,18 @@
             "state" : "translated",
             "value" : "Перевірка…"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vérification…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comprobando…"
+          }
         }
       }
     },
@@ -1055,6 +1607,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Натисніть значок акумулятора Kombucha вгорі екрана, щоб побачити рівень заряду та задати ліміт."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cliquez sur son symbole de batterie en haut de l’écran pour voir le niveau de charge et régler la limite."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haz clic en su símbolo de batería, en la parte superior de la pantalla, para ver el nivel de carga y fijar el límite."
           }
         }
       }
@@ -1078,6 +1642,18 @@
             "state" : "translated",
             "value" : "Закрити"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
         }
       }
     },
@@ -1099,6 +1675,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Стан"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "État"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado"
           }
         }
       }
@@ -1122,6 +1710,18 @@
             "state" : "translated",
             "value" : "Не вдалося перевірити оновлення."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La recherche de mises à jour a échoué."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo buscar actualizaciones."
+          }
         }
       }
     },
@@ -1143,6 +1743,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поточний ліміт: %1$lld–%2$lld %%"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limite actuelle : %1$lld–%2$lld %%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Límite actual: %1$lld–%2$lld %%"
           }
         }
       }
@@ -1166,6 +1778,18 @@
             "state" : "translated",
             "value" : "Кількість циклів"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre de cycles"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciclos de carga"
+          }
         }
       }
     },
@@ -1187,6 +1811,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Розрядити до %lld %%"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Décharger jusqu’à %lld %%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargar hasta el %lld %%"
           }
         }
       }
@@ -1210,6 +1846,18 @@
             "state" : "translated",
             "value" : "Розряджання"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En décharge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargando"
+          }
         }
       }
     },
@@ -1231,6 +1879,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Розряджання: робота від акумулятора до %lld %%"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En décharge : sur batterie jusqu’à %lld %%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descargando: con batería hasta el %lld %%"
           }
         }
       }
@@ -1254,6 +1914,18 @@
             "state" : "translated",
             "value" : "Документація"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documentation"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documentación"
+          }
         }
       }
     },
@@ -1275,6 +1947,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Готово"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hecho"
           }
         }
       }
@@ -1298,6 +1982,18 @@
             "state" : "translated",
             "value" : "Повний заряд"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge complète"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga completa"
+          }
         }
       }
     },
@@ -1319,6 +2015,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Повністю заряджено"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Complètement chargée"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga completa"
           }
         }
       }
@@ -1342,6 +2050,18 @@
             "state" : "translated",
             "value" : "Загальні"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Général"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
+          }
         }
       }
     },
@@ -1363,6 +2083,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отримати статус акумулятора"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtenir l’état de la batterie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtener estado de la batería"
           }
         }
       }
@@ -1386,6 +2118,18 @@
             "state" : "translated",
             "value" : "Допоміжна програма"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Outil auxiliaire"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herramienta auxiliar"
+          }
         }
       }
     },
@@ -1407,6 +2151,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Історія"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historique"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historial"
           }
         }
       }
@@ -1430,6 +2186,18 @@
             "state" : "translated",
             "value" : "Щоб утримувати ліміт заряду, потрібна невелика допоміжна програма, що працює від імені root. Встановіть її один раз — macOS попросить дозволу, і більше нічого не зміниться."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour maintenir une limite de charge, il faut un petit outil auxiliaire exécuté en tant que root. Installez-le une seule fois : macOS vous demandera de l’autoriser, et rien d’autre ne change."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mantener un límite de carga requiere una pequeña herramienta auxiliar que se ejecuta como root. Instálala una sola vez: macOS te pedirá que la permitas y no cambia nada más."
+          }
         }
       }
     },
@@ -1451,6 +2219,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ліміт утримується"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limite maintenue"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manteniendo el límite"
           }
         }
       }
@@ -1474,6 +2254,18 @@
             "state" : "translated",
             "value" : "Наведіть курсор або перетягніть, щоб побачити деталі."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survolez ou faites glisser pour plus de détails."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasa el cursor o arrastra para ver los detalles."
+          }
         }
       }
     },
@@ -1495,6 +2287,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Встановити допоміжну програму"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer l’outil auxiliaire"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instalar herramienta auxiliar"
           }
         }
       }
@@ -1518,6 +2322,18 @@
             "state" : "translated",
             "value" : "Встановіть допоміжну програму заряджання"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installer l’outil de charge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instalar la herramienta de carga"
+          }
         }
       }
     },
@@ -1539,6 +2355,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Встановлено через Homebrew? Виконайте brew upgrade --cask kombucha."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installée avec Homebrew ? Exécutez brew upgrade --cask kombucha."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Instalada con Homebrew? Ejecuta brew upgrade --cask kombucha."
           }
         }
       }
@@ -1562,6 +2390,18 @@
             "state" : "translated",
             "value" : "Зберігається на цьому Mac 30 днів і ніколи його не залишає."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conservé 30 jours sur ce Mac. Rien n’en sort."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se guarda 30 días en este Mac y nunca sale de él."
+          }
         }
       }
     },
@@ -1583,6 +2423,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Доступна Kombucha %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ est disponible"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ está disponible"
           }
         }
       }
@@ -1606,6 +2458,18 @@
             "state" : "translated",
             "value" : "Доступна Kombucha %@."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ est disponible."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ está disponible."
+          }
         }
       }
     },
@@ -1627,6 +2491,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha раз на день звертається до GitHub, щоб знайти нову версію. Більше нічого не надсилається."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha contacte GitHub une fois par jour pour chercher une nouvelle version. Rien d’autre n’est envoyé."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha consulta GitHub una vez al día para buscar una versión nueva. No se envía nada más."
           }
         }
       }
@@ -1650,6 +2526,18 @@
             "state" : "translated",
             "value" : "Керування зарядкою не відповіло Kombucha. Відкрийте Kombucha у рядку меню ще раз, щоб побачити поточний стан."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le chargeur n’a pas répondu à Kombucha. Rouvrez le panneau pour voir où en sont les choses."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El cargador no respondió a Kombucha. Vuelve a abrir el panel para ver cómo está todo."
+          }
         }
       }
     },
@@ -1671,6 +2559,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "У Kombucha ще немає допоміжної програми"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha n’a pas encore d’outil auxiliaire"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha aún no tiene herramienta auxiliar"
           }
         }
       }
@@ -1694,6 +2594,18 @@
             "state" : "translated",
             "value" : "Kombucha ще не запитувала дозволу на сповіщення."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha n’a pas encore demandé l’autorisation d’envoyer des notifications."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha aún no ha pedido permiso para enviar notificaciones."
+          }
         }
       }
     },
@@ -1715,6 +2627,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha знову тримає ваш діапазон %1$lld–%2$lld %%."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha est revenu à votre plage de %1$lld–%2$lld %%."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha ha vuelto a tu rango del %1$lld–%2$lld %%."
           }
         }
       }
@@ -1738,6 +2662,18 @@
             "state" : "translated",
             "value" : "Kombucha знову утримує ваш ліміт заряду."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha maintient de nouveau votre limite de charge."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha vuelve a mantener tu límite de carga."
+          }
         }
       }
     },
@@ -1759,6 +2695,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha ще запускається. Спробуйте за мить."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha démarre encore. Réessayez dans un instant."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha aún se está iniciando. Inténtalo de nuevo en un momento."
           }
         }
       }
@@ -1782,6 +2730,18 @@
             "state" : "translated",
             "value" : "Kombucha має найновішу версію."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha est à jour."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha está al día."
+          }
         }
       }
     },
@@ -1803,6 +2763,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha живе в рядку меню"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha vit dans la barre des menus"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha vive en la barra de menús"
           }
         }
       }
@@ -1826,6 +2798,18 @@
             "state" : "translated",
             "value" : "Kombucha захищає акумулятор лише тоді, коли запущена."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha ne protège la batterie que lorsqu’il est en cours d’exécution."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha solo protege la batería mientras está en ejecución."
+          }
         }
       }
     },
@@ -1847,6 +2831,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha записує, поки ваш Mac не спить."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha enregistre tant que votre Mac est actif."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha registra mientras tu Mac está activo."
           }
         }
       }
@@ -1870,6 +2866,18 @@
             "state" : "translated",
             "value" : "Kombucha використає нову мову після перезапуску."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha utilisera la nouvelle langue après son redémarrage."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha usará el idioma nuevo después de reiniciarse."
+          }
         }
       }
     },
@@ -1892,6 +2900,18 @@
             "state" : "translated",
             "value" : "Kombucha не змінюватиме заряджання на цьому Mac."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha ne modifiera pas la charge sur ce Mac."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha no cambiará la carga en este Mac."
+          }
         }
       }
     },
@@ -1910,6 +2930,18 @@
           }
         },
         "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %@"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha, %@"
@@ -1936,6 +2968,18 @@
             "state" : "translated",
             "value" : "Kombucha, %1$lld %%, %2$@"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %1$lld %%, %2$@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %1$lld %%, %2$@"
+          }
         }
       }
     },
@@ -1957,6 +3001,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мова"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Langue"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idioma"
           }
         }
       }
@@ -1980,6 +3036,18 @@
             "state" : "translated",
             "value" : "Запускати під час входу"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir à la connexion"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir al iniciar sesión"
+          }
         }
       }
     },
@@ -2001,6 +3069,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Рівень"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niveau"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nivel"
           }
         }
       }
@@ -2024,6 +3104,18 @@
             "state" : "translated",
             "value" : "Ліцензія: MIT"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Licence : licence MIT"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Licencia: licencia MIT"
+          }
         }
       }
     },
@@ -2045,6 +3137,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Максимальна місткість"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capacité maximale"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capacidad máxima"
           }
         }
       }
@@ -2068,6 +3172,18 @@
             "state" : "translated",
             "value" : "Максимальна місткість тепер %1$lld %% (раніше %2$lld %%)."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La capacité maximale est maintenant de %1$lld %% (contre %2$lld %% auparavant)."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La capacidad máxima es ahora del %1$lld %% (antes %2$lld %%)."
+          }
         }
       }
     },
@@ -2089,6 +3205,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вимірювання…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mesure en cours…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midiendo…"
           }
         }
       }
@@ -2112,6 +3240,18 @@
             "state" : "translated",
             "value" : "Режим"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo"
+          }
         }
       }
     },
@@ -2133,6 +3273,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Немає даних"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune donnée"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin datos"
           }
         }
       }
@@ -2156,6 +3308,18 @@
             "state" : "translated",
             "value" : "Історії ще немає. Kombucha записує дані акумулятора, поки працює."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas encore d’historique. Kombucha enregistre la batterie tant qu’il est en cours d’exécution."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay historial. Kombucha registra la batería mientras se está ejecutando."
+          }
         }
       }
     },
@@ -2177,6 +3341,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нормальний"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
           }
         }
       }
@@ -2200,6 +3376,18 @@
             "state" : "translated",
             "value" : "Записано ще замало днів."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pas encore assez de jours enregistrés."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay suficientes días registrados."
+          }
         }
       }
     },
@@ -2222,6 +3410,18 @@
             "state" : "translated",
             "value" : "Ліміт заряду ніхто не утримує, тому цей Mac заряджається так само, як до Kombucha. Після повторного встановлення допоміжної програми ліміт повернеться."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rien ne maintient la limite de charge : ce Mac se charge comme avant Kombucha. Réinstaller l’outil auxiliaire rétablit la limite."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nada mantiene el límite de carga, así que este Mac se carga como antes de Kombucha. Si vuelves a instalar la herramienta auxiliar, el límite se restablece."
+          }
         }
       }
     },
@@ -2243,6 +3443,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ніщо помітно не споживає енергію."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rien ne consomme d’énergie de façon notable."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nada consume una cantidad notable de energía."
           }
         }
       }
@@ -2290,6 +3502,54 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Rien d’enregistré au cours du dernier jour"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Rien d’enregistré au cours des %lld derniers jours"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Rien d’enregistré au cours des %lld derniers jours"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Nada registrado en el último día"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Nada registrado en los últimos %lld días"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Nada registrado en los últimos %lld días"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -2311,6 +3571,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сповіщення"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificaciones"
           }
         }
       }
@@ -2334,6 +3606,18 @@
             "state" : "translated",
             "value" : "Сповіщення для Kombucha вимкнено в Системних параметрах."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les notifications de Kombucha sont désactivées dans les Réglages Système."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las notificaciones de Kombucha están desactivadas en Ajustes del Sistema."
+          }
         }
       }
     },
@@ -2355,6 +3639,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Від акумулятора"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sur batterie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con batería"
           }
         }
       }
@@ -2378,6 +3674,18 @@
             "state" : "translated",
             "value" : "Від акумулятора: захист відновиться від адаптера"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sur batterie : la protection reprend sur secteur"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con batería: la protección se reanuda con el adaptador"
+          }
         }
       }
     },
@@ -2399,6 +3707,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Одноразовий повний заряд. Після досягнення 100 %% або щойно ви відключите адаптер, Kombucha повернеться до вашого діапазону %1$lld–%2$lld %%."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charge complète ponctuelle. Kombucha revient à votre plage de %1$lld–%2$lld %% à 100 %%, ou dès que vous débranchez."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carga completa única. Kombucha vuelve a tu rango del %1$lld–%2$lld %% al llegar al 100 %%, o en cuanto desconectes."
           }
         }
       }
@@ -2422,6 +3742,18 @@
             "state" : "translated",
             "value" : "Відкрити елементи входу"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir les éléments de connexion"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir ítems de inicio de sesión"
+          }
         }
       }
     },
@@ -2443,6 +3775,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Відкрити параметри сповіщень"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrir les réglages de notification"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir ajustes de notificaciones"
           }
         }
       }
@@ -2466,6 +3810,18 @@
             "state" : "translated",
             "value" : "Відкрийте сторінку випуску, щоб завантажити оновлення."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvrez la page de la version pour la télécharger."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre la página de la versión para descargarla."
+          }
         }
       }
     },
@@ -2487,6 +3843,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пік %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pic : %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pico: %@"
           }
         }
       }
@@ -2510,6 +3878,18 @@
             "state" : "translated",
             "value" : "Підключіть адаптер, щоб зарядити до 100 %."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Branchez l’adaptateur pour charger jusqu’à 100 %."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conecta el adaptador para cargar hasta el 100 %."
+          }
         }
       }
     },
@@ -2531,6 +3911,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Потужність"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puissance"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potencia"
           }
         }
       }
@@ -2554,6 +3946,18 @@
             "state" : "translated",
             "value" : "Захищено"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protégée"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protegida"
+          }
         }
       }
     },
@@ -2575,6 +3979,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Захищено: відпочинок акумулятора %1$lld %% – %2$lld %%"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protégée : repos de la batterie %1$lld %% – %2$lld %%"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protegida: reposo de la batería %1$lld %% – %2$lld %%"
           }
         }
       }
@@ -2598,6 +4014,18 @@
             "state" : "translated",
             "value" : "Захист вимкнено"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protection désactivée"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protección desactivada"
+          }
         }
       }
     },
@@ -2619,6 +4047,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Захист вимкнено: заряджання до 100 %"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protection désactivée : charge à 100 %"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protección desactivada: cargando al 100 %"
           }
         }
       }
@@ -2642,6 +4082,18 @@
             "state" : "translated",
             "value" : "Вийти з Kombucha"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quitter Kombucha"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salir de Kombucha"
+          }
         }
       }
     },
@@ -2663,6 +4115,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Замість того, щоб гадати, якому стану це відповідає, Kombucha не стверджуватиме, що акумулятор захищено. У розділі «Елементи входу та розширення» видно, що macOS має в записах."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plutôt que de deviner à quel état cela correspond, Kombucha n’affirmera pas que votre batterie est protégée. « Éléments de connexion et extensions » indique ce que macOS a enregistré."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En lugar de adivinar a qué estado se parece, Kombucha no afirmará que tu batería está protegida. En «Ítems de inicio de sesión y extensiones» puedes ver lo que macOS tiene registrado."
           }
         }
       }
@@ -2686,6 +4150,18 @@
             "state" : "translated",
             "value" : "Читання…"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lecture…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leyendo…"
+          }
         }
       }
     },
@@ -2707,6 +4183,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Перевстановити"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réinstaller l’outil auxiliaire"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reinstalar herramienta auxiliar"
           }
         }
       }
@@ -2730,6 +4218,18 @@
             "state" : "translated",
             "value" : "Видалити програму"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer l’outil auxiliaire"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar herramienta auxiliar"
+          }
         }
       }
     },
@@ -2751,6 +4251,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Після видалення допоміжної програми керування зарядкою повертається macOS. Ліміт заряду не працюватиме, доки ви не встановите її знову."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer l’outil auxiliaire rend le chargeur à macOS. La limite de charge cesse de s’appliquer jusqu’à sa réinstallation."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al eliminar la herramienta auxiliar, el cargador vuelve a macOS. El límite de carga deja de aplicarse hasta que se instale de nuevo."
           }
         }
       }
@@ -2774,6 +4286,18 @@
             "state" : "translated",
             "value" : "Повідомити про проблему"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signaler un problème"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informar de un problema"
+          }
         }
       }
     },
@@ -2795,6 +4319,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Перезапустити Kombucha"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redémarrer Kombucha"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar Kombucha"
           }
         }
       }
@@ -2818,6 +4354,18 @@
             "state" : "translated",
             "value" : "Відновлювати заряджання на"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reprendre la charge à"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reanudar la carga en"
+          }
         }
       }
     },
@@ -2839,6 +4387,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ваш Mac працює від акумулятора. Захист відновиться, щойно ви знову підключите адаптер."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre Mac fonctionne sur batterie. La protection reprend dès que vous rebranchez l’adaptateur."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu Mac funciona con la batería. La protección se reanuda cuando vuelvas a conectar el adaptador."
           }
         }
       }
@@ -2862,6 +4422,18 @@
             "state" : "translated",
             "value" : "Працює — ліміт заряду утримується"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En cours — la limite de charge est maintenue"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En ejecución: el límite de carga se mantiene"
+          }
         }
       }
     },
@@ -2883,6 +4455,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Рекомендовано обслуговування"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entretien recommandé"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servicio recomendado"
           }
         }
       }
@@ -2906,6 +4490,18 @@
             "state" : "translated",
             "value" : "Налаштувати захист акумулятора"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Régler la protection de la batterie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustar la protección de la batería"
+          }
         }
       }
     },
@@ -2927,6 +4523,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Встановити ліміт заряду"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Régler la limite de charge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustar el límite de carga"
           }
         }
       }
@@ -2950,6 +4558,18 @@
             "state" : "translated",
             "value" : "Параметри…"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réglages…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes…"
+          }
         }
       }
     },
@@ -2971,6 +4591,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Показати вікно вітання"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher la fenêtre de bienvenue"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar ventana de bienvenida"
           }
         }
       }
@@ -2994,6 +4626,18 @@
             "state" : "translated",
             "value" : "Показувати відсотки в рядку меню"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afficher le pourcentage dans la barre des menus"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar porcentaje en la barra de menús"
+          }
         }
       }
     },
@@ -3015,6 +4659,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вихідний код"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Code source"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Código fuente"
           }
         }
       }
@@ -3038,6 +4694,18 @@
             "state" : "translated",
             "value" : "Почати повний заряд"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lancer la charge complète"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar carga completa"
+          }
         }
       }
     },
@@ -3059,6 +4727,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запустити знову"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relancer l’outil auxiliaire"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reiniciar herramienta auxiliar"
           }
         }
       }
@@ -3082,6 +4762,18 @@
             "state" : "translated",
             "value" : "Припинити розряджання"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêter la décharge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detener la descarga"
+          }
         }
       }
     },
@@ -3103,6 +4795,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Припинити повний заряд"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêter la charge complète"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detener la carga completa"
           }
         }
       }
@@ -3126,6 +4830,18 @@
             "state" : "translated",
             "value" : "Припиняти заряджання на"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêter la charge à"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detener la carga en"
+          }
         }
       }
     },
@@ -3147,6 +4863,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Припинити повний заряд"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêter la charge complète"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detener la carga completa"
           }
         }
       }
@@ -3170,6 +4898,18 @@
             "state" : "translated",
             "value" : "Система"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Système"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sistema"
+          }
         }
       }
     },
@@ -3191,6 +4931,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Як у системі"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Par défaut du système"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Predeterminado del sistema"
           }
         }
       }
@@ -3214,6 +4966,18 @@
             "state" : "translated",
             "value" : "Температура"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Température"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperatura"
+          }
         }
       }
     },
@@ -3235,6 +4999,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Команда не дійшла до керування зарядкою, тому нічого не змінено."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cela n’a pas atteint le chargeur, donc rien n’a été modifié."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eso no llegó al cargador, así que no se cambió nada."
           }
         }
       }
@@ -3258,6 +5034,18 @@
             "state" : "translated",
             "value" : "SMC присутній, але не відповідає, тому ліміт заряду не можна утримувати безпечно."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le SMC est présent mais ne répond pas : la charge ne peut pas être maintenue en toute sécurité."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El SMC está presente pero no responde, así que la carga no se puede mantener de forma segura."
+          }
         }
       }
     },
@@ -3279,6 +5067,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Адаптер не справляється, тому решту покриває акумулятор."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’adaptateur ne suffit pas, la batterie fournit le reste."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El adaptador no da abasto, así que la batería cubre el resto."
           }
         }
       }
@@ -3302,6 +5102,18 @@
             "state" : "translated",
             "value" : "Адаптер залишається підключеним, але вимкнений, доки акумулятор не досягне %lld %%. Тоді Kombucha вмикає його знову — так само перед сном Mac або коли ви виходите з Kombucha."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’adaptateur reste branché mais est coupé jusqu’à ce que la batterie atteigne %lld %%. Kombucha le rallume alors, avant la mise en veille de votre Mac, ou quand vous quittez l’app."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El adaptador sigue conectado pero se apaga hasta que la batería llegue al %lld %%. Kombucha lo vuelve a encender entonces, antes de que tu Mac entre en reposo o cuando salgas de la app."
+          }
         }
       }
     },
@@ -3323,6 +5135,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Акумулятор тримався на рівні %@ або вище 5 хвилин."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La batterie est restée à %@ ou plus pendant 5 minutes."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La batería ha estado en %@ o más durante 5 minutos."
           }
         }
       }
@@ -3346,6 +5170,18 @@
             "state" : "translated",
             "value" : "Акумулятор нагрівся до %1$lld °C або більше, тому Kombucha призупиняє заряджання. Воно продовжиться за %2$lld °C або менше."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La batterie est à %1$lld °C ou plus : Kombucha suspend la charge. Elle reprend à %2$lld °C ou moins."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La batería está a %1$lld °C o más, así que Kombucha detiene la carga. Continúa a %2$lld °C o menos."
+          }
         }
       }
     },
@@ -3367,6 +5203,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Акумулятор і далі заряджається вище за ваш ліміт %lld %%."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La batterie continue de charger au-delà de votre limite de %lld %%."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La batería sigue cargándose por encima de tu límite del %lld %%."
           }
         }
       }
@@ -3390,6 +5238,18 @@
             "state" : "translated",
             "value" : "Допоміжну програму встановлено, але macOS не запустить її, доки ви не дозволите це в розділі «Елементи входу та розширення». Kombucha не може зробити цього за вас."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’outil auxiliaire est installé, mais macOS ne le démarrera que si vous l’autorisez dans « Éléments de connexion et extensions ». Kombucha ne peut pas le faire à votre place."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La herramienta auxiliar está instalada y macOS no la iniciará hasta que la permitas en «Ítems de inicio de sesión y extensiones». Kombucha no puede hacerlo por ti."
+          }
         }
       }
     },
@@ -3411,6 +5271,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Допоміжна програма перестала відповідати"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’outil auxiliaire ne répond plus"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La herramienta auxiliar dejó de responder"
           }
         }
       }
@@ -3434,6 +5306,18 @@
             "state" : "translated",
             "value" : "Допоміжну програму видалено"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’outil auxiliaire a été supprimé"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se eliminó la herramienta auxiliar"
+          }
         }
       }
     },
@@ -3455,6 +5339,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "У цього Mac немає акумулятора, який потрібно захищати."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce Mac n’a pas de batterie à protéger."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este Mac no tiene batería que proteger."
           }
         }
       }
@@ -3478,6 +5374,18 @@
             "state" : "translated",
             "value" : "Цей Mac не підтримується"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce Mac n’est pas pris en charge"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este Mac no es compatible"
+          }
         }
       }
     },
@@ -3499,6 +5407,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цей Mac не надав показників акумулятора."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce Mac n’a fourni aucune mesure de batterie."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este Mac no ha publicado ninguna lectura de la batería."
           }
         }
       }
@@ -3522,6 +5442,18 @@
             "state" : "translated",
             "value" : "Цей Mac не надає служби SMC — у віртуальної машини немає акумулятора, який потрібно захищати."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce Mac ne fournit aucun service SMC — une machine virtuelle n’a pas de batterie à protéger."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este Mac no ofrece ningún servicio SMC: una máquina virtual no tiene batería que proteger."
+          }
         }
       }
     },
@@ -3543,6 +5475,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "У цього Mac або цієї версії macOS немає ключа блокування заряджання, тому заряджання не можна утримувати на певному порозі."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce Mac ou cette version de macOS n’a pas de clé d’inhibition de la charge : la charge ne peut pas être maintenue à un seuil."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este Mac o esta versión de macOS no tiene clave para inhibir la carga, así que la carga no se puede mantener en un umbral."
           }
         }
       }
@@ -3566,6 +5510,18 @@
             "state" : "translated",
             "value" : "Період"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Période"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intervalo de tiempo"
+          }
         }
       }
     },
@@ -3587,6 +5543,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Акумулятор дозаряджається до %lld %%, після чого Mac знову працюватиме безпосередньо від адаптера."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La batterie est rechargée jusqu’à %lld %%, puis le Mac refonctionnera directement sur l’adaptateur."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se vuelve a completar la batería hasta el %lld %% y luego el Mac volverá a funcionar directamente con el adaptador."
           }
         }
       }
@@ -3610,6 +5578,18 @@
             "state" : "translated",
             "value" : "Дві програми, які записують один і той самий ліміт заряду, не мають арбітра — перемагає та, що записала останньою, і жодна не може сказати, яка саме. Kombucha відпустила керування зарядкою й не торкатиметься його, поки працює %@. Закрийте її — і елементи керування повернуться без перезапуску."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deux apps qui écrivent la même limite de charge n’ont pas d’arbitre : la dernière à écrire l’emporte, et aucune ne peut vous dire laquelle. Kombucha a lâché le chargeur et n’y touchera pas tant que %@ est en cours d’exécution. Quittez-la et les commandes reviennent, sans redémarrage."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dos apps que escriben el mismo límite de carga no tienen árbitro: gana la que escribe la última, y ninguna puede decirte cuál fue. Kombucha ha soltado el cargador y no lo tocará mientras %@ esté en ejecución. Sal de ella y los controles vuelven, sin reiniciar."
+          }
         }
       }
     },
@@ -3631,6 +5611,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оновлення"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mises à jour"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizaciones"
           }
         }
       }
@@ -3654,6 +5646,18 @@
             "state" : "translated",
             "value" : "Найбільше споживають енергії"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus gros consommateurs d’énergie"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mayor consumo de energía"
+          }
         }
       }
     },
@@ -3675,6 +5679,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Версія %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versión %@"
           }
         }
       }
@@ -3698,6 +5714,18 @@
             "state" : "translated",
             "value" : "Переглянути випуск"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voir la version"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver la versión"
+          }
         }
       }
     },
@@ -3719,6 +5747,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Напруга"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tension"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voltaje"
           }
         }
       }
@@ -3742,6 +5782,18 @@
             "state" : "translated",
             "value" : "Ласкаво просимо до Kombucha"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenue dans Kombucha"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te damos la bienvenida a Kombucha"
+          }
         }
       }
     },
@@ -3763,6 +5815,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коли повний заряд завершено"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quand une charge complète se termine"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando termina una carga completa"
           }
         }
       }
@@ -3786,6 +5850,18 @@
             "state" : "translated",
             "value" : "Коли захист зупиняється або відновлюється"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quand la protection s’arrête ou reprend"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando la protección se detiene o se reanuda"
+          }
         }
       }
     },
@@ -3807,6 +5883,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коли акумулятор потребує уваги"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quand la batterie demande de l’attention"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando la batería necesita atención"
           }
         }
       }
@@ -3830,6 +5918,18 @@
             "state" : "translated",
             "value" : "Ваш Mac працює безпосередньо від адаптера — з керуванням зарядкою все гаразд. Акумулятор відпочиває, доки не досягне %lld %%."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre Mac fonctionne directement sur l’adaptateur — le chargeur n’a aucun problème. La batterie se repose jusqu’à ce qu’elle atteigne %lld %%."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu Mac funciona directamente con el adaptador: no hay ningún problema con el cargador. La batería reposa hasta que llegue al %lld %%."
+          }
         }
       }
     },
@@ -3851,6 +5951,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS дала відповідь, якої ця збірка не знає"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS a répondu quelque chose que cette version ne connaît pas"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS respondió algo que esta versión no conoce"
           }
         }
       }
@@ -3874,6 +5986,18 @@
             "state" : "translated",
             "value" : "Система macOS не встановила допоміжну програму, тому ліміт заряду ніхто не утримує."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS n’a pas installé l’outil auxiliaire : rien ne maintient la limite de charge."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS no instaló la herramienta auxiliar, así que nada mantiene el límite de carga."
+          }
         }
       }
     },
@@ -3895,6 +6019,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Система macOS не видалила допоміжну програму, тому вона досі встановлена й працює."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS n’a pas supprimé l’outil auxiliaire : il est toujours installé et en cours d’exécution."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS no eliminó la herramienta auxiliar, así que sigue instalada y en ejecución."
           }
         }
       }
@@ -3918,6 +6054,18 @@
             "state" : "translated",
             "value" : "macOS чекає на ваше схвалення"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS attend votre approbation"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS está esperando tu aprobación"
+          }
         }
       }
     },
@@ -3939,6 +6087,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Система macOS повідомляє, що допоміжну програму встановлено й дозволено, але вона не відповідає — тож ліміт заряду не утримується. Kombucha вже намагалася запустити її знову; це ще одна спроба."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selon macOS, l’outil auxiliaire est installé et autorisé, mais rien ne répond : la limite de charge n’est donc pas maintenue. Kombucha a déjà essayé de le relancer ; ceci essaie une fois de plus."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Según macOS, la herramienta auxiliar está instalada y permitida, pero nada responde, así que el límite de carga no se mantiene. Kombucha ya intentó iniciarla de nuevo; esto lo intenta una vez más."
           }
         }
       }
@@ -3962,6 +6122,18 @@
             "state" : "translated",
             "value" : "macOS не підтверджує Kombucha як елемент входу, поки щось для неї вимкнено в розділі «Елементи входу та розширення». Увімкнути це знову там можете тільки ви."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS ne confirmera pas Kombucha comme élément de connexion tant qu’un de ses éléments est désactivé dans « Éléments de connexion et extensions ». Seul vous pouvez le réactiver, là-bas."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS no confirmará Kombucha como ítem de inicio de sesión mientras algo suyo esté desactivado en «Ítems de inicio de sesión y extensiones». Solo tú puedes volver a activarlo allí."
+          }
         }
       }
     },
@@ -3980,6 +6152,18 @@
           }
         },
         "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "—"

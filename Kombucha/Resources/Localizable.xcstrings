@@ -32,6 +32,24 @@
             "state" : "translated",
             "value" : "%@ V"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ V"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ V"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ V"
+          }
         }
       }
     },
@@ -62,6 +80,24 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ W"
+          }
+        },
+        "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ W"
@@ -100,6 +136,24 @@
             "state" : "translated",
             "value" : "%@ está en ejecución"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 正在运行"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ が実行中です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 실행 중"
+          }
         }
       }
     },
@@ -130,6 +184,24 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ °C"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ °C"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ °C"
+          }
+        },
+        "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ °C"
@@ -168,6 +240,24 @@
             "state" : "translated",
             "value" : "%lld d"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 天"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld日"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld일"
+          }
         }
       }
     },
@@ -202,6 +292,24 @@
             "state" : "translated",
             "value" : "%lld h"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 小时"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld時間"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld시간"
+          }
         }
       }
     },
@@ -235,6 +343,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 分钟"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld분"
           }
         }
       }
@@ -294,6 +420,42 @@
             "state" : "translated",
             "value" : "%lld por ciento"
           }
+        },
+        "zh-Hans" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "百分之%lld"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lldパーセント"
+                }
+              }
+            }
+          }
+        },
+        "ko" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld퍼센트"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -327,6 +489,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld %%"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%"
           }
         }
       }
@@ -362,6 +542,24 @@
             "state" : "translated",
             "value" : "%1$lld–%2$lld %%"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld–%2$lld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld–%2$lld%%"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld–%2$lld%%"
+          }
         }
       }
     },
@@ -395,6 +593,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "30 días"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30 天"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30日間"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "30일"
           }
         }
       }
@@ -430,6 +646,24 @@
             "state" : "translated",
             "value" : "7 días"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7 天"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7日間"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "7일"
+          }
         }
       }
     },
@@ -463,6 +697,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Acerca de"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "情報"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "정보"
           }
         }
       }
@@ -498,6 +750,24 @@
             "state" : "translated",
             "value" : "Adaptador"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配器"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アダプタ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어댑터"
+          }
         }
       }
     },
@@ -531,6 +801,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Permitir notificaciones"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "允许通知"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知を許可"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알림 허용"
           }
         }
       }
@@ -566,6 +854,24 @@
             "state" : "translated",
             "value" : "Las apps que usas. No se muestran los procesos del sistema."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你运行的 App。不显示系统进程。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行中のApp。システムプロセスは表示されません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사용자가 실행하는 앱. 시스템 프로세스는 표시되지 않습니다."
+          }
         }
       }
     },
@@ -599,6 +905,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Batería"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리"
           }
         }
       }
@@ -634,6 +958,24 @@
             "state" : "translated",
             "value" : "Estado de la batería"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池健康"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーの状態"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 성능 상태"
+          }
         }
       }
     },
@@ -667,6 +1009,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Protección de la batería"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池保护"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー保護"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 보호"
           }
         }
       }
@@ -702,6 +1062,24 @@
             "state" : "translated",
             "value" : "Reposo de la batería"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池静置"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー休止"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 휴식"
+          }
         }
       }
     },
@@ -735,6 +1113,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reposo de la batería: %1$@ de %2$@ registrado"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池静置 %1$@（共记录 %2$@）"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー休止 %1$@（記録 %2$@ 中）"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 휴식 %1$@ (기록된 %2$@ 중)"
           }
         }
       }
@@ -770,6 +1166,24 @@
             "state" : "translated",
             "value" : "Reposo de la batería: tu Mac funciona directamente con el adaptador y no pasa corriente por la celda."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池静置：Mac 直接由适配器供电，没有电流流经电芯。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー休止：Macはアダプタから直接電力を受け、セルには電流が流れません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 휴식: Mac이 어댑터에서 직접 전원을 공급받으며 셀에는 전류가 흐르지 않습니다."
+          }
         }
       }
     },
@@ -803,6 +1217,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estado de la batería"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池状态"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーステータス"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 상태"
           }
         }
       }
@@ -838,6 +1270,24 @@
             "state" : "translated",
             "value" : "Batería al %1$lld %%"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池电量 %1$lld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー残量 %1$lld%%"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 %1$lld%%"
+          }
         }
       }
     },
@@ -871,6 +1321,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Batería al %1$lld %%. %2$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池电量 %1$lld%%。%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー残量 %1$lld%%。%2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 %1$lld%%. %2$@"
           }
         }
       }
@@ -906,6 +1374,24 @@
             "state" : "translated",
             "value" : "La capacidad de la batería ha bajado"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池容量下降"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー容量が低下しました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 용량 감소"
+          }
         }
       }
     },
@@ -939,6 +1425,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Límite de carga de la batería para macOS"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适用于 macOS 的电池充电限制"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS用バッテリー充電制限"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS용 배터리 충전 제한"
           }
         }
       }
@@ -974,6 +1478,24 @@
             "state" : "translated",
             "value" : "La batería está caliente"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池过热"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーが高温です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 온도 높음"
+          }
         }
       }
     },
@@ -1007,6 +1529,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Protección de la batería reanudada"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池保护已恢复"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー保護を再開しました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 보호 재개됨"
           }
         }
       }
@@ -1042,6 +1582,24 @@
             "state" : "translated",
             "value" : "Protección de la batería detenida"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池保护已停止"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー保護を停止しました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 보호 중단됨"
+          }
         }
       }
     },
@@ -1075,6 +1633,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entre tus dos límites la batería reposa: tu Mac funciona directamente con el adaptador y no pasa corriente por la celda."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在停止与恢复充电的电量之间，电池处于静置状态：Mac 直接由适配器供电，没有电流流经电芯。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停止と再開の残量のあいだ、バッテリーは休止します：Macはアダプタから直接電力を受け、セルには電流が流れません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "중단 및 재개 수준 사이에서는 배터리가 휴식합니다: Mac이 어댑터에서 직접 전원을 공급받으며 셀에는 전류가 흐르지 않습니다."
           }
         }
       }
@@ -1110,6 +1686,24 @@
             "state" : "translated",
             "value" : "Herramienta de carga"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电助手"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電ヘルパー"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 도우미"
+          }
         }
       }
     },
@@ -1143,6 +1737,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Límite de carga"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电上限"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電上限"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 한도"
           }
         }
       }
@@ -1178,6 +1790,24 @@
             "state" : "translated",
             "value" : "Nivel de carga"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电量"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電レベル"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 수준"
+          }
         }
       }
     },
@@ -1211,6 +1841,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El límite de carga no se mantiene"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电上限未生效"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電上限が維持されていません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 한도가 유지되지 않음"
           }
         }
       }
@@ -1246,6 +1894,24 @@
             "state" : "translated",
             "value" : "Cargar al 100 % una vez"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "单次充至 100%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1回だけ100%まで充電"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "한 번 100%까지 충전"
+          }
         }
       }
     },
@@ -1279,6 +1945,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cargando"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在充电"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電中"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 중"
           }
         }
       }
@@ -1314,6 +1998,24 @@
             "state" : "translated",
             "value" : "Se carga hasta el 100 %. Mientras está conectada, la batería permanece a plena tensión."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在充满至 100%。接通电源期间，电池保持满电压。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100%まで充電しています。接続中、バッテリーは満充電の電圧のままになります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100%까지 완전히 충전 중입니다. 전원이 연결된 동안 배터리는 최대 전압 상태로 유지됩니다."
+          }
         }
       }
     },
@@ -1347,6 +2049,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Carga en pausa"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电已暂停"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電を一時停止中"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 일시 정지됨"
           }
         }
       }
@@ -1382,6 +2102,24 @@
             "state" : "translated",
             "value" : "Carga en pausa: la batería está caliente"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电已暂停：电池过热"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電を一時停止中：バッテリーが高温"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 일시 정지됨: 배터리 온도 높음"
+          }
         }
       }
     },
@@ -1415,6 +2153,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cargando al 100 %"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在充至 100%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100%まで充電中"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100%까지 충전 중"
           }
         }
       }
@@ -1450,6 +2206,24 @@
             "state" : "translated",
             "value" : "Cargando al 100 %: termina al desconectar"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在充至 100%：拔掉电源后恢复"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100%まで充電中：電源を外すと元に戻ります"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100%까지 충전 중: 전원 분리 시 복귀"
+          }
         }
       }
     },
@@ -1483,6 +2257,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cargando: completando hasta el %lld %%"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在充电：补充至 %lld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電中：%lld%%まで補充"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 중: %lld%%까지 보충"
           }
         }
       }
@@ -1518,6 +2310,24 @@
             "state" : "translated",
             "value" : "Buscar actualizaciones"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检查更新"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートを確認"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 확인"
+          }
         }
       }
     },
@@ -1551,6 +2361,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buscar actualizaciones a diario"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每天检查更新"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毎日アップデートを確認"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매일 업데이트 확인"
           }
         }
       }
@@ -1586,6 +2414,24 @@
             "state" : "translated",
             "value" : "Comprobando…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在检查…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認中…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "확인 중…"
+          }
         }
       }
     },
@@ -1619,6 +2465,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Haz clic en su símbolo de batería, en la parte superior de la pantalla, para ver el nivel de carga y fijar el límite."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按屏幕顶部的电池符号，即可查看电量并设置上限。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面上部のバッテリー記号をクリックすると、充電レベルを確認して上限を設定できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "화면 상단의 배터리 기호를 클릭하여 충전 수준을 확인하고 한도를 설정하십시오."
           }
         }
       }
@@ -1654,6 +2518,24 @@
             "state" : "translated",
             "value" : "Cerrar"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "닫기"
+          }
         }
       }
     },
@@ -1687,6 +2569,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estado"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状况"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状態"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "상태"
           }
         }
       }
@@ -1722,6 +2622,24 @@
             "state" : "translated",
             "value" : "No se pudo buscar actualizaciones."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法检查更新。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートを確認できませんでした。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트를 확인할 수 없습니다."
+          }
         }
       }
     },
@@ -1755,6 +2673,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Límite actual: %1$lld–%2$lld %%"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前上限：%1$lld–%2$lld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在の上限：%1$lld–%2$lld%%"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "현재 한도: %1$lld–%2$lld%%"
           }
         }
       }
@@ -1790,6 +2726,24 @@
             "state" : "translated",
             "value" : "Ciclos de carga"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "循环计数"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充放電回数"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사이클 수"
+          }
         }
       }
     },
@@ -1823,6 +2777,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descargar hasta el %lld %%"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放电至 %lld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%まで放電"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%까지 방전"
           }
         }
       }
@@ -1858,6 +2830,24 @@
             "state" : "translated",
             "value" : "Descargando"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在放电"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放電中"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "방전 중"
+          }
         }
       }
     },
@@ -1891,6 +2881,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descargando: con batería hasta el %lld %%"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在放电：使用电池供电直至 %lld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放電中：%lld%%までバッテリーで動作"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "방전 중: %lld%%까지 배터리로 작동"
           }
         }
       }
@@ -1926,6 +2934,24 @@
             "state" : "translated",
             "value" : "Documentación"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文档"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドキュメント"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문서"
+          }
         }
       }
     },
@@ -1959,6 +2985,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hecho"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완료"
           }
         }
       }
@@ -1994,6 +3038,24 @@
             "state" : "translated",
             "value" : "Carga completa"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充满"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フル充電"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완전 충전"
+          }
         }
       }
     },
@@ -2027,6 +3089,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Carga completa"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已充满"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フル充電済み"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완전히 충전됨"
           }
         }
       }
@@ -2062,6 +3142,24 @@
             "state" : "translated",
             "value" : "General"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通用"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "일반"
+          }
         }
       }
     },
@@ -2095,6 +3193,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obtener estado de la batería"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "获取电池状态"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーステータスを取得"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 상태 가져오기"
           }
         }
       }
@@ -2130,6 +3246,24 @@
             "state" : "translated",
             "value" : "Herramienta auxiliar"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "助手"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルパー"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미"
+          }
         }
       }
     },
@@ -2163,6 +3297,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Historial"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "历史记录"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기록"
           }
         }
       }
@@ -2198,6 +3350,24 @@
             "state" : "translated",
             "value" : "Mantener un límite de carga requiere una pequeña herramienta auxiliar que se ejecuta como root. Instálala una sola vez: macOS te pedirá que la permitas y no cambia nada más."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保持充电上限需要一个以 root 身份运行的小型助手。只需安装一次——macOS 会请你允许它，其他一切不变。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電上限を維持するには、rootとして動作する小さなヘルパーが必要です。一度インストールするだけで、macOSが許可を求めます。それ以外は何も変わりません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 한도를 유지하려면 root 권한으로 실행되는 작은 도우미가 필요합니다. 한 번만 설치하면 macOS가 허용 여부를 묻고, 그 외에는 아무것도 바뀌지 않습니다."
+          }
         }
       }
     },
@@ -2231,6 +3401,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manteniendo el límite"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在保持上限"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上限を維持中"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "한도 유지 중"
           }
         }
       }
@@ -2266,6 +3454,24 @@
             "state" : "translated",
             "value" : "Pasa el cursor o arrastra para ver los detalles."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "悬停或拖动以查看详细信息。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ポインタを合わせるかドラッグすると詳細を表示します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자세한 내용을 보려면 포인터를 올리거나 드래그하십시오."
+          }
         }
       }
     },
@@ -2299,6 +3505,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instalar herramienta auxiliar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安装助手"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルパーをインストール"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미 설치"
           }
         }
       }
@@ -2334,6 +3558,24 @@
             "state" : "translated",
             "value" : "Instalar la herramienta de carga"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安装充电助手"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電ヘルパーをインストール"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 도우미 설치"
+          }
         }
       }
     },
@@ -2367,6 +3609,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Instalada con Homebrew? Ejecuta brew upgrade --cask kombucha."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过 Homebrew 安装？请运行 brew upgrade --cask kombucha。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homebrewでインストールした場合は、brew upgrade --cask kombucha を実行してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homebrew로 설치했다면 brew upgrade --cask kombucha를 실행하십시오."
           }
         }
       }
@@ -2402,6 +3662,24 @@
             "state" : "translated",
             "value" : "Se guarda 30 días en este Mac y nunca sale de él."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此 Mac 上保留 30 天，绝不会离开这台 Mac。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacに30日間保存され、外部に送られることはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Mac에 30일 동안 보관되며 외부로 전송되지 않습니다."
+          }
         }
       }
     },
@@ -2435,6 +3713,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha %@ está disponible"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ 现已推出"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ が利用可能です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ 사용 가능"
           }
         }
       }
@@ -2470,6 +3766,24 @@
             "state" : "translated",
             "value" : "Kombucha %@ está disponible."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ 现已推出。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@ が利用可能です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha %@을(를) 사용할 수 있습니다."
+          }
         }
       }
     },
@@ -2503,6 +3817,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha consulta GitHub una vez al día para buscar una versión nueva. No se envía nada más."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 每天联系 GitHub 一次以查找新版本，不会发送任何其他内容。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaは1日に1回GitHubに接続して新しいリリースを確認します。それ以外の情報は送信されません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha는 하루에 한 번 GitHub에 접속해 새 릴리스를 확인합니다. 그 외에는 아무것도 전송하지 않습니다."
           }
         }
       }
@@ -2538,6 +3870,24 @@
             "state" : "translated",
             "value" : "El cargador no respondió a Kombucha. Vuelve a abrir el panel para ver cómo está todo."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 未收到充电器的回应。请再次打开面板查看当前状态。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaは充電器から応答を受け取れませんでした。パネルをもう一度開いて現在の状況を確認してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha가 충전기로부터 응답을 받지 못했습니다. 패널을 다시 열어 현재 상태를 확인하십시오."
+          }
         }
       }
     },
@@ -2571,6 +3921,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha aún no tiene herramienta auxiliar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 尚无助手"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaにはまだヘルパーがありません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha에 아직 도우미가 없음"
           }
         }
       }
@@ -2606,6 +3974,24 @@
             "state" : "translated",
             "value" : "Kombucha aún no ha pedido permiso para enviar notificaciones."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 尚未请求通知权限。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaはまだ通知の許可を求めていません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha가 아직 알림 권한을 요청하지 않았습니다."
+          }
         }
       }
     },
@@ -2639,6 +4025,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha ha vuelto a tu rango del %1$lld–%2$lld %%."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 已回到你的 %1$lld–%2$lld%% 范围。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaは設定範囲 %1$lld–%2$lld%% に戻りました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha가 설정한 %1$lld–%2$lld%% 범위로 돌아왔습니다."
           }
         }
       }
@@ -2674,6 +4078,24 @@
             "state" : "translated",
             "value" : "Kombucha vuelve a mantener tu límite de carga."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 已重新保持你的充电上限。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaは再び充電上限を維持しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha가 다시 충전 한도를 유지하고 있습니다."
+          }
         }
       }
     },
@@ -2707,6 +4129,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha aún se está iniciando. Inténtalo de nuevo en un momento."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 仍在启动。请稍后再试。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaはまだ起動中です。しばらくしてからもう一度お試しください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha가 아직 시작 중입니다. 잠시 후 다시 시도하십시오."
           }
         }
       }
@@ -2742,6 +4182,24 @@
             "state" : "translated",
             "value" : "Kombucha está al día."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 已是最新版本。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaは最新です。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha가 최신 버전입니다."
+          }
         }
       }
     },
@@ -2775,6 +4233,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha vive en la barra de menús"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 位于菜单栏中"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaはメニューバーにあります"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha는 메뉴 막대에 있습니다"
           }
         }
       }
@@ -2810,6 +4286,24 @@
             "state" : "translated",
             "value" : "Kombucha solo protege la batería mientras está en ejecución."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 仅在运行时保护电池。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaは実行中のみバッテリーを保護します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha는 실행 중일 때만 배터리를 보호합니다."
+          }
         }
       }
     },
@@ -2843,6 +4337,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha registra mientras tu Mac está activo."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 在 Mac 唤醒时记录。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KombuchaはMacがスリープしていない間に記録します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha는 Mac이 깨어 있는 동안 기록합니다."
           }
         }
       }
@@ -2878,6 +4390,24 @@
             "state" : "translated",
             "value" : "Kombucha usará el idioma nuevo después de reiniciarse."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 重新启动后将使用新语言。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaは再起動後に新しい言語を使用します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha는 재시작 후 새 언어를 사용합니다."
+          }
         }
       }
     },
@@ -2912,6 +4442,24 @@
             "state" : "translated",
             "value" : "Kombucha no cambiará la carga en este Mac."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 不会更改此 Mac 的充电行为。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaはこのマシンの充電を変更しません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha는 이 Mac의 충전을 변경하지 않습니다."
+          }
         }
       }
     },
@@ -2942,6 +4490,24 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha，%@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha、%@"
+          }
+        },
+        "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kombucha, %@"
@@ -2980,6 +4546,24 @@
             "state" : "translated",
             "value" : "Kombucha, %1$lld %%, %2$@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha，%1$lld%%，%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha、%1$lld%%、%2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha, %1$lld%%, %2$@"
+          }
         }
       }
     },
@@ -3013,6 +4597,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Idioma"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "语言"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "言語"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "언어"
           }
         }
       }
@@ -3048,6 +4650,24 @@
             "state" : "translated",
             "value" : "Abrir al iniciar sesión"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登录时启动"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン時に起動"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로그인 시 실행"
+          }
         }
       }
     },
@@ -3081,6 +4701,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nivel"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电量"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "残量"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "잔량"
           }
         }
       }
@@ -3116,6 +4754,24 @@
             "state" : "translated",
             "value" : "Licencia: licencia MIT"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "许可证：MIT 许可证"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライセンス：MITライセンス"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "라이선스: MIT 라이선스"
+          }
         }
       }
     },
@@ -3149,6 +4805,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Capacidad máxima"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最大容量"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最大容量"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "최대 용량"
           }
         }
       }
@@ -3184,6 +4858,24 @@
             "state" : "translated",
             "value" : "La capacidad máxima es ahora del %1$lld %% (antes %2$lld %%)."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最大容量现为 %1$lld%%，此前为 %2$lld%%。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最大容量が%2$lld%%から%1$lld%%に低下しました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "최대 용량이 %2$lld%%에서 %1$lld%%로 떨어졌습니다."
+          }
         }
       }
     },
@@ -3217,6 +4909,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Midiendo…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在测量…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "測定中…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "측정 중…"
           }
         }
       }
@@ -3252,6 +4962,24 @@
             "state" : "translated",
             "value" : "Modo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "模式"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モード"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모드"
+          }
         }
       }
     },
@@ -3285,6 +5013,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin datos"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无数据"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "データなし"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "데이터 없음"
           }
         }
       }
@@ -3320,6 +5066,24 @@
             "state" : "translated",
             "value" : "Aún no hay historial. Kombucha registra la batería mientras se está ejecutando."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无历史记录。Kombucha 运行时会记录电池数据。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "履歴はまだありません。Kombuchaは実行中にバッテリーを記録します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아직 기록이 없습니다. Kombucha는 실행 중에 배터리를 기록합니다."
+          }
         }
       }
     },
@@ -3353,6 +5117,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Normal"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正常"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正常"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "정상"
           }
         }
       }
@@ -3388,6 +5170,24 @@
             "state" : "translated",
             "value" : "Aún no hay suficientes días registrados."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "记录天数尚不足。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記録された日数がまだ足りません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기록된 일수가 아직 부족합니다."
+          }
         }
       }
     },
@@ -3422,6 +5222,24 @@
             "state" : "translated",
             "value" : "Nada mantiene el límite de carga, así que este Mac se carga como antes de Kombucha. Si vuelves a instalar la herramienta auxiliar, el límite se restablece."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前没有任何程序保持充电上限，因此此 Mac 会像安装 Kombucha 之前一样充电。重新安装助手即可恢复上限。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電上限を維持しているものがないため、このMacはKombucha導入前と同じように充電しています。ヘルパーを再インストールすると上限が戻ります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 한도를 유지하는 것이 없어 이 Mac은 Kombucha 이전과 같은 방식으로 충전됩니다. 도우미를 다시 설치하면 한도가 복원됩니다."
+          }
         }
       }
     },
@@ -3455,6 +5273,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nada consume una cantidad notable de energía."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有明显耗电的 App。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目立って電力を使っているものはありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "눈에 띄게 전력을 사용하는 항목이 없습니다."
           }
         }
       }
@@ -3550,6 +5386,42 @@
               }
             }
           }
+        },
+        "zh-Hans" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "过去 %lld 天内没有记录"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "過去%lld日間の記録はありません"
+                }
+              }
+            }
+          }
+        },
+        "ko" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "지난 %lld일 동안 기록 없음"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -3583,6 +5455,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notificaciones"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알림"
           }
         }
       }
@@ -3618,6 +5508,24 @@
             "state" : "translated",
             "value" : "Las notificaciones de Kombucha están desactivadas en Ajustes del Sistema."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 的通知已在“系统设置”中关闭。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaの通知は「システム設定」でオフになっています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 알림이 시스템 설정에서 꺼져 있습니다."
+          }
         }
       }
     },
@@ -3651,6 +5559,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con batería"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用电池"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー駆動"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 사용 중"
           }
         }
       }
@@ -3686,6 +5612,24 @@
             "state" : "translated",
             "value" : "Con batería: la protección se reanuda con el adaptador"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用电池：接通电源后恢复保护"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー駆動：電源接続時に保護を再開"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 사용 중: 전원 연결 시 보호 재개"
+          }
         }
       }
     },
@@ -3719,6 +5663,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Carga completa única. Kombucha vuelve a tu rango del %1$lld–%2$lld %% al llegar al 100 %%, o en cuanto desconectes."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "单次充满。电量达到 100%% 或你拔掉电源时，Kombucha 会回到你的 %1$lld–%2$lld%% 范围。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1回だけのフル充電です。100%%に達するか電源を外すと、Kombuchaは設定範囲 %1$lld–%2$lld%% に戻ります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "한 번만 완전히 충전합니다. 100%%에 도달하거나 전원을 분리하면 Kombucha가 설정한 %1$lld–%2$lld%% 범위로 돌아갑니다."
           }
         }
       }
@@ -3754,6 +5716,24 @@
             "state" : "translated",
             "value" : "Abrir ítems de inicio de sesión"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开登录项"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン項目を開く"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로그인 항목 열기"
+          }
         }
       }
     },
@@ -3787,6 +5767,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abrir ajustes de notificaciones"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开通知设置"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知設定を開く"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알림 설정 열기"
           }
         }
       }
@@ -3822,6 +5820,24 @@
             "state" : "translated",
             "value" : "Abre la página de la versión para descargarla."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开发布页面进行下载。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リリースページを開いてダウンロードしてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "릴리스 페이지를 열어 다운로드하십시오."
+          }
         }
       }
     },
@@ -3855,6 +5871,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pico: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "峰值 %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高 %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "최고 %@"
           }
         }
       }
@@ -3890,6 +5924,24 @@
             "state" : "translated",
             "value" : "Conecta el adaptador para cargar hasta el 100 %."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接适配器以充至 100%。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100%まで充電するにはアダプタを接続してください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100%까지 충전하려면 어댑터를 연결하십시오."
+          }
         }
       }
     },
@@ -3923,6 +5975,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Potencia"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功率"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電力"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "전력"
           }
         }
       }
@@ -3958,6 +6028,24 @@
             "state" : "translated",
             "value" : "Protegida"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保护"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保護中"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보호됨"
+          }
         }
       }
     },
@@ -3991,6 +6079,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Protegida: reposo de la batería %1$lld %% – %2$lld %%"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保护：电池静置 %1$lld%% – %2$lld%%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保護中：バッテリー休止 %1$lld%% – %2$lld%%"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보호됨: 배터리 휴식 %1$lld%% – %2$lld%%"
           }
         }
       }
@@ -4026,6 +6132,24 @@
             "state" : "translated",
             "value" : "Protección desactivada"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保护已关闭"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保護オフ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보호 꺼짐"
+          }
         }
       }
     },
@@ -4059,6 +6183,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Protección desactivada: cargando al 100 %"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保护已关闭：充至 100%"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保護オフ：100%まで充電"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보호 꺼짐: 100%까지 충전"
           }
         }
       }
@@ -4094,6 +6236,24 @@
             "state" : "translated",
             "value" : "Salir de Kombucha"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出 Kombucha"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaを終了"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 종료"
+          }
         }
       }
     },
@@ -4127,6 +6287,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En lugar de adivinar a qué estado se parece, Kombucha no afirmará que tu batería está protegida. En «Ítems de inicio de sesión y extensiones» puedes ver lo que macOS tiene registrado."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 不会去猜测这类似于哪种状态，也不会声称你的电池受到保护。“登录项与扩展”中显示了 macOS 的记录。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これがどの状態に近いかを推測する代わりに、Kombuchaはバッテリーが保護されているとは表示しません。macOSの記録は「ログイン項目と機能拡張」で確認できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어떤 상태에 해당하는지 추측하는 대신, Kombucha는 배터리가 보호되고 있다고 표시하지 않습니다. macOS에 기록된 내용은 '로그인 항목 및 확장 프로그램'에서 확인할 수 있습니다."
           }
         }
       }
@@ -4162,6 +6340,24 @@
             "state" : "translated",
             "value" : "Leyendo…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在读取…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み取り中…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "읽는 중…"
+          }
         }
       }
     },
@@ -4195,6 +6391,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reinstalar herramienta auxiliar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新安装助手"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルパーを再インストール"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미 재설치"
           }
         }
       }
@@ -4230,6 +6444,24 @@
             "state" : "translated",
             "value" : "Eliminar herramienta auxiliar"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除助手"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルパーを削除"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미 제거"
+          }
         }
       }
     },
@@ -4263,6 +6495,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Al eliminar la herramienta auxiliar, el cargador vuelve a macOS. El límite de carga deja de aplicarse hasta que se instale de nuevo."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除助手会将充电器交还给 macOS。在重新安装之前，充电上限将停止生效。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルパーを削除すると、充電器の制御がmacOSに戻ります。再インストールするまで充電上限は機能しません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미를 제거하면 충전기 제어가 macOS로 돌아갑니다. 다시 설치할 때까지 충전 한도가 작동하지 않습니다."
           }
         }
       }
@@ -4298,6 +6548,24 @@
             "state" : "translated",
             "value" : "Informar de un problema"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "报告问题"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "問題を報告"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문제 보고"
+          }
         }
       }
     },
@@ -4331,6 +6599,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reiniciar Kombucha"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新启动 Kombucha"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaを再起動"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha 재시작"
           }
         }
       }
@@ -4366,6 +6652,24 @@
             "state" : "translated",
             "value" : "Reanudar la carga en"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复充电于"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電を再開する残量"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 재개 시점"
+          }
         }
       }
     },
@@ -4399,6 +6703,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tu Mac funciona con la batería. La protección se reanuda cuando vuelvas a conectar el adaptador."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在使用电池供电。重新连接适配器后将恢复保护。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーで動作中です。アダプタを接続し直すと保護が再開されます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리로 작동 중입니다. 어댑터를 다시 연결하면 보호가 재개됩니다."
           }
         }
       }
@@ -4434,6 +6756,24 @@
             "state" : "translated",
             "value" : "En ejecución: el límite de carga se mantiene"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在运行——充电上限正在保持"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実行中 — 充電上限を維持しています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행 중 — 충전 한도를 유지하고 있음"
+          }
         }
       }
     },
@@ -4467,6 +6807,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Servicio recomendado"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建议维修"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "修理サービス推奨"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "서비스 권장"
           }
         }
       }
@@ -4502,6 +6860,24 @@
             "state" : "translated",
             "value" : "Ajustar la protección de la batería"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置电池保护"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリー保護を設定"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리 보호 설정"
+          }
         }
       }
     },
@@ -4535,6 +6911,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustar el límite de carga"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置充电上限"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電上限を設定"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 한도 설정"
           }
         }
       }
@@ -4570,6 +6964,24 @@
             "state" : "translated",
             "value" : "Ajustes…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정…"
+          }
         }
       }
     },
@@ -4603,6 +7015,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mostrar ventana de bienvenida"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示欢迎窗口"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ようこそウインドウを表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "환영 윈도우 보기"
           }
         }
       }
@@ -4638,6 +7068,24 @@
             "state" : "translated",
             "value" : "Mostrar porcentaje en la barra de menús"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在菜单栏中显示百分比"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メニューバーにパーセントを表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메뉴 막대에 퍼센트 표시"
+          }
         }
       }
     },
@@ -4671,6 +7119,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Código fuente"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "源代码"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソースコード"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "소스 코드"
           }
         }
       }
@@ -4706,6 +7172,24 @@
             "state" : "translated",
             "value" : "Iniciar carga completa"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始充满"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フル充電を開始"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완전 충전 시작"
+          }
         }
       }
     },
@@ -4739,6 +7223,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reiniciar herramienta auxiliar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新启动助手"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルパーを再起動"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미 다시 시작"
           }
         }
       }
@@ -4774,6 +7276,24 @@
             "state" : "translated",
             "value" : "Detener la descarga"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停止放电"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放電を停止"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "방전 중단"
+          }
         }
       }
     },
@@ -4807,6 +7327,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Detener la carga completa"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停止充满"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フル充電を停止"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완전 충전 중단"
           }
         }
       }
@@ -4842,6 +7380,24 @@
             "state" : "translated",
             "value" : "Detener la carga en"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停止充电于"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電を停止する残量"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전 중단 시점"
+          }
         }
       }
     },
@@ -4875,6 +7431,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Detener la carga completa"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停止充满"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フル充電を停止"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완전 충전 중단"
           }
         }
       }
@@ -4910,6 +7484,24 @@
             "state" : "translated",
             "value" : "Sistema"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템"
+          }
         }
       }
     },
@@ -4943,6 +7535,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Predeterminado del sistema"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统默认"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システムのデフォルト"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시스템 기본값"
           }
         }
       }
@@ -4978,6 +7588,24 @@
             "state" : "translated",
             "value" : "Temperatura"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "温度"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "温度"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "온도"
+          }
         }
       }
     },
@@ -5011,6 +7639,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eso no llegó al cargador, así que no se cambió nada."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该操作未能到达充电器，因此未做任何更改。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電器に届かなかったため、何も変更されていません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "충전기에 전달되지 않아 아무것도 변경되지 않았습니다."
           }
         }
       }
@@ -5046,6 +7692,24 @@
             "state" : "translated",
             "value" : "El SMC está presente pero no responde, así que la carga no se puede mantener de forma segura."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SMC 存在但没有响应，因此无法安全地保持充电状态。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SMCは存在しますが応答しないため、充電を安全に維持できません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SMC가 있지만 응답하지 않아 충전을 안전하게 유지할 수 없습니다."
+          }
         }
       }
     },
@@ -5079,6 +7743,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El adaptador no da abasto, así que la batería cubre el resto."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配器功率不足，其余部分由电池补足。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アダプタの電力が足りないため、不足分をバッテリーが補っています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어댑터 전력이 부족해 나머지를 배터리가 보충합니다."
           }
         }
       }
@@ -5114,6 +7796,24 @@
             "state" : "translated",
             "value" : "El adaptador sigue conectado pero se apaga hasta que la batería llegue al %lld %%. Kombucha lo vuelve a encender entonces, antes de que tu Mac entre en reposo o cuando salgas de la app."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配器保持连接，但会关闭，直到电池降至 %lld%%。届时、Mac 进入睡眠前或你退出时，Kombucha 会重新打开它。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アダプタは接続されたままですが、バッテリーが%lld%%になるまでオフになります。その時点、Macがスリープする前、または終了したときに、Kombuchaがオンに戻します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어댑터는 연결된 상태로 유지되지만 배터리가 %lld%%에 도달할 때까지 꺼집니다. 그때, Mac이 잠자기 전에, 또는 종료할 때 Kombucha가 다시 켭니다."
+          }
         }
       }
     },
@@ -5147,6 +7847,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La batería ha estado en %@ o más durante 5 minutos."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池已连续 5 分钟保持在 %@ 或以上。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーが5分間 %@ 以上の状態が続いています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리가 5분 동안 %@ 이상으로 유지되었습니다."
           }
         }
       }
@@ -5182,6 +7900,24 @@
             "state" : "translated",
             "value" : "La batería está a %1$lld °C o más, así que Kombucha detiene la carga. Continúa a %2$lld °C o menos."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池温度达到 %1$lld °C 或以上，因此 Kombucha 暂停充电。降至 %2$lld °C 或以下时继续。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーが%1$lld °C以上のため、Kombuchaは充電を止めています。%2$lld °C以下になると再開します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리가 %1$lld °C 이상이므로 Kombucha가 충전을 멈춥니다. %2$lld °C 이하가 되면 다시 충전합니다."
+          }
         }
       }
     },
@@ -5215,6 +7951,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La batería sigue cargándose por encima de tu límite del %lld %%."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池仍在充电，已超过你的 %lld%% 上限。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーが上限の%lld%%を超えても充電を続けています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리가 설정한 %lld%% 한도를 넘어 계속 충전되고 있습니다."
           }
         }
       }
@@ -5250,6 +8004,24 @@
             "state" : "translated",
             "value" : "La herramienta auxiliar está instalada y macOS no la iniciará hasta que la permitas en «Ítems de inicio de sesión y extensiones». Kombucha no puede hacerlo por ti."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "助手已安装，但在你于“登录项与扩展”中允许之前，macOS 不会启动它。Kombucha 无法代你授权。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルパーはインストールされていますが、「ログイン項目と機能拡張」で許可するまでmacOSは起動しません。Kombuchaが代わりに許可することはできません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미가 설치되었지만 '로그인 항목 및 확장 프로그램'에서 허용할 때까지 macOS가 실행하지 않습니다. Kombucha가 대신 허용할 수는 없습니다."
+          }
         }
       }
     },
@@ -5283,6 +8055,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La herramienta auxiliar dejó de responder"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "助手停止响应"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルパーが応答しなくなりました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미가 응답하지 않음"
           }
         }
       }
@@ -5318,6 +8108,24 @@
             "state" : "translated",
             "value" : "Se eliminó la herramienta auxiliar"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "助手已被移除"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘルパーが削除されました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미가 제거됨"
+          }
         }
       }
     },
@@ -5351,6 +8159,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Este Mac no tiene batería que proteger."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 Mac 没有需要保护的电池。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacには保護するバッテリーがありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Mac에는 보호할 배터리가 없습니다."
           }
         }
       }
@@ -5386,6 +8212,24 @@
             "state" : "translated",
             "value" : "Este Mac no es compatible"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不支持此 Mac"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacはサポートされていません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Mac은 지원되지 않음"
+          }
         }
       }
     },
@@ -5419,6 +8263,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Este Mac no ha publicado ninguna lectura de la batería."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 Mac 未提供电池读数。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacはバッテリーの値を公開していません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Mac에서 배터리 수치를 제공하지 않았습니다."
           }
         }
       }
@@ -5454,6 +8316,24 @@
             "state" : "translated",
             "value" : "Este Mac no ofrece ningún servicio SMC: una máquina virtual no tiene batería que proteger."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 Mac 未提供 SMC 服务——虚拟机没有需要保护的电池。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacにはSMCサービスがありません — 仮想マシンには保護するバッテリーがありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Mac에는 SMC 서비스가 없습니다 — 가상 머신에는 보호할 배터리가 없습니다."
+          }
         }
       }
     },
@@ -5487,6 +8367,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Este Mac o esta versión de macOS no tiene clave para inhibir la carga, así que la carga no se puede mantener en un umbral."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 Mac 或此 macOS 版本没有充电抑制键，因此无法将充电保持在阈值。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このMacまたはこのバージョンのmacOSには充電抑制キーがないため、しきい値で充電を止めることができません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 Mac 또는 이 macOS 버전에는 충전 억제 키가 없어 임계값에서 충전을 멈출 수 없습니다."
           }
         }
       }
@@ -5522,6 +8420,24 @@
             "state" : "translated",
             "value" : "Intervalo de tiempo"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间范围"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "期間"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기간"
+          }
         }
       }
     },
@@ -5555,6 +8471,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se vuelve a completar la batería hasta el %lld %% y luego el Mac volverá a funcionar directamente con el adaptador."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在将电池补充至 %lld%%，之后将再次直接由适配器供电。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーを%lld%%まで補充した後、再びアダプタから直接動作します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리를 %lld%%까지 보충한 후 다시 어댑터로 직접 작동합니다."
           }
         }
       }
@@ -5590,6 +8524,24 @@
             "state" : "translated",
             "value" : "Dos apps que escriben el mismo límite de carga no tienen árbitro: gana la que escribe la última, y ninguna puede decirte cuál fue. Kombucha ha soltado el cargador y no lo tocará mientras %@ esté en ejecución. Sal de ella y los controles vuelven, sin reiniciar."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "两个 App 写入同一个充电上限时没有仲裁者——最后写入的一方生效，而且双方都无法告诉你是谁。在 %@ 运行期间，Kombucha 已放开充电器，不会触碰它。退出该 App 后，控制项就会恢复，无需重新启动。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2つのAppが同じ充電上限を書き込むと、調停役がいません — 最後に書き込んだ方が優先され、どちらもそれを知らせることはできません。%@ の実行中、Kombuchaは充電器の制御を手放し、触れません。そのAppを終了すると、再起動なしでコントロールが戻ります。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "두 앱이 같은 충전 한도를 기록하면 중재자가 없습니다 — 마지막에 기록한 쪽이 이기며, 어느 쪽도 누가 이겼는지 알려 줄 수 없습니다. %@이(가) 실행 중인 동안 Kombucha는 충전기에서 손을 떼고 건드리지 않습니다. 그 앱을 종료하면 재시작 없이 제어가 돌아옵니다."
+          }
         }
       }
     },
@@ -5623,6 +8575,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actualizaciones"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트"
           }
         }
       }
@@ -5658,6 +8628,24 @@
             "state" : "translated",
             "value" : "Mayor consumo de energía"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "耗电最多"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "エネルギー使用量が多いApp"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "에너지를 가장 많이 사용"
+          }
         }
       }
     },
@@ -5691,6 +8679,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Versión %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本 %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バージョン %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "버전 %@"
           }
         }
       }
@@ -5726,6 +8732,24 @@
             "state" : "translated",
             "value" : "Ver la versión"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查看版本"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リリースを表示"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "릴리스 보기"
+          }
         }
       }
     },
@@ -5759,6 +8783,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voltaje"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电压"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電圧"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "전압"
           }
         }
       }
@@ -5794,6 +8836,24 @@
             "state" : "translated",
             "value" : "Te damos la bienvenida a Kombucha"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欢迎使用 Kombucha"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombuchaへようこそ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombucha에 오신 것을 환영합니다"
+          }
         }
       }
     },
@@ -5827,6 +8887,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando termina una carga completa"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充满完成时"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フル充電が完了したとき"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완전 충전이 끝났을 때"
           }
         }
       }
@@ -5862,6 +8940,24 @@
             "state" : "translated",
             "value" : "Cuando la protección se detiene o se reanuda"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保护停止或恢复时"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保護が停止または再開したとき"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보호가 중단되거나 재개될 때"
+          }
         }
       }
     },
@@ -5895,6 +8991,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cuando la batería necesita atención"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池需要注意时"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッテリーに注意が必要なとき"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "배터리에 주의가 필요할 때"
           }
         }
       }
@@ -5930,6 +9044,24 @@
             "state" : "translated",
             "value" : "Tu Mac funciona directamente con el adaptador: no hay ningún problema con el cargador. La batería reposa hasta que llegue al %lld %%."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你的 Mac 正直接由适配器供电——充电器没有问题。电池将保持静置，直到降至 %lld%%。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Macはアダプタから直接動作しています — 充電器に問題はありません。バッテリーは%lld%%になるまで休止します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac이 어댑터에서 직접 작동하고 있습니다 — 충전기에는 문제가 없습니다. 배터리는 %lld%%에 도달할 때까지 휴식합니다."
+          }
         }
       }
     },
@@ -5963,6 +9095,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS respondió algo que esta versión no conoce"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 返回了此版本无法识别的内容"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOSがこのビルドの認識できない応答を返しました"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS가 이 빌드가 알 수 없는 응답을 보냈습니다"
           }
         }
       }
@@ -5998,6 +9148,24 @@
             "state" : "translated",
             "value" : "macOS no instaló la herramienta auxiliar, así que nada mantiene el límite de carga."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 未安装助手，因此没有任何程序在保持充电上限。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOSがヘルパーをインストールしなかったため、充電上限を維持するものがありません。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS가 도우미를 설치하지 않아 충전 한도를 유지하는 것이 없습니다."
+          }
         }
       }
     },
@@ -6031,6 +9199,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "macOS no eliminó la herramienta auxiliar, así que sigue instalada y en ejecución."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 未移除助手，因此它仍处于安装和运行状态。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOSがヘルパーを削除しなかったため、インストールされたまま動作しています。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS가 도우미를 제거하지 않아 여전히 설치되어 실행 중입니다."
           }
         }
       }
@@ -6066,6 +9252,24 @@
             "state" : "translated",
             "value" : "macOS está esperando tu aprobación"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 正在等待你的批准"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOSが承認を待っています"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS가 승인을 기다리는 중"
+          }
         }
       }
     },
@@ -6099,6 +9303,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Según macOS, la herramienta auxiliar está instalada y permitida, pero nada responde, así que el límite de carga no se mantiene. Kombucha ya intentó iniciarla de nuevo; esto lo intenta una vez más."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 显示助手已安装并获允许，但没有任何响应——因此充电上限未在保持。Kombucha 已尝试重新启动它；此操作会再试一次。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOSではヘルパーがインストール済みで許可されていますが、応答がありません — そのため充電上限は維持されていません。Kombuchaはすでに再起動を試みました。これでもう一度試します。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS에서는 도우미가 설치되고 허용된 것으로 표시되지만 응답이 없습니다 — 따라서 충전 한도가 유지되지 않습니다. Kombucha가 이미 다시 시작을 시도했으며, 이 버튼으로 한 번 더 시도합니다."
           }
         }
       }
@@ -6134,6 +9356,24 @@
             "state" : "translated",
             "value" : "macOS no confirmará Kombucha como ítem de inicio de sesión mientras algo suyo esté desactivado en «Ítems de inicio de sesión y extensiones». Solo tú puedes volver a activarlo allí."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在“登录项与扩展”中有与 Kombucha 相关的项目被关闭时，macOS 不会确认将其作为登录项。只有你本人可以在那里重新打开它。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「ログイン項目と機能拡張」でKombuchaに関する項目がオフになっている間、macOSはKombuchaをログイン項目として確認しません。それをオンに戻せるのは、そこであなただけです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "'로그인 항목 및 확장 프로그램'에서 Kombucha 관련 항목이 꺼져 있는 동안 macOS는 Kombucha를 로그인 항목으로 확인하지 않습니다. 그곳에서 다시 켜는 것은 사용자만 할 수 있습니다."
+          }
         }
       }
     },
@@ -6164,6 +9404,24 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
+          }
+        },
+        "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "—"
@@ -6202,6 +9460,24 @@
             "state" : "translated",
             "value" : "Capacidad de carga completa"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "满充容量"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フル充電容量"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완전 충전 용량"
+          }
         }
       }
     },
@@ -6235,6 +9511,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Capacidad de diseño"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设计容量"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設計容量"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설계 용량"
           }
         }
       }
@@ -6270,6 +9564,24 @@
             "state" : "translated",
             "value" : "%@ mAh"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ mAh"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ mAh"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ mAh"
+          }
         }
       }
     },
@@ -6300,6 +9612,24 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ mAh · %2$@ Wh"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ mAh · %2$@ Wh"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ mAh · %2$@ Wh"
+          }
+        },
+        "ko" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ mAh · %2$@ Wh"

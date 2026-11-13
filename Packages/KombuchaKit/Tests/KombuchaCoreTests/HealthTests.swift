@@ -6,13 +6,15 @@ private func values(cycleCount: Int? = 142,
                     nominalChargeCapacity: Int? = 7964,
                     permanentFailureStatus: Int? = 0,
                     temperature: Int? = 3012,
-                    voltage: Int? = 12634) -> BatteryRegistryValues {
+                    voltage: Int? = 12634,
+                    cellCount: Int? = 3) -> BatteryRegistryValues {
     BatteryRegistryValues(cycleCount: cycleCount,
                           designCapacity: designCapacity,
                           nominalChargeCapacity: nominalChargeCapacity,
                           permanentFailureStatus: permanentFailureStatus,
                           temperature: temperature,
-                          voltage: voltage)
+                          voltage: voltage,
+                          cellCount: cellCount)
 }
 
 @Test func aCompleteReadingIsDerived() throws {
@@ -22,6 +24,23 @@ private func values(cycleCount: Int? = 142,
     #expect(health.condition == .normal)
     #expect(health.temperatureCelsius == 30.12)
     #expect(health.voltageVolts == 12.634)
+    #expect(health.fullChargeCapacityMAh == 7964)
+    #expect(health.designCapacityMAh == 8579)
+}
+
+@Test func energyIsCapacityTimesCellsTimesNominalCellVoltage() throws {
+    // 8579 mAh × 3 × 3.85 V = 99.09 Wh; 7964 mAh × 3 × 3.85 V = 91.98 Wh.
+    let health = try #require(BatteryHealth.derive(values()))
+    #expect(health.designEnergyWh == 99)
+    #expect(health.fullChargeEnergyWh == 92)
+}
+
+@Test func withoutACellCountThereIsNoEnergy() throws {
+    for cells in [nil, 0, -1] as [Int?] {
+        let health = try #require(BatteryHealth.derive(values(cellCount: cells)))
+        #expect(health.designEnergyWh == nil)
+        #expect(health.fullChargeEnergyWh == nil)
+    }
 }
 
 @Test(arguments: [(8579, 7964, 92), (8579, 8579, 100), (8579, 8578, 99), (100, 1, 1), (100, 0, 0)])

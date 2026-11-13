@@ -34,7 +34,15 @@ enum BatteryHealthReader {
                               nominalChargeCapacity: properties["NominalChargeCapacity"] as? Int,
                               permanentFailureStatus: properties["PermanentFailureStatus"] as? Int,
                               temperature: properties["Temperature"] as? Int,
-                              voltage: properties["Voltage"] as? Int)
+                              voltage: properties["Voltage"] as? Int,
+                              cellCount: cellCount(from: properties))
+    }
+
+    /// One `CellVoltage` entry per cell in series; nil when the array is missing or empty.
+    static func cellCount(from properties: [String: Any]) -> Int? {
+        guard let data = properties["BatteryData"] as? [String: Any],
+              let cells = data["CellVoltage"] as? [Any], !cells.isEmpty else { return nil }
+        return cells.count
     }
 
     /// The registry node's top level. In Debug builds the live-check overrides apply here, so the health rows, the

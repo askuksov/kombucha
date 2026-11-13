@@ -13,6 +13,17 @@ import Testing
     #expect(health?.condition == .normal)
 }
 
+@Test func theCellsAreCountedFromCellVoltage() {
+    #expect(BatteryHealthReader.cellCount(from: ["BatteryData": ["CellVoltage": [4051, 4049, 4050]]]) == 3)
+}
+
+@Test func aMissingOrEmptyCellVoltageGivesNoCellCount() {
+    #expect(BatteryHealthReader.cellCount(from: [:]) == nil)
+    #expect(BatteryHealthReader.cellCount(from: ["BatteryData": [String: Any]()]) == nil)
+    #expect(BatteryHealthReader.cellCount(from: ["BatteryData": ["CellVoltage": [Int]()]]) == nil)
+    #expect(BatteryHealthReader.cellCount(from: ["BatteryData": ["CellVoltage": 4051]]) == nil)
+}
+
 @Test func aValueOfAnotherTypeCountsAsMissing() {
     let values = BatteryHealthReader.values(from: ["CycleCount": "297", "DesignCapacity": 8579])
     #expect(values.cycleCount == nil)

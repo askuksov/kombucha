@@ -114,6 +114,12 @@ func everyFailureHasItsSentence(failure: ActionFailure, sentence: String) {
     #expect(Copy.condition(.serviceRecommended) == "Service recommended")
 }
 
+@Test func capacityReadsMilliampHoursAndWattHours() {
+    let english = Locale(identifier: "en_US")
+    #expect(Copy.capacity(milliampHours: 8579, wattHours: 99, locale: english) == "8,579 mAh · 99 Wh")
+    #expect(Copy.capacity(milliampHours: 8579, wattHours: nil, locale: english) == "8,579 mAh")
+}
+
 @Test func theVersionLineNamesTheVersionOnly() {
     #expect(Copy.version("1.0.0") == "Version 1.0.0")
 }

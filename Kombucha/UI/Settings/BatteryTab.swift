@@ -19,6 +19,12 @@ struct BatteryTab: View {
                 case .read(let health):
                     LabeledContent(Copy.cycleCount, value: String(health.cycleCount))
                     LabeledContent(Copy.maximumCapacity, value: Copy.percent(health.maximumCapacityPercent))
+                    LabeledContent(Copy.fullChargeCapacity,
+                                   value: Copy.capacity(milliampHours: health.fullChargeCapacityMAh,
+                                                        wattHours: health.fullChargeEnergyWh))
+                    LabeledContent(Copy.designCapacity,
+                                   value: Copy.capacity(milliampHours: health.designCapacityMAh,
+                                                        wattHours: health.designEnergyWh))
                     LabeledContent(Copy.conditionLabel, value: Copy.condition(health.condition))
                     LabeledContent(Copy.temperatureLabel, value: Copy.temperature(health.temperatureCelsius))
                     LabeledContent(Copy.voltageLabel, value: Copy.voltage(health.voltageVolts))

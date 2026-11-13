@@ -183,6 +183,8 @@ enum Copy {
     static var batterySection: String { String(localized: "Battery Health") }
     static var cycleCount: String { String(localized: "Cycle Count") }
     static var maximumCapacity: String { String(localized: "Maximum Capacity") }
+    static var fullChargeCapacity: String { String(localized: "Full Charge Capacity") }
+    static var designCapacity: String { String(localized: "Design Capacity") }
     static var conditionLabel: String { String(localized: "Condition") }
     static var temperatureLabel: String { String(localized: "Temperature") }
     static var voltageLabel: String { String(localized: "Voltage") }
@@ -204,6 +206,13 @@ enum Copy {
         guard let watts else { return firstReading }
         let value = watts.formatted(.number.precision(.fractionLength(1)).locale(locale))
         return String(localized: "\(value) W")
+    }
+
+    static func capacity(milliampHours: Int, wattHours: Int?, locale: Locale = .current) -> String {
+        let mAh = milliampHours.formatted(.number.grouping(.automatic).locale(locale))
+        guard let wattHours else { return String(localized: "\(mAh) mAh") }
+        let wh = wattHours.formatted(.number.grouping(.automatic).locale(locale))
+        return String(localized: "\(mAh) mAh · \(wh) Wh")
     }
 
     static func condition(_ condition: BatteryHealth.Condition) -> String {

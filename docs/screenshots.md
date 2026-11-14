@@ -13,7 +13,7 @@ The images follow your light or dark appearance.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/settings-general-dark.png">
-  <img src="images/settings-general.png" alt="Settings, General: Launch at Login, percentage in the menu bar, notification switches" width="360">
+  <img src="images/settings-general.png" alt="Settings, General: Launch at Login, percentage in the menu bar, language, notification switches and the daily update check" width="360">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/settings-helper-dark.png">
@@ -22,11 +22,11 @@ The images follow your light or dark appearance.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/settings-battery-dark.png">
-  <img src="images/settings-battery.png" alt="Settings, Battery: cycle count, maximum capacity, condition, temperature, voltage and power" width="360">
+  <img src="images/settings-battery.png" alt="Settings, Battery: cycle count, maximum capacity, full charge and design capacity in mAh and Wh, condition, temperature, voltage and power" width="360">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/settings-history-dark.png">
-  <img src="images/settings-history.png" alt="Settings, History: charge level over seven days and the maximum capacity trend" width="360">
+  <img src="images/settings-history.png" alt="Settings, History: seven days of charge level with Charging, Battery Rest and On battery lanes, the current limit band, and the maximum capacity trend" width="360">
 </picture>
 
 <picture>

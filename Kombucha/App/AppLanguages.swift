@@ -26,7 +26,11 @@ struct AppLanguages {
     init(available: [String], defaults: UserDefaults, domain: String) {
         let codes = Set(available).subtracting(["Base"]).sorted()
         self.codes = codes
+        // Ordered by native name in the root collation: Latin, then Cyrillic, then Hangul and Han. A fixed locale keeps
+        // the order the same whatever language the user runs.
+        let root = Locale(identifier: "")
         self.languages = codes.count < 2 ? [] : codes.map { Language(code: $0, name: Self.nativeName($0)) }
+            .sorted { $0.name.compare($1.name, locale: root) == .orderedAscending }
         self.defaults = defaults
         let stored = Self.stored(in: defaults, domain: domain, codes: codes)
         self.selection = stored

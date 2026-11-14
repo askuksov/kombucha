@@ -33,6 +33,14 @@ private func storedCodes(_ defaults: UserDefaults, _ suite: String) -> [String]?
     #expect(languages.languages.map(\.name) == ["Deutsch", "English", "Українська"])
 }
 
+@Test func languagesAreOrderedByTheirOwnNames() {
+    let (defaults, suite) = freshDefaults()
+    defer { defaults.removePersistentDomain(forName: suite) }
+    let languages = AppLanguages(available: ["zh-Hant", "ko", "pt-BR", "ja", "en", "uk", "zh-Hans", "it"],
+                                 defaults: defaults, domain: suite)
+    #expect(languages.languages.map(\.code) == ["en", "it", "pt-BR", "uk", "ko", "ja", "zh-Hans", "zh-Hant"])
+}
+
 @Test func nothingStoredReadsAsSystemDefault() {
     let (defaults, suite) = freshDefaults()
     defer { defaults.removePersistentDomain(forName: suite) }

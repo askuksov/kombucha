@@ -6,6 +6,8 @@
 
 Limit MacBook charging from the menu bar to extend battery lifespan. A native Swift app.
 
+Website: [kombucha.kuksov.dev](https://kombucha.kuksov.dev)
+
 A MacBook that stays on its adapter spends its life at 100%, the level at which a lithium-ion cell
 ages fastest. Kombucha holds the battery inside a range you choose: it stops charging at the upper
 threshold and resumes at the lower one, so the Mac runs from the adapter while the battery rests.
@@ -24,6 +26,8 @@ threshold and resumes at the lower one, so the Mac runs from the adapter while t
 - **Discharge to the limit.** Switches the adapter off while the cable stays in, runs on the battery down to
   the stop level, then switches the adapter back on.
 - **Shortcuts.** App Intents for Shortcuts, Spotlight and Siri.
+- **Languages.** English, German, Ukrainian, French, Spanish, Simplified Chinese, Japanese and Korean.
+  Kombucha follows the macOS language, or pick one in Settings → General → Language.
 - **Safe by design.** A small helper daemon writes two SMC keys — the charge inhibit and the adapter
   switch — and nothing else. It refuses callers it cannot verify and has no network access. Kombucha has no
   accounts and no telemetry; it contacts GitHub only to check for updates, when you press the button or, if you

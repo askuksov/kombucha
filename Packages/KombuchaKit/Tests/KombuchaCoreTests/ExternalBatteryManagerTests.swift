@@ -72,7 +72,7 @@ private func verdict(_ paths: [String], ownBundlePath: String = ownBundle) -> Ex
 
 @Test func everyExternalBatteryManagerHasARowAndADisplayName() {
     #expect(ExternalBatteryManagers.table.map(\.externalBatteryManager) == ExternalBatteryManager.allCases)
-    #expect(ExternalBatteryManager.allCases.map(\.displayName) == ["BattOpt", "AlDente", "BatFi", "batt", "Juicy", "Energiza", "Battery Toolkit"])
+    #expect(ExternalBatteryManager.allCases.map(\.displayName) == ["BattOpt", "AlDente", "BatFi", "batt", "Juicy", "Energiza", "Battery Toolkit", "Tethered"])
 }
 
 @Test func juicyEnergizaAndBatteryToolkitAreFoundByTheirBundles() {
@@ -80,4 +80,9 @@ private func verdict(_ paths: [String], ownBundlePath: String = ownBundle) -> Ex
     #expect(verdict(["/Applications/Energiza.app/Contents/MacOS/Energiza"]) == .energiza)
     #expect(verdict(["/Applications/Battery Toolkit.app/Contents/MacOS/Battery Toolkit"]) == .batteryToolkit)
     #expect(verdict(["/Users/someone/Downloads/Juicy.app/Contents/MacOS/Juicy"]) == nil)
+}
+
+@Test func tetheredIsFoundByItsAppAndByItsHelper() {
+    #expect(verdict(["/Applications/Tethered.app/Contents/MacOS/Tethered"]) == .tethered)
+    #expect(verdict(["/Applications/Tethered.app/Contents/MacOS/TetheredHelper"]) == .tethered)
 }

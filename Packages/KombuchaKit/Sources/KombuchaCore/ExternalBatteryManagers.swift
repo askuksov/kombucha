@@ -1,5 +1,5 @@
 public enum ExternalBatteryManager: Equatable, CaseIterable, Sendable {
-    case battOpt, alDente, batFi, batt, juicy, energiza, batteryToolkit
+    case battOpt, alDente, batFi, batt, juicy, energiza, batteryToolkit, tethered
 
     public var displayName: String {
         switch self {
@@ -10,6 +10,7 @@ public enum ExternalBatteryManager: Equatable, CaseIterable, Sendable {
         case .juicy: "Juicy"
         case .energiza: "Energiza"
         case .batteryToolkit: "Battery Toolkit"
+        case .tethered: "Tethered"
         }
     }
 }
@@ -61,6 +62,10 @@ public enum ExternalBatteryManagers {
         // Homebrew cask `battery-toolkit` (tap mhaeuser/mhaeuser), source repository mhaeuser/Battery-Toolkit.
         ExternalBatteryManagerRow(externalBatteryManager: .batteryToolkit, identities: [
             .bundle("/Applications/Battery Toolkit.app"),
+        ]),
+        // Homebrew cask `tethered` (tap Tumerit-LLC/tap); the helper daemon runs from inside the bundle.
+        ExternalBatteryManagerRow(externalBatteryManager: .tethered, identities: [
+            .bundle("/Applications/Tethered.app"),
         ]),
     ]
 

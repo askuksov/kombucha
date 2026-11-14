@@ -26,7 +26,8 @@ threshold and resumes at the lower one, so the Mac runs from the adapter while t
 - **Discharge to the limit.** Switches the adapter off while the cable stays in, runs on the battery down to
   the stop level, then switches the adapter back on.
 - **Shortcuts.** App Intents for Shortcuts, Spotlight and Siri.
-- **Languages.** English, German, Ukrainian, French, Spanish, Simplified Chinese, Japanese and Korean.
+- **Languages.** English, German, Ukrainian, French, Spanish, Italian, Brazilian Portuguese, Simplified and
+  Traditional Chinese, Japanese and Korean.
   Kombucha follows the macOS language, or pick one in Settings → General → Language.
 - **Safe by design.** A small helper daemon writes two SMC keys — the charge inhibit and the adapter
   switch — and nothing else. It refuses callers it cannot verify and has no network access. Kombucha has no

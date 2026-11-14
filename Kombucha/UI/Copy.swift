@@ -423,6 +423,7 @@ enum Copy {
 
     static var aboutTab: String { String(localized: "About") }
     static var tagline: String { String(localized: "Battery charge limiting for macOS") }
+    static var website: String { String(localized: "Website") }
     static var reportIssue: String { String(localized: "Report an Issue") }
     static var documentation: String { String(localized: "Documentation") }
     static var sourceCode: String { String(localized: "Source Code") }

@@ -6,6 +6,7 @@ struct AboutTab: View {
     @Environment(\.openWindow) private var openWindow
 
     private enum Links {
+        static let website = URL(string: "https://kombucha.kuksov.dev")!
         static let issues = URL(string: "https://github.com/askuksov/kombucha/issues")!
         static let documentation = URL(string: "https://github.com/askuksov/kombucha#readme")!
         static let source = URL(string: "https://github.com/askuksov/kombucha")!
@@ -32,12 +33,17 @@ struct AboutTab: View {
                             .foregroundStyle(.secondary)
                     }
                 }
-                HStack {
-                    Link(Copy.reportIssue, destination: Links.issues)
-                    Text(verbatim: "·").accessibilityHidden(true)
-                    Link(Copy.documentation, destination: Links.documentation)
-                    Text(verbatim: "·").accessibilityHidden(true)
-                    Link(Copy.sourceCode, destination: Links.source)
+                // Long translations do not fit four links on one line; they then split into two.
+                ViewThatFits(in: .horizontal) {
+                    HStack {
+                        websiteAndIssues
+                        separator
+                        documentationAndSource
+                    }
+                    VStack(alignment: .leading, spacing: 4) {
+                        HStack { websiteAndIssues }
+                        HStack { documentationAndSource }
+                    }
                 }
                 Text(Copy.license)
                 // Dev only: the Welcome toggles duplicate the General tab. Re-enable to test the window.
@@ -48,6 +54,24 @@ struct AboutTab: View {
             }
         }
         .formStyle(.grouped)
+    }
+
+    private var separator: some View {
+        Text(verbatim: "·").accessibilityHidden(true)
+    }
+
+    @ViewBuilder
+    private var websiteAndIssues: some View {
+        Link(Copy.website, destination: Links.website)
+        separator
+        Link(Copy.reportIssue, destination: Links.issues)
+    }
+
+    @ViewBuilder
+    private var documentationAndSource: some View {
+        Link(Copy.documentation, destination: Links.documentation)
+        separator
+        Link(Copy.sourceCode, destination: Links.source)
     }
 }
 
